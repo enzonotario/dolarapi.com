@@ -3,14 +3,14 @@
     "exchange": "belo",
     "moneda": "PERt",
     "monedaBase": "CHLt",
-    "compra": 0.003682943012345679,
-    "venta": 0.003949741695381117
+    "compra": 0.0036744888888888888,
+    "venta": 0.003952636127225893
   },
   {
     "exchange": "belo",
     "moneda": "PERt",
     "monedaBase": "CHLt",
-    "compra": 0.003949741695381117,
-    "venta": 0.003682943012345679
+    "compra": 0.003952636127225893,
+    "venta": 0.0036744888888888888
   }
 ]
