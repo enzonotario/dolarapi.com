@@ -14,8 +14,8 @@
     "monedaBase": "USD",
     "criptomoneda": "USDT",
     "criptomonedaBase": null,
-    "compra": 4.975594707957469,
-    "venta": 5.280221346878861
+    "compra": 4.981841188866581,
+    "venta": 5.286809410520751
   },
   {
     "exchange": "satoshitango",
@@ -23,7 +23,7 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDT",
-    "compra": 5.06,
+    "compra": 5.07,
     "venta": null
   },
   {
@@ -48,7 +48,7 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDT",
-    "compra": 5.02,
+    "compra": 5.03,
     "venta": null
   },
   {
