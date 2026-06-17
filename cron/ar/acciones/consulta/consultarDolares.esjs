@@ -21,9 +21,9 @@ asincrono funcion nuevosValores() {
     logError(log, errorAmbito, { extractor: 'consultarAmbito' })
   }
 
-  const dolaresOficialesAmbito = (dolaresAmbito || []).filtrar((dolar) =>
-    ['oficial', 'mayorista'].incluye(dolar.casa),
-  )
+  const dolaresOficialesAmbito = (dolaresAmbito || [])
+    .filtrar((dolar) => ['oficial', 'mayorista'].incluye(dolar.casa))
+    .mapear(normalizarDolar)
 
   const dolarOficialAmbito = dolaresOficialesAmbito.buscar(
     (dolar) => dolar.casa === 'oficial',
@@ -38,6 +38,17 @@ asincrono funcion nuevosValores() {
   ]
 
   retornar dolares
+}
+
+funcion normalizarDolar(dolar) {
+  retornar {
+    moneda: dolar.moneda,
+    casa: dolar.casa,
+    nombre: dolar.nombre,
+    compra: dolar.compra,
+    venta: dolar.venta,
+    fechaActualizacion: dolar.fechaActualizacion,
+  }
 }
 
 funcion calcularDolarTarjeta(dolarOficial) {
@@ -64,5 +75,7 @@ exportar asincrono funcion consultarDolares() {
 
   const dolares = unificar(valoresActuales, valoresNuevos, 'casa')
 
-  retornar dolares
+  retornar dolares.mapear((dolar) =>
+    ['oficial', 'mayorista'].incluye(dolar.casa) ? normalizarDolar(dolar) : dolar,
+  )
 }
