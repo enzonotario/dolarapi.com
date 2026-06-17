@@ -11,7 +11,7 @@
     "moneda": "BRAt",
     "monedaBase": "COLt",
     "compra": 0.0015337304377195289,
-    "venta": 0.0014569801481481481
+    "venta": 0.0014598595555555555
   },
   {
     "exchange": "belo",
@@ -24,15 +24,15 @@
     "exchange": "belo",
     "moneda": "MEXt",
     "monedaBase": "COLt",
-    "compra": 0.00520509774692304,
-    "venta": 0.004881175907317037
+    "compra": 0.005209457441114414,
+    "venta": 0.004882481262190222
   },
   {
     "exchange": "belo",
     "moneda": "CHLt",
     "monedaBase": "COLt",
-    "compra": 0.2685622630644235,
-    "venta": 0.2512558592797333
+    "compra": 0.2686981437741349,
+    "venta": 0.25135498072017776
   },
   {
     "exchange": "belo",

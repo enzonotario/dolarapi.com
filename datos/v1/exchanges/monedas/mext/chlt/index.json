@@ -3,14 +3,14 @@
     "exchange": "belo",
     "moneda": "CHLt",
     "monedaBase": "MEXt",
-    "compra": 50.12055397149707,
-    "venta": 52.989762752182195
+    "compra": 50.0983652604875,
+    "venta": 53.0023990086794
   },
   {
     "exchange": "belo",
     "moneda": "CHLt",
     "monedaBase": "MEXt",
-    "compra": 52.989762752182195,
-    "venta": 50.12055397149707
+    "compra": 53.0023990086794,
+    "venta": 50.0983652604875
   }
 ]
