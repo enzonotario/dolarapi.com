@@ -1,5 +1,4 @@
 importar { extraerDolares como extraerDolarHoy } desde '@/ar/acciones/extraccion/extraerDolares.esjs'
-importar { extraerCotizaciones } desde '@/ar/bna.extractor.esjs'
 importar { leerRuta } desde '@/utils/rutas.esjs'
 importar { unificar } desde '@/utils/unificar.esjs'
 importar { consultarAmbito } desde '@/ar/acciones/consulta/consultarAmbito.esjs'
@@ -12,12 +11,6 @@ asincrono funcion nuevosValores() {
     accion: 'consultarDolares',
   })
 
-  const [errorCotizaciones, cotizaciones] =
-    esperar tryToCatch(extraerCotizaciones)
-  si (errorCotizaciones) {
-    logError(log, errorCotizaciones, { extractor: 'extraerCotizaciones' })
-  }
-
   const [errorDolarHoy, dolaresNoCalculados] = esperar tryToCatch(extraerDolarHoy)
   si (errorDolarHoy) {
     logError(log, errorDolarHoy, { extractor: 'extraerDolarHoy' })
@@ -28,30 +21,40 @@ asincrono funcion nuevosValores() {
     logError(log, errorAmbito, { extractor: 'consultarAmbito' })
   }
 
+  const dolaresOficialesAmbito = (dolaresAmbito || []).filtrar((dolar) =>
+    ['oficial', 'mayorista'].incluye(dolar.casa),
+  )
+
+  const dolarOficialAmbito = dolaresOficialesAmbito.buscar(
+    (dolar) => dolar.casa === 'oficial',
+  )
+
   const dolares = [
-    ...(cotizaciones || []).filtrar((cotizacion) => cotizacion.moneda === 'USD'),
+    ...dolaresOficialesAmbito,
     ...(dolaresNoCalculados || []).filtrar(
       (dolar) => !['oficial', 'mayorista'].incluye(dolar.casa),
     ),
-    ...(cotizaciones || []).filtrar((cotizacion) => cotizacion.moneda === 'USD').mapear((dolarOficial) => {
-        const impuestos = 0.3
-
-        const compra = Numero((dolarOficial.compra * (1 + impuestos)).fijarDecimales(2))
-
-        const venta = Numero((dolarOficial.venta * (1 + impuestos)).fijarDecimales(2))
-
-        retornar {
-          ...dolarOficial,
-          casa: 'tarjeta',
-          nombre: 'Tarjeta',
-          compra,
-          venta,
-        }
-      }),
-    ...(dolaresAmbito || []).filtrar((dolar) => dolar.casa === 'mayorista'),
+    ...(dolarOficialAmbito ? [calcularDolarTarjeta(dolarOficialAmbito)] : []),
   ]
 
   retornar dolares
+}
+
+funcion calcularDolarTarjeta(dolarOficial) {
+  const impuestos = 0.3
+
+  const compra = Numero((dolarOficial.compra * (1 + impuestos)).fijarDecimales(2))
+
+  const venta = Numero((dolarOficial.venta * (1 + impuestos)).fijarDecimales(2))
+
+  retornar {
+    moneda: dolarOficial.moneda,
+    casa: 'tarjeta',
+    nombre: 'Tarjeta',
+    compra,
+    venta,
+    fechaActualizacion: dolarOficial.fechaActualizacion,
+  }
 }
 
 exportar asincrono funcion consultarDolares() {
