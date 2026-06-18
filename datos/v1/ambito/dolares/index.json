@@ -3,10 +3,10 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 1417.33,
-    "venta": 1467.51,
-    "fechaActualizacion": "2026-06-18T11:48:00.000Z",
-    "variacion": 0.43
+    "compra": 1418.23,
+    "venta": 1468.42,
+    "fechaActualizacion": "2026-06-18T13:47:00.000Z",
+    "variacion": 0.49
   },
   {
     "moneda": "USD",
@@ -14,26 +14,26 @@
     "nombre": "Blue",
     "compra": 1455,
     "venta": 1475,
-    "fechaActualizacion": "2026-06-18T13:05:00.000Z",
+    "fechaActualizacion": "2026-06-18T14:05:00.000Z",
     "variacion": 0
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1466.67,
-    "venta": 1466.67,
-    "fechaActualizacion": "2026-06-18T13:05:00.000Z",
-    "variacion": 0.3
+    "compra": 1467.74,
+    "venta": 1467.74,
+    "fechaActualizacion": "2026-06-18T14:05:00.000Z",
+    "variacion": 0.4
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1508.52,
-    "venta": 1508.52,
-    "fechaActualizacion": "2026-06-18T13:05:00.000Z",
-    "variacion": 0.2
+    "compra": 1509.76,
+    "venta": 1509.76,
+    "fechaActualizacion": "2026-06-18T14:05:00.000Z",
+    "variacion": 0.3
   },
   {
     "moneda": "USD",
@@ -41,17 +41,17 @@
     "nombre": "Mayorista",
     "compra": 1440,
     "venta": 1449,
-    "fechaActualizacion": "2026-06-18T12:27:00.000Z",
+    "fechaActualizacion": "2026-06-18T14:03:00.000Z",
     "variacion": 0.52
   },
   {
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1505.14,
-    "venta": 1505.14,
-    "fechaActualizacion": "2026-06-18T13:05:00.000Z",
-    "variacion": 0.01
+    "compra": 1506.54,
+    "venta": 1506.54,
+    "fechaActualizacion": "2026-06-18T14:05:00.000Z",
+    "variacion": 0.05
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1420,
     "venta": 1911,
-    "fechaActualizacion": "2026-06-18T13:05:00.000Z",
+    "fechaActualizacion": "2026-06-18T14:05:00.000Z",
     "variacion": 0.68
   }
 ]
