@@ -5,8 +5,8 @@
     "monedaBase": "SOL",
     "criptomoneda": "USDT",
     "criptomonedaBase": null,
-    "compra": 67.79520000000001,
-    "venta": 69.17490000000001
+    "compra": 67.9734,
+    "venta": 69.3567
   },
   {
     "exchange": "belo",
@@ -14,7 +14,7 @@
     "monedaBase": "SOL",
     "criptomoneda": "USDC",
     "criptomonedaBase": null,
-    "compra": 67.7556,
-    "venta": 69.1345
+    "compra": 67.914,
+    "venta": 69.2961
   }
 ]
