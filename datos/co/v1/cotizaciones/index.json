@@ -2,50 +2,50 @@
   {
     "moneda": "USD",
     "nombre": "Dólar",
-    "compra": 3459.68,
-    "venta": 3463.18,
-    "ultimoCierre": 3453.02,
-    "fechaActualizacion": "2026-06-17T20:02:34.144Z"
+    "compra": 3458.38,
+    "venta": 3461.88,
+    "ultimoCierre": 3458.92,
+    "fechaActualizacion": "2026-06-18T12:04:31.081Z"
   },
   {
     "moneda": "EUR",
     "nombre": "Euro",
-    "compra": 3836.8,
-    "venta": 4096.2,
-    "ultimoCierre": 3983.1,
-    "fechaActualizacion": "2026-06-17T20:02:56.151Z"
+    "compra": 3821.1,
+    "venta": 4080.5,
+    "ultimoCierre": 3966.5,
+    "fechaActualizacion": "2026-06-18T12:04:32.283Z"
   },
   {
     "moneda": "BRL",
     "nombre": "Real Brasileño",
-    "compra": 677.47,
-    "venta": 678.15,
-    "ultimoCierre": 678.69,
-    "fechaActualizacion": "2026-06-17T20:02:39.613Z"
+    "compra": 676.6,
+    "venta": 677.29,
+    "ultimoCierre": 676.5,
+    "fechaActualizacion": "2026-06-18T12:04:24.165Z"
   },
   {
     "moneda": "MXN",
     "nombre": "Peso Mexicano",
-    "compra": 199.65,
-    "venta": 199.86,
-    "ultimoCierre": 200.69,
-    "fechaActualizacion": "2026-06-17T20:02:35.184Z"
+    "compra": 199.02,
+    "venta": 199.22,
+    "ultimoCierre": 199.8,
+    "fechaActualizacion": "2026-06-18T12:04:10.858Z"
   },
   {
     "moneda": "CLP",
     "nombre": "Peso Chileno",
-    "compra": 3.8813,
-    "venta": 3.8852,
-    "ultimoCierre": 3.8956,
-    "fechaActualizacion": "2026-06-17T20:02:43.917Z"
+    "compra": 3.8826,
+    "venta": 3.8866,
+    "ultimoCierre": 3.8835,
+    "fechaActualizacion": "2026-06-18T12:04:39.191Z"
   },
   {
     "moneda": "PEN",
     "nombre": "Sol Peruano",
-    "compra": 1013.83,
-    "venta": 1014.86,
-    "ultimoCierre": 1014.4,
-    "fechaActualizacion": "2026-06-17T20:02:39.213Z"
+    "compra": 1020.14,
+    "venta": 1021.17,
+    "ultimoCierre": 1013.31,
+    "fechaActualizacion": "2026-06-18T12:04:13.951Z"
   },
   {
     "moneda": "ARS",
@@ -53,6 +53,6 @@
     "compra": 2.4,
     "venta": 2.4,
     "ultimoCierre": 2.4,
-    "fechaActualizacion": "2026-06-17T20:02:48.401Z"
+    "fechaActualizacion": "2026-06-18T12:04:41.864Z"
   }
 ]
