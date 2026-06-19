@@ -6,5 +6,13 @@
     "promedio": 697.36486214,
     "fecha": "2026-06-19",
     "moneda": "EUR"
+  },
+  {
+    "fuente": "paralelo",
+    "compra": null,
+    "venta": null,
+    "promedio": 906.377375,
+    "fecha": "2026-06-19",
+    "moneda": "EUR"
   }
 ]
