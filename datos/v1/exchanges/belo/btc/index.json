@@ -3,64 +3,64 @@
     "exchange": "belo",
     "moneda": "ARS",
     "monedaBase": "BTC",
-    "compra": 99754604.148,
-    "venta": 96505253.5095
+    "compra": 99758658.8031,
+    "venta": 96761322.9
   },
   {
     "exchange": "belo",
     "moneda": "BRAt",
     "monedaBase": "BTC",
-    "compra": 339880.507944,
-    "venta": 325506.168603
+    "compra": 340782.355023,
+    "venta": 327327.9075
   },
   {
     "exchange": "belo",
     "moneda": "ARGt",
     "monedaBase": "BTC",
-    "compra": 99754604.148,
-    "venta": 96505253.5095
+    "compra": 99758658.8031,
+    "venta": 96761322.9
   },
   {
     "exchange": "belo",
     "moneda": "MEXt",
     "monedaBase": "BTC",
-    "compra": 1142495.3068460422,
-    "venta": 1090035.7420425236
+    "compra": 1145922.584862984,
+    "venta": 1093305.736213604
   },
   {
     "exchange": "belo",
     "moneda": "CHLt",
     "monedaBase": "BTC",
-    "compra": 59735314.89500776,
-    "venta": 56877968.96258859
+    "compra": 59880771.024506465,
+    "venta": 57016326.70751292
   },
   {
     "exchange": "belo",
     "moneda": "COLt",
     "monedaBase": "BTC",
-    "compra": 226020358.30585325,
-    "venta": 213372906.49441335
+    "compra": 226293611.42982095,
+    "venta": 213627664.77215624
   },
   {
     "exchange": "belo",
     "moneda": "BOLt",
     "monedaBase": "BTC",
-    "compra": 654700.5314593635,
-    "venta": 622761.2596724225
+    "compra": 655777.9876733064,
+    "venta": 623786.158732275
   },
   {
     "exchange": "belo",
     "moneda": "PERt",
     "monedaBase": "BTC",
-    "compra": 224108.58655172415,
-    "venta": 210861.9612
+    "compra": 224686.7244827586,
+    "venta": 211405.9266
   },
   {
     "exchange": "belo",
     "moneda": "ETH",
     "monedaBase": "BTC",
-    "compra": 37.52232578384139,
-    "venta": 36.76565205722206
+    "compra": 37.55022342382937,
+    "venta": 36.79297695655853
   },
   {
     "exchange": "belo",
@@ -68,8 +68,8 @@
     "monedaBase": "BTC",
     "criptomoneda": "USDT",
     "criptomonedaBase": null,
-    "compra": 64991.4901,
-    "venta": 63704.52
+    "compra": 65159.1501,
+    "venta": 63868.86
   },
   {
     "exchange": "belo",
@@ -77,21 +77,21 @@
     "monedaBase": "BTC",
     "criptomoneda": "USDC",
     "criptomonedaBase": null,
-    "compra": 64951.7466,
-    "venta": 63665.5635
+    "compra": 65108.8218,
+    "venta": 63819.5283
   },
   {
     "exchange": "belo",
     "moneda": "SOL",
     "monedaBase": "BTC",
-    "compra": 895.0828622959771,
-    "venta": 877.280710527193
+    "compra": 895.3208740480501,
+    "venta": 877.513967828583
   },
   {
     "exchange": "belo",
     "moneda": "BRAt",
     "monedaBase": "BTC",
-    "compra": 339880.507944,
-    "venta": 325506.168603
+    "compra": 340782.355023,
+    "venta": 327327.9075
   }
 ]
