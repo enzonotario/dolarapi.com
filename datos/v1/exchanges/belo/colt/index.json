@@ -3,36 +3,36 @@
     "exchange": "belo",
     "moneda": "ARS",
     "monedaBase": "COLt",
-    "compra": 0.4583745862368175,
-    "venta": 0.4396656
+    "compra": 0.45546401973331246,
+    "venta": 0.43623022222222224
   },
   {
     "exchange": "belo",
     "moneda": "BRAt",
     "monedaBase": "COLt",
-    "compra": 0.0015627764576392148,
-    "venta": 0.001483944
+    "compra": 0.0015518415786353252,
+    "venta": 0.0014713771851851852
   },
   {
     "exchange": "belo",
     "moneda": "ARGt",
     "monedaBase": "COLt",
-    "compra": 0.4583745862368175,
-    "venta": 0.4396656
+    "compra": 0.45546401973331246,
+    "venta": 0.43623022222222224
   },
   {
     "exchange": "belo",
     "moneda": "MEXt",
     "monedaBase": "COLt",
-    "compra": 0.005248644629548842,
-    "venta": 0.00496565167923
+    "compra": 0.0052130607437236715,
+    "venta": 0.004924933672848592
   },
   {
     "exchange": "belo",
     "moneda": "CHLt",
     "monedaBase": "COLt",
-    "compra": 0.27468146745906086,
-    "venta": 0.2592570682548
+    "compra": 0.27260604820547724,
+    "venta": 0.2569624222081778
   },
   {
     "exchange": "belo",
@@ -45,14 +45,14 @@
     "exchange": "belo",
     "moneda": "BOLt",
     "monedaBase": "COLt",
-    "compra": 0.003010324374168446,
-    "venta": 0.0028390946896323
+    "compra": 0.0029892608800051687,
+    "venta": 0.0028150517491936223
   },
   {
     "exchange": "belo",
     "moneda": "PERt",
     "monedaBase": "COLt",
-    "compra": 0.001030379414280487,
-    "venta": 0.000961224
+    "compra": 0.0010231697624021397,
+    "venta": 0.0009530838518518518
   }
 ]
