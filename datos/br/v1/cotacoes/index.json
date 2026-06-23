@@ -5,38 +5,38 @@
     "compra": 0.0035,
     "venda": 0.0035,
     "fechoAnterior": 0.0035,
-    "dataAtualizacao": "2026-06-23T12:02:16.179Z"
+    "dataAtualizacao": "2026-06-23T20:02:09.185Z"
   },
   {
     "moeda": "USD",
     "nome": "Dólar",
-    "compra": 5.1427,
-    "venda": 5.1438,
+    "compra": 5.1852,
+    "venda": 5.186,
     "fechoAnterior": 5.1423,
-    "dataAtualizacao": "2026-06-22T14:02:00.000Z"
+    "dataAtualizacao": "2026-06-22T21:59:59.000Z"
   },
   {
     "moeda": "EUR",
     "nome": "Euro",
-    "compra": 5.8893,
-    "venda": 5.9032,
+    "compra": 5.9137,
+    "venda": 5.9277,
     "fechoAnterior": 5.8962,
-    "dataAtualizacao": "2026-06-23T12:02:43.899Z"
+    "dataAtualizacao": "2026-06-23T20:02:25.795Z"
   },
   {
     "moeda": "CLP",
     "nome": "Peso Chileno",
-    "compra": 0.005617,
-    "venda": 0.005619,
+    "compra": 0.005664,
+    "venda": 0.005667,
     "fechoAnterior": 0.00567,
-    "dataAtualizacao": "2026-06-23T12:02:51.312Z"
+    "dataAtualizacao": "2026-06-23T20:02:33.893Z"
   },
   {
     "moeda": "UYU",
     "nome": "Peso Uruguayo",
-    "compra": 0.1282,
-    "venda": 0.1282,
+    "compra": 0.1289,
+    "venda": 0.129,
     "fechoAnterior": 0.1286,
-    "dataAtualizacao": "2026-06-23T12:03:39.706Z"
+    "dataAtualizacao": "2026-06-23T20:02:43.649Z"
   }
 ]
