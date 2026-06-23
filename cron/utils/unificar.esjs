@@ -13,20 +13,25 @@ exportar funcion unificar(json1, json2, claveBusqueda = 'casa') {
       ...json1.mapear((item) => item[claveBusqueda]),
       ...json2.mapear((item) => item[claveBusqueda]),
     ]),
-  ]
+  ].filtrar((clave) => clave != nulo && clave !== '')
 
   claves.paraCada((clave) => {
     const valor1 = json1.buscar((item) => item[claveBusqueda] === clave)
 
     const valor2 = json2.buscar((item) => item[claveBusqueda] === clave)
 
-    const item = {
-      ...valor1,
+    si (!valor1) {
+      respuesta.agregar({ ...valor2 })
+      retornar
     }
 
     si (!valor2) {
-      respuesta.agregar(item)
+      respuesta.agregar({ ...valor1 })
       retornar
+    }
+
+    const item = {
+      ...valor1,
     }
 
     si (valor2.fechaActualizacion) {

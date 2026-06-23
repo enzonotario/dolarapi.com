@@ -193,3 +193,85 @@ it('preserva variacion cuando json2.variacion es null', async () => {
 
   expect(respuesta[0].variacion).toBe(-0.5)
 })
+
+it('agrega entradas nuevas de json2 con todos sus campos', async () => {
+  const json1 = [
+    {
+      casa: 'oficial',
+      moneda: 'USD',
+      nombre: 'Oficial',
+      compra: 1,
+      venta: 1,
+    },
+  ]
+
+  const json2 = [
+    {
+      casa: 'bna',
+      moneda: 'USD',
+      nombre: 'BNA',
+      compra: 1440,
+      venta: 1490,
+      variacion: 0.68,
+      fechaActualizacion: '2026-06-23T13:05:00.000Z',
+    },
+  ]
+
+  const respuesta = await unificar(json1, json2, 'casa')
+
+  expect(respuesta).toEqual([
+    {
+      casa: 'oficial',
+      moneda: 'USD',
+      nombre: 'Oficial',
+      compra: 1,
+      venta: 1,
+    },
+    {
+      casa: 'bna',
+      moneda: 'USD',
+      nombre: 'BNA',
+      compra: 1440,
+      venta: 1490,
+      variacion: 0.68,
+      fechaActualizacion: '2026-06-23T13:05:00.000Z',
+    },
+  ])
+})
+
+it('ignora entradas sin clave de unificación en el cache', async () => {
+  const json1 = [
+    {
+      compra: 1440,
+      venta: 1490,
+      variacion: 0.68,
+      fechaActualizacion: '2026-06-23T13:30:00.000Z',
+    },
+  ]
+
+  const json2 = [
+    {
+      casa: 'bna',
+      moneda: 'USD',
+      nombre: 'BNA',
+      compra: 1440,
+      venta: 1490,
+      variacion: 0.68,
+      fechaActualizacion: '2026-06-23T16:35:00.000Z',
+    },
+  ]
+
+  const respuesta = await unificar(json1, json2, 'casa')
+
+  expect(respuesta).toEqual([
+    {
+      casa: 'bna',
+      moneda: 'USD',
+      nombre: 'BNA',
+      compra: 1440,
+      venta: 1490,
+      variacion: 0.68,
+      fechaActualizacion: '2026-06-23T16:35:00.000Z',
+    },
+  ])
+})
