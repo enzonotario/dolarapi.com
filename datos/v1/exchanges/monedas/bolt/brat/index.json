@@ -4,13 +4,13 @@
     "moneda": "BRAt",
     "monedaBase": "BOLt",
     "compra": 0.5381426926685953,
-    "venta": 0.5162511808395062
+    "venta": 0.5152545569382716
   },
   {
     "exchange": "belo",
     "moneda": "BRAt",
     "monedaBase": "BOLt",
-    "compra": 0.5162511808395062,
+    "compra": 0.5152545569382716,
     "venta": 0.5381426926685953
   }
 ]
