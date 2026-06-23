@@ -37,7 +37,7 @@
         "operationId": "get-dolares",
         "x-data-source": [
           "[DolarHoy](https://dolarhoy.com/)",
-          "[Ámbito Financiero](https://mercados.ambito.com/)"
+          "[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)"
         ]
       }
     },
@@ -63,7 +63,7 @@
         },
         "operationId": "get-dolar-oficial",
         "x-data-source": [
-          "[Ámbito Financiero](https://mercados.ambito.com/)"
+          "[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)"
         ]
       }
     },
@@ -167,7 +167,7 @@
         },
         "operationId": "get-dolar-tarjeta",
         "x-data-source": [
-          "[Ámbito Financiero](https://mercados.ambito.com/)"
+          "[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)"
         ]
       },
       "parameters": []
@@ -193,7 +193,7 @@
         },
         "operationId": "get-dolar-mayorista",
         "x-data-source": [
-          "[Ámbito Financiero](https://mercados.ambito.com/)"
+          "[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)"
         ]
       },
       "parameters": []
@@ -248,7 +248,7 @@
         },
         "operationId": "get-ambito-dolares",
         "x-data-source": [
-          "[Ámbito Financiero](https://mercados.ambito.com/)"
+          "[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)"
         ]
       }
     },
@@ -274,7 +274,7 @@
         },
         "operationId": "get-ambito-dolar-oficial",
         "x-data-source": [
-          "[Ámbito Financiero](https://mercados.ambito.com/)"
+          "[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)"
         ]
       }
     },
@@ -299,7 +299,7 @@
         },
         "operationId": "get-ambito-dolar-blue",
         "x-data-source": [
-          "[Ámbito Financiero](https://mercados.ambito.com/)"
+          "[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)"
         ]
       },
       "parameters": []
@@ -325,7 +325,7 @@
         },
         "operationId": "get-ambito-dolar-bolsa",
         "x-data-source": [
-          "[Ámbito Financiero](https://mercados.ambito.com/)"
+          "[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)"
         ]
       },
       "parameters": []
@@ -352,7 +352,7 @@
         "operationId": "get-ambito-dolar-contadoconliqui",
         "x-sidebar-title": "Dólar CCL",
         "x-data-source": [
-          "[Ámbito Financiero](https://mercados.ambito.com/)"
+          "[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)"
         ]
       },
       "parameters": []
@@ -378,7 +378,7 @@
         },
         "operationId": "get-ambito-dolar-tarjeta",
         "x-data-source": [
-          "[Ámbito Financiero](https://mercados.ambito.com/)"
+          "[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)"
         ]
       },
       "parameters": []
@@ -404,7 +404,7 @@
         },
         "operationId": "get-ambito-dolar-mayorista",
         "x-data-source": [
-          "[Ámbito Financiero](https://mercados.ambito.com/)"
+          "[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)"
         ]
       },
       "parameters": []
@@ -430,7 +430,7 @@
         },
         "operationId": "get-ambito-dolar-cripto",
         "x-data-source": [
-          "[Ámbito Financiero](https://mercados.ambito.com/)"
+          "[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)"
         ]
       },
       "parameters": []

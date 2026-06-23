@@ -1,6 +1,6 @@
 exportar const fuentesComunes = {
   dolarHoy: '[DolarHoy](https://dolarhoy.com/)',
-  ambito: '[Ámbito Financiero](https://mercados.ambito.com/)',
+  ambito: '[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)',
   invertirOnline:
     '[InvertirOnline](https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas)',
   bcv: '[BCV](https://www.bcv.org.ve/)',
