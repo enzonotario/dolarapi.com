@@ -91,6 +91,10 @@ describe(
           expect(dolar.venta).toBeTypeOf('number')
           expect(dolar.fechaActualizacion).toBeTypeOf('object')
         })
+
+        const dolarBna = dolares.find(dolar => dolar.casa === 'bna')
+        expect(dolarBna).not.toBeUndefined()
+        expect(dolarBna.nombre).toBe('BNA')
       }
     })
 

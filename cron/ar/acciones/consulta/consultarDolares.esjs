@@ -21,26 +21,25 @@ asincrono funcion nuevosValores() {
     logError(log, errorAmbito, { extractor: 'consultarAmbito' })
   }
 
-  const dolaresOficialesAmbito = (dolaresAmbito || [])
-    .filtrar((dolar) => ['oficial', 'mayorista'].incluye(dolar.casa))
+  const dolaresMayoristaAmbito = (dolaresAmbito || [])
+    .filtrar((dolar) => dolar.casa === 'mayorista')
     .mapear(normalizarDolar)
 
-  const dolarOficialAmbito = dolaresOficialesAmbito.buscar(
-    (dolar) => dolar.casa === 'oficial',
-  )
+  const dolarOficial = dolarOficialDesdeBna(dolaresAmbito)
 
   const dolares = [
-    ...dolaresOficialesAmbito,
+    ...(dolarOficial ? [dolarOficial] : []),
+    ...dolaresMayoristaAmbito,
     ...(dolaresNoCalculados || []).filtrar(
       (dolar) => !['oficial', 'mayorista'].incluye(dolar.casa),
     ),
-    ...(dolarOficialAmbito ? [calcularDolarTarjeta(dolarOficialAmbito)] : []),
+    ...(dolarOficial ? [calcularDolarTarjeta(dolarOficial)] : []),
   ]
 
   retornar dolares
 }
 
-funcion normalizarDolar(dolar) {
+exportar funcion normalizarDolar(dolar) {
   retornar {
     moneda: dolar.moneda,
     casa: dolar.casa,
@@ -51,7 +50,21 @@ funcion normalizarDolar(dolar) {
   }
 }
 
-funcion calcularDolarTarjeta(dolarOficial) {
+exportar funcion dolarOficialDesdeBna(dolaresAmbito) {
+  const dolarBna = (dolaresAmbito || []).buscar((dolar) => dolar.casa === 'bna')
+
+  si (!dolarBna) {
+    retornar nulo
+  }
+
+  retornar normalizarDolar({
+    ...dolarBna,
+    casa: 'oficial',
+    nombre: 'Oficial',
+  })
+}
+
+exportar funcion calcularDolarTarjeta(dolarOficial) {
   const impuestos = 0.3
 
   const compra = Numero((dolarOficial.compra * (1 + impuestos)).fijarDecimales(2))

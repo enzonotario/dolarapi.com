@@ -152,5 +152,19 @@ exportar const ambito = {
     cripto: {
       url: 'https://mercados.ambito.com//dolarcripto/variacion',
     },
+    bna: {
+      url: 'https://mercados.ambito.com//dolarnacion/variacion',
+    },
   },
 }
+
+exportar const casaBnaAmbito = {
+  identificador: 'bna',
+  nombre: 'BNA',
+  permiteCompra: verdadero,
+}
+
+exportar const casasAmbito = [
+  ...casas.filtrar((casa) => ambito.dolares[casa.identificador]),
+  casaBnaAmbito,
+]

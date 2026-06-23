@@ -1,17 +1,17 @@
 import { expect, it } from 'vitest'
 import { extraerAmbito } from '@/ar/acciones/extraccion/extraerAmbito.esjs'
-import { casas } from '@/ar/constantes.ar.esjs'
+import { casasAmbito } from '@/ar/constantes.ar.esjs'
 
 it('extrae ambito', async () => {
   const dolares = await extraerAmbito()
 
   expect(dolares.length).toBeGreaterThan(0)
 
-  expect(casas.length).toBeGreaterThan(0)
+  expect(casasAmbito.length).toBeGreaterThan(0)
 
-  expect(dolares.length).toBe(casas.length)
+  expect(dolares.length).toBe(casasAmbito.length)
 
-  casas.forEach((casa) => {
+  casasAmbito.forEach((casa) => {
     const dolarCasa = dolares.find(dolar => dolar.casa === casa.identificador)
 
     expect(dolarCasa).not.toBeNull()
@@ -29,6 +29,4 @@ it('extrae ambito', async () => {
     }
     expect(dolarCasa.fechaActualizacion).not.toBeNull()
   })
-}, {
-  timeout: 20000,
-})
+}, 20000)

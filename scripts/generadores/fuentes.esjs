@@ -1,6 +1,8 @@
 exportar const fuentesComunes = {
   dolarHoy: '[DolarHoy](https://dolarhoy.com/)',
   ambito: '[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)',
+  bnaAmbito:
+    '[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)',
   invertirOnline:
     '[InvertirOnline](https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas)',
   bcv: '[BCV](https://www.bcv.org.ve/)',
@@ -29,16 +31,17 @@ exportar const fuentesExchangesListado = Object.valores(fuentesPorExchange)
 
 exportar const fuentesPorRegion = {
   ar: {
-    'get-dolares': [fuentesComunes.dolarHoy, fuentesComunes.ambito],
-    'get-dolar-oficial': [fuentesComunes.ambito],
+    'get-dolares': [fuentesComunes.dolarHoy, fuentesComunes.bnaAmbito],
+    'get-dolar-oficial': [fuentesComunes.bnaAmbito],
     'get-dolar-blue': [fuentesComunes.dolarHoy],
     'get-dolar-bolsa': [fuentesComunes.dolarHoy],
     'get-dolar-contadoconliqui': [fuentesComunes.dolarHoy],
-    'get-dolar-tarjeta': [fuentesComunes.ambito],
+    'get-dolar-tarjeta': [fuentesComunes.bnaAmbito],
     'get-dolar-mayorista': [fuentesComunes.ambito],
     'get-dolar-cripto': [fuentesComunes.dolarHoy],
     'get-ambito-dolares': [fuentesComunes.ambito],
     'get-ambito-dolar-oficial': [fuentesComunes.ambito],
+    'get-ambito-dolar-bna': [fuentesComunes.bnaAmbito],
     'get-ambito-dolar-blue': [fuentesComunes.ambito],
     'get-ambito-dolar-bolsa': [fuentesComunes.ambito],
     'get-ambito-dolar-contadoconliqui': [fuentesComunes.ambito],

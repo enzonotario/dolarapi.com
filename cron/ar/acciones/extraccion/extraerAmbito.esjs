@@ -1,4 +1,4 @@
-importar { ambito, casas } desde '@/ar/constantes.ar.esjs'
+importar { ambito, casasAmbito } desde '@/ar/constantes.ar.esjs'
 importar { interpretarValorMonetario } desde '@/ar/extractores/ambito/interpretarValorMonetario.esjs'
 importar { interpretarFecha } desde '@/ar/extractores/ambito/interpretarFecha.esjs'
 importar { interpretarVariacion } desde '@/ar/extractores/ambito/interpretarVariacion.esjs'
@@ -12,7 +12,7 @@ exportar asincrono funcion extraerAmbito() {
   })
 
   const resultados = esperar Promesa.todos(
-    casas.filtrar((casa) => ambito.dolares[casa.identificador]).mapear(asincrono (casa) => {
+    casasAmbito.mapear(asincrono (casa) => {
         const [error, valores] = esperar tryToCatch(obtenerValoresParaCasa, casa)
 
         si (error) {

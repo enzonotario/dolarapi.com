@@ -278,6 +278,32 @@
         ]
       }
     },
+    "/v1/ambito/dolares/bna": {
+      "get": {
+        "summary": "Dólar BNA",
+        "tags": [
+          "Dólares Ámbito"
+        ],
+        "description": "Devuelve la cotización del dólar Banco Nación según Ámbito Financiero.",
+        "responses": {
+          "200": {
+            "description": "Devuelve la cotización del Dólar BNA",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CotizacionAmbito"
+                }
+              }
+            },
+            "headers": {}
+          }
+        },
+        "operationId": "get-ambito-dolar-bna",
+        "x-data-source": [
+          "[Ámbito Financiero](https://www.ambito.com/contenidos/dolar.html)"
+        ]
+      }
+    },
     "/v1/ambito/dolares/blue": {
       "get": {
         "summary": "Dólar Blue",
