@@ -14,8 +14,8 @@
     "monedaBase": "BRL",
     "criptomoneda": null,
     "criptomonedaBase": "USDT",
-    "compra": 0.197694,
-    "venta": 0.186289
+    "compra": 0.197643,
+    "venta": 0.186242
   },
   {
     "exchange": "satoshitango",
@@ -32,7 +32,7 @@
     "monedaBase": "BRL",
     "criptomoneda": "USD",
     "criptomonedaBase": null,
-    "compra": 0.21,
+    "compra": 0.2,
     "venta": null
   },
   {
@@ -55,7 +55,7 @@
     "exchange": "astropay",
     "moneda": "USD",
     "monedaBase": "BRL",
-    "compra": 0.19436639,
+    "compra": 0.19433282,
     "venta": null
   }
 ]
