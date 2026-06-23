@@ -38,7 +38,10 @@
             }
           }
         },
-        "operationId": "get-cotizaciones"
+        "operationId": "get-cotizaciones",
+        "x-data-source": [
+          "[BROU](https://www.brou.com.uy/web/guest/cotizaciones)"
+        ]
       }
     },
     "/v1/cotizaciones/usd": {
@@ -61,7 +64,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-usd-uyu"
+        "operationId": "get-usd-uyu",
+        "x-data-source": [
+          "[BROU](https://www.brou.com.uy/web/guest/cotizaciones)"
+        ]
       }
     },
     "/v1/cotizaciones/eur": {
@@ -84,7 +90,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-eur-uyu"
+        "operationId": "get-eur-uyu",
+        "x-data-source": [
+          "[BROU](https://www.brou.com.uy/web/guest/cotizaciones)"
+        ]
       }
     },
     "/v1/cotizaciones/ars": {
@@ -107,7 +116,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-ars-uyu"
+        "operationId": "get-ars-uyu",
+        "x-data-source": [
+          "[BROU](https://www.brou.com.uy/web/guest/cotizaciones)"
+        ]
       }
     },
     "/v1/cotizaciones/brl": {
@@ -130,7 +142,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-brl-uyu"
+        "operationId": "get-brl-uyu",
+        "x-data-source": [
+          "[BROU](https://www.brou.com.uy/web/guest/cotizaciones)"
+        ]
       }
     },
     "/v1/cotizaciones/chf": {
@@ -153,7 +168,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-chf-uyu"
+        "operationId": "get-chf-uyu",
+        "x-data-source": [
+          "[BROU](https://www.brou.com.uy/web/guest/cotizaciones)"
+        ]
       }
     },
     "/v1/cotizaciones/gbp": {
@@ -176,7 +194,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-gbp-uyu"
+        "operationId": "get-gbp-uyu",
+        "x-data-source": [
+          "[BROU](https://www.brou.com.uy/web/guest/cotizaciones)"
+        ]
       }
     },
     "/v1/cotizaciones/pyg": {
@@ -199,7 +220,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-pyg-uyu"
+        "operationId": "get-pyg-uyu",
+        "x-data-source": [
+          "[BROU](https://www.brou.com.uy/web/guest/cotizaciones)"
+        ]
       }
     },
     "/v1/cotizaciones/ui": {
@@ -222,7 +246,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-ui-uyu"
+        "operationId": "get-ui-uyu",
+        "x-data-source": [
+          "[BROU](https://www.brou.com.uy/web/guest/cotizaciones)"
+        ]
       }
     },
     "/v1/cotizaciones/xau": {
@@ -245,7 +272,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-xau-uyu"
+        "operationId": "get-xau-uyu",
+        "x-data-source": [
+          "[BROU](https://www.brou.com.uy/web/guest/cotizaciones)"
+        ]
       }
     },
     "/v1/estado": {

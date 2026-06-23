@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('ve')
 
 Cotización del Euro oficial (BCV) en Venezuela
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

@@ -1,0 +1,29 @@
+importar fs desde 'node:fs'
+importar {
+  fuentesPorRegion,
+  rutasOpenapiPorRegion,
+  aplicarFuentesASpec,
+} desde './fuentes.esjs'
+
+funcion loadJSON(path) {
+  retornar JSON.analizar(fs.readFileSync(crear URL(path, import.meta.url)))
+}
+
+exportar funcion init() {
+  Object.entradas(rutasOpenapiPorRegion).paraCada(([region, ruta]) => {
+    const spec = loadJSON(ruta)
+    aplicarFuentesASpec(spec, fuentesPorRegion[region])
+    fs.writeFileSync(
+      crear URL(ruta, import.meta.url),
+      JSON.aTexto(spec, nulo, 2) + '\n',
+    )
+    consola.escribir(`Fuentes aplicadas: ${region}`)
+  })
+}
+
+intentar {
+  init()
+} capturar (error) {
+  consola.error(error)
+  proceso.salir(1)
+}

@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('ve')
 
 Devuelve las cotizaciones del Dólar Oficial y Euro oficial en Venezuela
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

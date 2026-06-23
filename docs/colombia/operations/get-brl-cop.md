@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('co')
 
 Cotización del real brasileño en pesos colombianos
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('cl')
 
 Cotización del real brasileño en pesos chilenos
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

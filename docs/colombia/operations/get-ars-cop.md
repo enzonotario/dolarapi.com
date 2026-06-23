@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('co')
 
 Cotización del peso argentino en pesos colombianos
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

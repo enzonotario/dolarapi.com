@@ -16,6 +16,8 @@ const spec = setRegionForSidebar('ar')
 
 Cotización del Euro en el mercado.
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

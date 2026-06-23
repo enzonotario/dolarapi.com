@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('br')
 
 Cotação do peso argentino em reais brasileiros
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('mx')
 
 Cotización del dólar estadounidense en pesos mexicanos
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

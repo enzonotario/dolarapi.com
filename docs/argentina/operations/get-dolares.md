@@ -16,6 +16,8 @@ const spec = setRegionForSidebar('ar')
 
 Devuelve la cotización actual del dólar estadounidense en Argentina. Incluye el precio de compra y venta de dólares en diferentes mercados (denominados "casas").
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

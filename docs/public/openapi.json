@@ -34,7 +34,11 @@
             }
           }
         },
-        "operationId": "get-dolares"
+        "operationId": "get-dolares",
+        "x-data-source": [
+          "[DolarHoy](https://dolarhoy.com/)",
+          "[Ámbito Financiero](https://mercados.ambito.com/)"
+        ]
       }
     },
     "/v1/dolares/oficial": {
@@ -57,7 +61,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-dolar-oficial"
+        "operationId": "get-dolar-oficial",
+        "x-data-source": [
+          "[Ámbito Financiero](https://mercados.ambito.com/)"
+        ]
       }
     },
     "/v1/dolares/blue": {
@@ -79,7 +86,10 @@
             }
           }
         },
-        "operationId": "get-dolar-blue"
+        "operationId": "get-dolar-blue",
+        "x-data-source": [
+          "[DolarHoy](https://dolarhoy.com/)"
+        ]
       },
       "parameters": []
     },
@@ -102,7 +112,10 @@
             }
           }
         },
-        "operationId": "get-dolar-bolsa"
+        "operationId": "get-dolar-bolsa",
+        "x-data-source": [
+          "[DolarHoy](https://dolarhoy.com/)"
+        ]
       },
       "parameters": []
     },
@@ -126,7 +139,10 @@
           }
         },
         "operationId": "get-dolar-contadoconliqui",
-        "x-sidebar-title": "Dólar CCL"
+        "x-sidebar-title": "Dólar CCL",
+        "x-data-source": [
+          "[DolarHoy](https://dolarhoy.com/)"
+        ]
       },
       "parameters": []
     },
@@ -149,7 +165,10 @@
             }
           }
         },
-        "operationId": "get-dolar-tarjeta"
+        "operationId": "get-dolar-tarjeta",
+        "x-data-source": [
+          "[Ámbito Financiero](https://mercados.ambito.com/)"
+        ]
       },
       "parameters": []
     },
@@ -172,7 +191,10 @@
             }
           }
         },
-        "operationId": "get-dolar-mayorista"
+        "operationId": "get-dolar-mayorista",
+        "x-data-source": [
+          "[Ámbito Financiero](https://mercados.ambito.com/)"
+        ]
       },
       "parameters": []
     },
@@ -195,7 +217,10 @@
             }
           }
         },
-        "operationId": "get-dolar-cripto"
+        "operationId": "get-dolar-cripto",
+        "x-data-source": [
+          "[DolarHoy](https://dolarhoy.com/)"
+        ]
       },
       "parameters": []
     },
@@ -221,7 +246,10 @@
             }
           }
         },
-        "operationId": "get-ambito-dolares"
+        "operationId": "get-ambito-dolares",
+        "x-data-source": [
+          "[Ámbito Financiero](https://mercados.ambito.com/)"
+        ]
       }
     },
     "/v1/ambito/dolares/oficial": {
@@ -244,7 +272,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-ambito-dolar-oficial"
+        "operationId": "get-ambito-dolar-oficial",
+        "x-data-source": [
+          "[Ámbito Financiero](https://mercados.ambito.com/)"
+        ]
       }
     },
     "/v1/ambito/dolares/blue": {
@@ -266,7 +297,10 @@
             }
           }
         },
-        "operationId": "get-ambito-dolar-blue"
+        "operationId": "get-ambito-dolar-blue",
+        "x-data-source": [
+          "[Ámbito Financiero](https://mercados.ambito.com/)"
+        ]
       },
       "parameters": []
     },
@@ -289,7 +323,10 @@
             }
           }
         },
-        "operationId": "get-ambito-dolar-bolsa"
+        "operationId": "get-ambito-dolar-bolsa",
+        "x-data-source": [
+          "[Ámbito Financiero](https://mercados.ambito.com/)"
+        ]
       },
       "parameters": []
     },
@@ -313,7 +350,10 @@
           }
         },
         "operationId": "get-ambito-dolar-contadoconliqui",
-        "x-sidebar-title": "Dólar CCL"
+        "x-sidebar-title": "Dólar CCL",
+        "x-data-source": [
+          "[Ámbito Financiero](https://mercados.ambito.com/)"
+        ]
       },
       "parameters": []
     },
@@ -336,7 +376,10 @@
             }
           }
         },
-        "operationId": "get-ambito-dolar-tarjeta"
+        "operationId": "get-ambito-dolar-tarjeta",
+        "x-data-source": [
+          "[Ámbito Financiero](https://mercados.ambito.com/)"
+        ]
       },
       "parameters": []
     },
@@ -359,7 +402,10 @@
             }
           }
         },
-        "operationId": "get-ambito-dolar-mayorista"
+        "operationId": "get-ambito-dolar-mayorista",
+        "x-data-source": [
+          "[Ámbito Financiero](https://mercados.ambito.com/)"
+        ]
       },
       "parameters": []
     },
@@ -382,7 +428,10 @@
             }
           }
         },
-        "operationId": "get-ambito-dolar-cripto"
+        "operationId": "get-ambito-dolar-cripto",
+        "x-data-source": [
+          "[Ámbito Financiero](https://mercados.ambito.com/)"
+        ]
       },
       "parameters": []
     },
@@ -430,7 +479,10 @@
             }
           }
         },
-        "operationId": "get-cotizaciones"
+        "operationId": "get-cotizaciones",
+        "x-data-source": [
+          "[InvertirOnline](https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas)"
+        ]
       }
     },
     "/v1/cotizaciones/eur": {
@@ -453,7 +505,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-cotizacion-eur"
+        "operationId": "get-cotizacion-eur",
+        "x-data-source": [
+          "[InvertirOnline](https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas)"
+        ]
       }
     },
     "/v1/cotizaciones/brl": {
@@ -476,7 +531,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-cotizacion-brl"
+        "operationId": "get-cotizacion-brl",
+        "x-data-source": [
+          "[InvertirOnline](https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas)"
+        ]
       }
     },
     "/v1/cotizaciones/clp": {
@@ -499,7 +557,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-cotizacion-clp"
+        "operationId": "get-cotizacion-clp",
+        "x-data-source": [
+          "[InvertirOnline](https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas)"
+        ]
       }
     },
     "/v1/cotizaciones/uyu": {
@@ -522,7 +583,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-cotizacion-uyu"
+        "operationId": "get-cotizacion-uyu",
+        "x-data-source": [
+          "[InvertirOnline](https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas)"
+        ]
       }
     }
   },

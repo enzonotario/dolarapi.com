@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('uy')
 
 Cotización del dólar estadounidense en pesos uruguayos
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

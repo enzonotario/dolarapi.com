@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('ve')
 
 Devuelve las distintas cotizaciones del Dólar en Venezuela
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

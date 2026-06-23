@@ -16,6 +16,8 @@ const spec = setRegionForSidebar('ar')
 
 Cotización del dólar estadounidense en el mercado paralelo o informal. Es decir, el precio de compra y venta de dólares en cuevas o casas de cambio no autorizadas por el Banco Central de la República Argentina (BCRA).
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

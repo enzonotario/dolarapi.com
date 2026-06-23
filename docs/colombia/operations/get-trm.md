@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('co')
 
 Tasa de Cambio Representativa del Mercado (TRM) oficial de Colombia publicada por la Superintendencia Financiera
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('ve')
 
 Devuelve el último valor de cada día para Dólar oficial y paralelo, ordenados por fecha
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('co')
 
 Cotizaciones de las principales monedas en pesos colombianos
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

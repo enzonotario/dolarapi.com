@@ -36,7 +36,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-dolar-oficial"
+        "operationId": "get-dolar-oficial",
+        "x-data-source": [
+          "[Banco Central de Bolivia](https://www.bcb.gob.bo/)"
+        ]
       }
     },
     "/v1/dolares/binance": {
@@ -59,7 +62,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-dolar-binance"
+        "operationId": "get-dolar-binance",
+        "x-data-source": [
+          "[Binance P2P](https://p2p.binance.com/)"
+        ]
       }
     },
     "/v1/estado": {

@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('uy')
 
 Cotizaciones de las monedas más utilizadas en Uruguay
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

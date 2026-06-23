@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('br')
 
 Cotação do euro em reais brasileiros
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

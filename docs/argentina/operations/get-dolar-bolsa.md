@@ -16,6 +16,8 @@ const spec = setRegionForSidebar('ar')
 
 Cotización del dólar estadounidense en el mercado bursátil. Es decir, el precio de compra y venta de dólares en el mercado de valores. También conocido como **Dólar MEP**.
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

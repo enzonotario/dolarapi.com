@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('cl')
 
 Cotizaciones de las principales monedas en pesos chilenos
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

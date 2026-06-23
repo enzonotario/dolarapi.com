@@ -38,7 +38,10 @@
             }
           }
         },
-        "operationId": "get-cotizaciones"
+        "operationId": "get-cotizaciones",
+        "x-data-source": [
+          "[Investing.com](https://es.investing.com/)"
+        ]
       }
     },
     "/v1/cotizaciones/usd": {
@@ -60,7 +63,10 @@
             }
           }
         },
-        "operationId": "get-usd-cop"
+        "operationId": "get-usd-cop",
+        "x-data-source": [
+          "[Investing.com](https://es.investing.com/)"
+        ]
       }
     },
     "/v1/trm": {
@@ -82,7 +88,10 @@
             }
           }
         },
-        "operationId": "get-trm"
+        "operationId": "get-trm",
+        "x-data-source": [
+          "[Superintendencia Financiera de Colombia](https://www.superfinanciera.gov.co/)"
+        ]
       }
     },
     "/v1/cotizaciones/eur": {
@@ -104,7 +113,10 @@
             }
           }
         },
-        "operationId": "get-eur-cop"
+        "operationId": "get-eur-cop",
+        "x-data-source": [
+          "[Investing.com](https://es.investing.com/)"
+        ]
       }
     },
     "/v1/cotizaciones/brl": {
@@ -126,7 +138,10 @@
             }
           }
         },
-        "operationId": "get-brl-cop"
+        "operationId": "get-brl-cop",
+        "x-data-source": [
+          "[Investing.com](https://es.investing.com/)"
+        ]
       }
     },
     "/v1/cotizaciones/mxn": {
@@ -148,7 +163,10 @@
             }
           }
         },
-        "operationId": "get-mxn-cop"
+        "operationId": "get-mxn-cop",
+        "x-data-source": [
+          "[Investing.com](https://es.investing.com/)"
+        ]
       }
     },
     "/v1/cotizaciones/clp": {
@@ -170,7 +188,10 @@
             }
           }
         },
-        "operationId": "get-clp-cop"
+        "operationId": "get-clp-cop",
+        "x-data-source": [
+          "[Investing.com](https://es.investing.com/)"
+        ]
       }
     },
     "/v1/cotizaciones/pen": {
@@ -192,7 +213,10 @@
             }
           }
         },
-        "operationId": "get-pen-cop"
+        "operationId": "get-pen-cop",
+        "x-data-source": [
+          "[Investing.com](https://es.investing.com/)"
+        ]
       }
     },
     "/v1/cotizaciones/ars": {
@@ -214,7 +238,10 @@
             }
           }
         },
-        "operationId": "get-ars-cop"
+        "operationId": "get-ars-cop",
+        "x-data-source": [
+          "[Investing.com](https://es.investing.com/)"
+        ]
       }
     },
     "/v1/estado": {
@@ -339,4 +366,3 @@
     }
   }
 }
-

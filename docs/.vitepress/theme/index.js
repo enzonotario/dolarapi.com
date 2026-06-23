@@ -7,6 +7,8 @@ import * as ObservablePlot from '@observablehq/plot'
 import IndexDemo from './components/IndexDemo.vue'
 import CustomLayout from './CustomLayout.vue'
 import SponsorsAvatars from './components/sponsors/SponsorsAvatars.vue'
+import DataSources from './components/DataSources.vue'
+import MarkdownLink from './components/MarkdownLink.vue'
 
 import 'vitepress-openapi/dist/style.css'
 import './style.css'
@@ -39,5 +41,7 @@ export default {
 
     app.component('IndexDemo', IndexDemo)
     app.component('SponsorsAvatars', SponsorsAvatars)
+    app.component('DataSources', DataSources)
+    app.component('MarkdownLink', MarkdownLink)
   },
 }

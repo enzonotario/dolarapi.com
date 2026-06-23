@@ -38,7 +38,10 @@
             }
           }
         },
-        "operationId": "get-cotizaciones"
+        "operationId": "get-cotizaciones",
+        "x-data-source": [
+          "[Banxico](https://www.banxico.org.mx/)"
+        ]
       }
     },
     "/v1/cotizaciones/usd": {
@@ -61,7 +64,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-usd-mxn"
+        "operationId": "get-usd-mxn",
+        "x-data-source": [
+          "[Banxico](https://www.banxico.org.mx/)"
+        ]
       }
     },
     "/v1/estado": {

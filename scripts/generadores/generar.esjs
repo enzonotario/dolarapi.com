@@ -1,3 +1,4 @@
+importar './aplicarFuentes.esjs'
 importar './generar.ar.esjs'
 importar './generar.cl.esjs'
 importar './generar.ve.esjs'

@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('ve')
 
 Cotización del Euro paralelo (Yadio) en Venezuela
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

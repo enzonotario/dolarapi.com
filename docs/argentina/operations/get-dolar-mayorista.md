@@ -16,6 +16,8 @@ const spec = setRegionForSidebar('ar')
 
 Cotización del dólar estadounidense en el mercado mayorista. Es decir, el precio de compra y venta de dólares en el mercado interbancario.
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

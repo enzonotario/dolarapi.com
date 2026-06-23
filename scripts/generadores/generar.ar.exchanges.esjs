@@ -1,6 +1,10 @@
 importar fs desde 'node:fs'
 importar { plantilla } desde './plantilla.esjs'
 importar { openapiAtributos } desde './openapiAtributos.esjs'
+importar {
+  fuentesExchangesListado,
+  fuentesParaExchanges,
+} desde './fuentes.esjs'
 
 funcion loadJSON(path) {
   retornar JSON.analizar(fs.readFileSync(crear URL(path, import.meta.url)));
@@ -27,6 +31,7 @@ exportar funcion init() {
       operationId: 'get-exchanges',
       description: 'Listado de exchanges.',
       tags: ['Exchanges'],
+      'x-data-source': fuentesExchangesListado,
       responses: {
         200: {
           description: 'Listado de exchanges',
@@ -82,6 +87,7 @@ exportar funcion init() {
           operationId: `get-exchange-moneda-${monedaBase.aMinusculas()}-${moneda.aMinusculas()}`,
           description: `Cotizaciones de ${monedaBase.aMayusculas()} a ${moneda.aMayusculas()}.`,
           tags: [`${monedaBase.aMayusculas()}`],
+          'x-data-source': fuentesParaExchanges(exchanges),
           responses: {
             200: {
               description: 'Cotizaciones',

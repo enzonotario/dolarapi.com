@@ -19,7 +19,9 @@
     "/v1/dolares": {
       "get": {
         "summary": "Dólares",
-        "tags": ["Cotización actual Dólares"],
+        "tags": [
+          "Cotización actual Dólares"
+        ],
         "description": "Devuelve las distintas cotizaciones del Dólar en Venezuela",
         "responses": {
           "200": {
@@ -36,13 +38,19 @@
             }
           }
         },
-        "operationId": "get-dolares"
+        "operationId": "get-dolares",
+        "x-data-source": [
+          "[BCV](https://www.bcv.org.ve/)",
+          "[Yadio](https://api.yadio.io/)"
+        ]
       }
     },
     "/v1/dolares/oficial": {
       "get": {
         "summary": "Dólar Oficial",
-        "tags": ["Cotización actual Dólares"],
+        "tags": [
+          "Cotización actual Dólares"
+        ],
         "description": "Cotización del Dólar Oficial en Venezuela",
         "responses": {
           "200": {
@@ -57,13 +65,18 @@
             "headers": {}
           }
         },
-        "operationId": "get-dolar-oficial"
+        "operationId": "get-dolar-oficial",
+        "x-data-source": [
+          "[BCV](https://www.bcv.org.ve/)"
+        ]
       }
     },
     "/v1/dolares/paralelo": {
       "get": {
         "summary": "Dólar Paralelo",
-        "tags": ["Cotización actual Dólares"],
+        "tags": [
+          "Cotización actual Dólares"
+        ],
         "description": "Cotización del Dólar Paralelo en Venezuela",
         "responses": {
           "200": {
@@ -77,14 +90,19 @@
             }
           }
         },
-        "operationId": "get-dolar-paralelo"
+        "operationId": "get-dolar-paralelo",
+        "x-data-source": [
+          "[Yadio](https://api.yadio.io/)"
+        ]
       },
       "parameters": []
     },
     "/v1/cotizaciones": {
       "get": {
         "summary": "Cotizaciones",
-        "tags": ["Cotizaciones"],
+        "tags": [
+          "Cotizaciones"
+        ],
         "description": "Devuelve las cotizaciones del Dólar Oficial y Euro oficial en Venezuela",
         "responses": {
           "200": {
@@ -101,13 +119,18 @@
             }
           }
         },
-        "operationId": "get-cotizaciones"
+        "operationId": "get-cotizaciones",
+        "x-data-source": [
+          "[BCV](https://www.bcv.org.ve/)"
+        ]
       }
     },
     "/v1/euros": {
       "get": {
         "summary": "Euros",
-        "tags": ["Cotización actual Euros"],
+        "tags": [
+          "Cotización actual Euros"
+        ],
         "description": "Devuelve las cotizaciones del Euro oficial (BCV) y paralelo (Yadio) en Venezuela",
         "responses": {
           "200": {
@@ -124,13 +147,19 @@
             }
           }
         },
-        "operationId": "get-euros"
+        "operationId": "get-euros",
+        "x-data-source": [
+          "[BCV](https://www.bcv.org.ve/)",
+          "[Yadio](https://api.yadio.io/)"
+        ]
       }
     },
     "/v1/euros/oficial": {
       "get": {
         "summary": "Euro Oficial",
-        "tags": ["Cotización actual Euros"],
+        "tags": [
+          "Cotización actual Euros"
+        ],
         "description": "Cotización del Euro oficial (BCV) en Venezuela",
         "responses": {
           "200": {
@@ -144,13 +173,18 @@
             }
           }
         },
-        "operationId": "get-euro-oficial"
+        "operationId": "get-euro-oficial",
+        "x-data-source": [
+          "[BCV](https://www.bcv.org.ve/)"
+        ]
       }
     },
     "/v1/euros/paralelo": {
       "get": {
         "summary": "Euro Paralelo",
-        "tags": ["Cotización actual Euros"],
+        "tags": [
+          "Cotización actual Euros"
+        ],
         "description": "Cotización del Euro paralelo (Yadio) en Venezuela",
         "responses": {
           "200": {
@@ -164,13 +198,18 @@
             }
           }
         },
-        "operationId": "get-euro-paralelo"
+        "operationId": "get-euro-paralelo",
+        "x-data-source": [
+          "[Yadio](https://api.yadio.io/)"
+        ]
       }
     },
     "/v1/estado": {
       "get": {
         "summary": "Estado de la API",
-        "tags": ["API"],
+        "tags": [
+          "API"
+        ],
         "responses": {
           "200": {
             "description": "Devuelve el estado de la API",
@@ -189,7 +228,9 @@
     "/v1/historicos/dolares": {
       "get": {
         "summary": "Histórico Dólares",
-        "tags": ["Históricos Dólares"],
+        "tags": [
+          "Históricos Dólares"
+        ],
         "description": "Devuelve el último valor de cada día para Dólar oficial y paralelo, ordenados por fecha",
         "responses": {
           "200": {
@@ -206,13 +247,19 @@
             }
           }
         },
-        "operationId": "get-historicos-dolares"
+        "operationId": "get-historicos-dolares",
+        "x-data-source": [
+          "[BCV](https://www.bcv.org.ve/)",
+          "[Yadio](https://api.yadio.io/)"
+        ]
       }
     },
     "/v1/historicos/dolares/oficial": {
       "get": {
         "summary": "Histórico Dólar Oficial",
-        "tags": ["Históricos Dólares"],
+        "tags": [
+          "Históricos Dólares"
+        ],
         "description": "Devuelve el último valor de cada día del Dólar Oficial",
         "responses": {
           "200": {
@@ -229,13 +276,18 @@
             }
           }
         },
-        "operationId": "get-historicos-dolar-oficial"
+        "operationId": "get-historicos-dolar-oficial",
+        "x-data-source": [
+          "[BCV](https://www.bcv.org.ve/)"
+        ]
       }
     },
     "/v1/historicos/dolares/paralelo": {
       "get": {
         "summary": "Histórico Dólar Paralelo",
-        "tags": ["Históricos Dólares"],
+        "tags": [
+          "Históricos Dólares"
+        ],
         "description": "Devuelve el último valor de cada día del Dólar Paralelo",
         "responses": {
           "200": {
@@ -252,13 +304,18 @@
             }
           }
         },
-        "operationId": "get-historicos-dolar-paralelo"
+        "operationId": "get-historicos-dolar-paralelo",
+        "x-data-source": [
+          "[Yadio](https://api.yadio.io/)"
+        ]
       }
     },
     "/v1/historicos/dolares/{fecha}": {
       "get": {
         "summary": "Histórico Dólares por Fecha",
-        "tags": ["Históricos Dólares"],
+        "tags": [
+          "Históricos Dólares"
+        ],
         "description": "Devuelve las cotizaciones del Dólar oficial y paralelo para una fecha específica (en formato `YYYY/MM/DD`)",
         "parameters": [
           {
@@ -288,13 +345,19 @@
             }
           }
         },
-        "operationId": "get-historicos-dolares-fecha"
+        "operationId": "get-historicos-dolares-fecha",
+        "x-data-source": [
+          "[BCV](https://www.bcv.org.ve/)",
+          "[Yadio](https://api.yadio.io/)"
+        ]
       }
     },
     "/v1/historicos/dolares/oficial/{fecha}": {
       "get": {
         "summary": "Histórico Dólar Oficial por Fecha",
-        "tags": ["Históricos Dólares"],
+        "tags": [
+          "Históricos Dólares"
+        ],
         "description": "Devuelve la cotización del Dólar Oficial para una fecha específica (en formato `YYYY/MM/DD`)",
         "parameters": [
           {
@@ -321,13 +384,18 @@
             }
           }
         },
-        "operationId": "get-historicos-dolar-oficial-fecha"
+        "operationId": "get-historicos-dolar-oficial-fecha",
+        "x-data-source": [
+          "[BCV](https://www.bcv.org.ve/)"
+        ]
       }
     },
     "/v1/historicos/dolares/paralelo/{fecha}": {
       "get": {
         "summary": "Histórico Dólar Paralelo por Fecha",
-        "tags": ["Históricos Dólares"],
+        "tags": [
+          "Históricos Dólares"
+        ],
         "description": "Devuelve la cotización del Dólar Paralelo para una fecha específica (en formato `YYYY/MM/DD`)",
         "parameters": [
           {
@@ -354,13 +422,18 @@
             }
           }
         },
-        "operationId": "get-historicos-dolar-paralelo-fecha"
+        "operationId": "get-historicos-dolar-paralelo-fecha",
+        "x-data-source": [
+          "[Yadio](https://api.yadio.io/)"
+        ]
       }
     },
     "/v1/historicos/euros": {
       "get": {
         "summary": "Histórico Euros",
-        "tags": ["Históricos Euros"],
+        "tags": [
+          "Históricos Euros"
+        ],
         "description": "Devuelve el último valor de cada día para Euro oficial y paralelo, ordenados por fecha",
         "responses": {
           "200": {
@@ -377,13 +450,19 @@
             }
           }
         },
-        "operationId": "get-historicos-euros"
+        "operationId": "get-historicos-euros",
+        "x-data-source": [
+          "[BCV](https://www.bcv.org.ve/)",
+          "[Yadio](https://api.yadio.io/)"
+        ]
       }
     },
     "/v1/historicos/euros/oficial": {
       "get": {
         "summary": "Histórico Euro Oficial",
-        "tags": ["Históricos Euros"],
+        "tags": [
+          "Históricos Euros"
+        ],
         "description": "Devuelve el último valor de cada día del Euro Oficial",
         "responses": {
           "200": {
@@ -400,13 +479,18 @@
             }
           }
         },
-        "operationId": "get-historicos-euro-oficial"
+        "operationId": "get-historicos-euro-oficial",
+        "x-data-source": [
+          "[BCV](https://www.bcv.org.ve/)"
+        ]
       }
     },
     "/v1/historicos/euros/paralelo": {
       "get": {
         "summary": "Histórico Euro Paralelo",
-        "tags": ["Históricos Euros"],
+        "tags": [
+          "Históricos Euros"
+        ],
         "description": "Devuelve el último valor de cada día del Euro Paralelo",
         "responses": {
           "200": {
@@ -423,13 +507,18 @@
             }
           }
         },
-        "operationId": "get-historicos-euro-paralelo"
+        "operationId": "get-historicos-euro-paralelo",
+        "x-data-source": [
+          "[Yadio](https://api.yadio.io/)"
+        ]
       }
     },
     "/v1/historicos/euros/{fecha}": {
       "get": {
         "summary": "Histórico Euros por Fecha",
-        "tags": ["Históricos Euros"],
+        "tags": [
+          "Históricos Euros"
+        ],
         "description": "Devuelve las cotizaciones del Euro oficial y paralelo para una fecha específica (en formato `YYYY/MM/DD`)",
         "parameters": [
           {
@@ -459,13 +548,19 @@
             }
           }
         },
-        "operationId": "get-historicos-euros-fecha"
+        "operationId": "get-historicos-euros-fecha",
+        "x-data-source": [
+          "[BCV](https://www.bcv.org.ve/)",
+          "[Yadio](https://api.yadio.io/)"
+        ]
       }
     },
     "/v1/historicos/euros/oficial/{fecha}": {
       "get": {
         "summary": "Histórico Euro Oficial por Fecha",
-        "tags": ["Históricos Euros"],
+        "tags": [
+          "Históricos Euros"
+        ],
         "description": "Devuelve la cotización del Euro Oficial para una fecha específica (en formato `YYYY/MM/DD`)",
         "parameters": [
           {
@@ -492,13 +587,18 @@
             }
           }
         },
-        "operationId": "get-historicos-euro-oficial-fecha"
+        "operationId": "get-historicos-euro-oficial-fecha",
+        "x-data-source": [
+          "[BCV](https://www.bcv.org.ve/)"
+        ]
       }
     },
     "/v1/historicos/euros/paralelo/{fecha}": {
       "get": {
         "summary": "Histórico Euro Paralelo por Fecha",
-        "tags": ["Históricos Euros"],
+        "tags": [
+          "Históricos Euros"
+        ],
         "description": "Devuelve la cotización del Euro Paralelo para una fecha específica (en formato `YYYY/MM/DD`)",
         "parameters": [
           {
@@ -525,7 +625,10 @@
             }
           }
         },
-        "operationId": "get-historicos-euro-paralelo-fecha"
+        "operationId": "get-historicos-euro-paralelo-fecha",
+        "x-data-source": [
+          "[Yadio](https://api.yadio.io/)"
+        ]
       }
     }
   },
@@ -537,7 +640,10 @@
         "properties": {
           "fuente": {
             "type": "string",
-            "enum": ["oficial", "paralelo"]
+            "enum": [
+              "oficial",
+              "paralelo"
+            ]
           },
           "compra": {
             "type": "number",
@@ -556,7 +662,11 @@
             "description": "Fecha en formato YYYY-MM-DD"
           }
         },
-        "required": ["fuente", "promedio", "fecha"]
+        "required": [
+          "fuente",
+          "promedio",
+          "fecha"
+        ]
       },
       "CotizacionHistoricoEur": {
         "title": "CotizacionHistoricoEur",
@@ -564,11 +674,16 @@
         "properties": {
           "fuente": {
             "type": "string",
-            "enum": ["oficial", "paralelo"]
+            "enum": [
+              "oficial",
+              "paralelo"
+            ]
           },
           "moneda": {
             "type": "string",
-            "enum": ["EUR"]
+            "enum": [
+              "EUR"
+            ]
           },
           "compra": {
             "type": "number",
@@ -587,7 +702,12 @@
             "description": "Fecha en formato YYYY-MM-DD"
           }
         },
-        "required": ["fuente", "moneda", "promedio", "fecha"]
+        "required": [
+          "fuente",
+          "moneda",
+          "promedio",
+          "fecha"
+        ]
       },
       "Cotizacion": {
         "title": "Cotizacion",
@@ -622,7 +742,12 @@
             "type": "string"
           }
         },
-        "required": ["promedio", "fuente", "nombre", "fechaActualizacion"]
+        "required": [
+          "promedio",
+          "fuente",
+          "nombre",
+          "fechaActualizacion"
+        ]
       },
       "CotizacionMoneda": {
         "title": "CotizacionMoneda",
@@ -650,7 +775,12 @@
             "type": "string"
           }
         },
-        "required": ["promedio", "fuente", "nombre", "fechaActualizacion"]
+        "required": [
+          "promedio",
+          "fuente",
+          "nombre",
+          "fechaActualizacion"
+        ]
       },
       "Estado": {
         "title": "Estado",

@@ -16,6 +16,8 @@ const spec = setRegionForSidebar('ar')
 
 Devuelve la cotización de todas las monedas.
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

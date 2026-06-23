@@ -16,6 +16,8 @@ const spec = setRegionForSidebar('ar')
 
 Es el valor de la cotización del dólar estadounidense en el mercado oficial, más el impuesto a las ganancias (30%).
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

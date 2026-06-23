@@ -38,7 +38,10 @@
             }
           }
         },
-        "operationId": "get-cotacoes"
+        "operationId": "get-cotacoes",
+        "x-data-source": [
+          "[Investing.com](https://es.investing.com/)"
+        ]
       }
     },
     "/v1/cotacoes/usd": {
@@ -63,7 +66,10 @@
             }
           }
         },
-        "operationId": "get-usd-brl"
+        "operationId": "get-usd-brl",
+        "x-data-source": [
+          "[Investing.com](https://es.investing.com/)"
+        ]
       }
     },
     "/v1/cotacoes/eur": {
@@ -86,7 +92,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-eur-brl"
+        "operationId": "get-eur-brl",
+        "x-data-source": [
+          "[Investing.com](https://es.investing.com/)"
+        ]
       }
     },
     "/v1/cotacoes/ars": {
@@ -109,7 +118,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-ars-brl"
+        "operationId": "get-ars-brl",
+        "x-data-source": [
+          "[Investing.com](https://es.investing.com/)"
+        ]
       }
     },
     "/v1/cotacoes/clp": {
@@ -132,7 +144,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-clp-brl"
+        "operationId": "get-clp-brl",
+        "x-data-source": [
+          "[Investing.com](https://es.investing.com/)"
+        ]
       },
       "/v1/cotacoes/ars": {
         "get": {
@@ -222,7 +237,10 @@
             "headers": {}
           }
         },
-        "operationId": "get-uyu-brl"
+        "operationId": "get-uyu-brl",
+        "x-data-source": [
+          "[Investing.com](https://es.investing.com/)"
+        ]
       }
     }
   },

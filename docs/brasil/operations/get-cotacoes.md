@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('br')
 
 Cotações das principais moedas em reais brasileiros
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

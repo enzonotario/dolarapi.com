@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('ve')
 
 Devuelve la cotización del Dólar Oficial para una fecha específica (en formato `YYYY/MM/DD`)
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

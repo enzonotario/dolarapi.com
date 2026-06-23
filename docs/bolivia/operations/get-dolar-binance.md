@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('bo')
 
 Cotización del dólar estadounidense en pesos bolivianos según Binance
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

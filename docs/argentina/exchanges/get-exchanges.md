@@ -12,7 +12,15 @@ import spec from '../../public/exchanges/openapi.json'
 const { isDark } = useData()
 </script>
 
-<OAOperation :spec="spec" operationId="get-exchanges" :isDark="isDark" />
+<OAOperation :spec="spec" operationId="get-exchanges" :isDark="isDark">
+
+<template #description="description">
+
+<DataSources :sources="description.operation['x-data-source']" />
+
+</template>
+
+</OAOperation>
 
 ## Ejemplos de uso
 

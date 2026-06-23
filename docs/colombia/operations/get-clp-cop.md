@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('co')
 
 Cotización del peso chileno en pesos colombianos
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

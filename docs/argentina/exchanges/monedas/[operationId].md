@@ -22,7 +22,15 @@ const pair = operationId.match(/get-exchange-moneda-(.*)-(.*)/).slice(1).join('/
 document.title = params.value.pageTitle
 </script>
 
-<OAOperation :spec="spec" :operationId="operationId" :isDark="isDark" />
+<OAOperation :spec="spec" :operationId="operationId" :isDark="isDark">
+
+<template #description="description">
+
+<DataSources :sources="description.operation['x-data-source']" />
+
+</template>
+
+</OAOperation>
 
 <template v-if="pair === 'brl/ars' || pair === 'usd/brl'">
 

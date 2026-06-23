@@ -63,6 +63,8 @@ const spec = setRegionForSidebar('mx')
 
 Cotizaciones de las monedas más utilizadas en Mexico
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>

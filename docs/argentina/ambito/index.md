@@ -18,6 +18,8 @@ const spec = setRegionForSidebar('ar')
 
 Devuelve la cotización según Ámbito Financiero.
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>
@@ -35,6 +37,8 @@ Devuelve la cotización según Ámbito Financiero.
 <template #description="description">
 
 Devuelve la cotización según Ámbito Financiero.
+
+<DataSources :sources="description.operation['x-data-source']" />
 
 </template>
 
@@ -54,6 +58,8 @@ Devuelve la cotización según Ámbito Financiero.
 
 Devuelve la cotización según Ámbito Financiero.
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>
@@ -71,6 +77,8 @@ Devuelve la cotización según Ámbito Financiero.
 <template #description="description">
 
 Devuelve la cotización según Ámbito Financiero.
+
+<DataSources :sources="description.operation['x-data-source']" />
 
 </template>
 
@@ -90,6 +98,8 @@ Devuelve la cotización según Ámbito Financiero.
 
 Devuelve la cotización según Ámbito Financiero.
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>
@@ -107,6 +117,8 @@ Devuelve la cotización según Ámbito Financiero.
 <template #description="description">
 
 Devuelve la cotización según Ámbito Financiero.
+
+<DataSources :sources="description.operation['x-data-source']" />
 
 </template>
 
@@ -126,6 +138,8 @@ Devuelve la cotización según Ámbito Financiero.
 
 Devuelve la cotización según Ámbito Financiero.
 
+<DataSources :sources="description.operation['x-data-source']" />
+
 </template>
 
 <template #footer>
@@ -143,6 +157,8 @@ Devuelve la cotización según Ámbito Financiero.
 <template #description="description">
 
 Devuelve la cotización según Ámbito Financiero.
+
+<DataSources :sources="description.operation['x-data-source']" />
 
 </template>
 
