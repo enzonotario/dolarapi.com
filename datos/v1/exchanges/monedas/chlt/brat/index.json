@@ -3,14 +3,14 @@
     "exchange": "belo",
     "moneda": "BRAt",
     "monedaBase": "CHLt",
-    "compra": 0.005866633784404855,
-    "venta": 0.00562297037037037
+    "compra": 0.005873322564861372,
+    "venta": 0.005630281481481481
   },
   {
     "exchange": "belo",
     "moneda": "BRAt",
     "monedaBase": "CHLt",
-    "compra": 0.00562297037037037,
-    "venta": 0.005866633784404855
+    "compra": 0.005630281481481481,
+    "venta": 0.005873322564861372
   }
 ]
