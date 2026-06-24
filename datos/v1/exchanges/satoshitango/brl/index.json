@@ -3,7 +3,7 @@
     "exchange": "satoshitango",
     "moneda": "ARS",
     "monedaBase": "BRL",
-    "compra": 296.61,
+    "compra": 298.19,
     "venta": null
   },
   {
@@ -19,14 +19,14 @@
     "exchange": "satoshitango",
     "moneda": "CLP",
     "monedaBase": "BRL",
-    "compra": 178,
+    "compra": 179,
     "venta": null
   },
   {
     "exchange": "satoshitango",
     "moneda": "PEN",
     "monedaBase": "BRL",
-    "compra": 0.67,
+    "compra": 0.66,
     "venta": null
   }
 ]
