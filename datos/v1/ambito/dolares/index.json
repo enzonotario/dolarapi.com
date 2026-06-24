@@ -5,8 +5,8 @@
     "nombre": "Oficial",
     "compra": 1439.41,
     "venta": 1491.13,
-    "fechaActualizacion": "2026-06-23T16:10:00.000Z",
-    "variacion": 0.63
+    "fechaActualizacion": "2026-06-24T09:06:00.000Z",
+    "variacion": 0
   },
   {
     "moneda": "USD",
@@ -14,8 +14,8 @@
     "nombre": "Blue",
     "compra": 1485,
     "venta": 1505,
-    "fechaActualizacion": "2026-06-23T18:55:00.000Z",
-    "variacion": 0.67
+    "fechaActualizacion": "2026-06-24T10:00:00.000Z",
+    "variacion": 0
   },
   {
     "moneda": "USD",
@@ -23,7 +23,7 @@
     "nombre": "Bolsa",
     "compra": 1506.68,
     "venta": 1506.68,
-    "fechaActualizacion": "2026-06-23T19:55:00.000Z",
+    "fechaActualizacion": "2026-06-24T10:00:00.000Z",
     "variacion": 1.5
   },
   {
@@ -32,7 +32,7 @@
     "nombre": "Contado con liquidación",
     "compra": 1553.35,
     "venta": 1553.35,
-    "fechaActualizacion": "2026-06-23T19:55:00.000Z",
+    "fechaActualizacion": "2026-06-24T10:00:00.000Z",
     "variacion": 1.5
   },
   {
@@ -41,17 +41,17 @@
     "nombre": "Mayorista",
     "compra": 1462.5,
     "venta": 1471.5,
-    "fechaActualizacion": "2026-06-23T16:12:00.000Z",
-    "variacion": 0.68
+    "fechaActualizacion": "2026-06-24T09:07:00.000Z",
+    "variacion": 0
   },
   {
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1544.07,
-    "venta": 1544.07,
-    "fechaActualizacion": "2026-06-24T09:00:00.000Z",
-    "variacion": 0.04
+    "compra": 1546.12,
+    "venta": 1546.12,
+    "fechaActualizacion": "2026-06-24T10:00:00.000Z",
+    "variacion": 0.09
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1440,
     "venta": 1937,
-    "fechaActualizacion": "2026-06-23T18:55:00.000Z",
+    "fechaActualizacion": "2026-06-23T10:00:00.000Z",
     "variacion": 0.68
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1440,
     "venta": 1490,
     "variacion": 0.68,
-    "fechaActualizacion": "2026-06-23T18:55:00.000Z"
+    "fechaActualizacion": "2026-06-23T10:00:00.000Z"
   }
 ]
