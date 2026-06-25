@@ -5,8 +5,8 @@
     "monedaBase": "BRAt",
     "criptomoneda": "USDT",
     "criptomonedaBase": null,
-    "compra": 0.18796992481203006,
-    "venta": 0.19120458891013384
+    "compra": 0.18832391713747648,
+    "venta": 0.19047619047619047
   },
   {
     "exchange": "belo",
@@ -14,8 +14,8 @@
     "monedaBase": "BRAt",
     "criptomoneda": "USDC",
     "criptomonedaBase": null,
-    "compra": 0.18742973918362113,
-    "venta": 0.1912298417668884
+    "compra": 0.1878221024960222,
+    "venta": 0.19054130606212413
   },
   {
     "exchange": "belo",
@@ -23,8 +23,8 @@
     "monedaBase": "BRAt",
     "criptomoneda": "USDT",
     "criptomonedaBase": null,
-    "compra": 0.18796992481203006,
-    "venta": 0.19120458891013384
+    "compra": 0.18832391713747648,
+    "venta": 0.19047619047619047
   },
   {
     "exchange": "belo",
@@ -32,7 +32,7 @@
     "monedaBase": "BRAt",
     "criptomoneda": "USDC",
     "criptomonedaBase": null,
-    "compra": 0.18742973918362113,
-    "venta": 0.1912298417668884
+    "compra": 0.1878221024960222,
+    "venta": 0.19054130606212413
   }
 ]
