@@ -3,14 +3,14 @@
     "exchange": "belo",
     "moneda": "PERt",
     "monedaBase": "COLt",
-    "compra": 0.0009560471111111111,
-    "venta": 0.0010566309828295352
+    "compra": 0.0009610791111111111,
+    "venta": 0.0010249776676176168
   },
   {
     "exchange": "belo",
     "moneda": "PERt",
     "monedaBase": "COLt",
-    "compra": 0.0010566309828295352,
-    "venta": 0.0009560471111111111
+    "compra": 0.0010249776676176168,
+    "venta": 0.0009610791111111111
   }
 ]
