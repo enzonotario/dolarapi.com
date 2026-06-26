@@ -2,57 +2,57 @@
   {
     "moneda": "USD",
     "nombre": "Dólar",
-    "compra": 3445.31,
-    "venta": 3448.81,
-    "ultimoCierre": 3447.58,
-    "fechaActualizacion": "2026-06-25T20:03:08.232Z"
+    "compra": 3434.58,
+    "venta": 3438.08,
+    "ultimoCierre": 3447.29,
+    "fechaActualizacion": "2026-06-26T12:03:54.172Z"
   },
   {
     "moneda": "EUR",
     "nombre": "Euro",
-    "compra": 3758,
-    "venta": 4017.4,
-    "ultimoCierre": 3875.2,
-    "fechaActualizacion": "2026-06-25T20:02:57.785Z"
+    "compra": 3788.1,
+    "venta": 4047.5,
+    "ultimoCierre": 3887.7,
+    "fechaActualizacion": "2026-06-26T12:03:23.747Z"
   },
   {
     "moneda": "BRL",
     "nombre": "Real Brasileño",
-    "compra": 665.34,
-    "venta": 666.02,
-    "ultimoCierre": 663.54,
-    "fechaActualizacion": "2026-06-25T20:03:04.041Z"
+    "compra": 663.35,
+    "venta": 664.03,
+    "ultimoCierre": 666.07,
+    "fechaActualizacion": "2026-06-26T12:03:33.879Z"
   },
   {
     "moneda": "MXN",
     "nombre": "Peso Mexicano",
-    "compra": 197.03,
-    "venta": 197.23,
-    "ultimoCierre": 195.81,
-    "fechaActualizacion": "2026-06-25T20:02:51.421Z"
+    "compra": 196.04,
+    "venta": 196.24,
+    "ultimoCierre": 196.97,
+    "fechaActualizacion": "2026-06-26T12:03:46.227Z"
   },
   {
     "moneda": "CLP",
     "nombre": "Peso Chileno",
-    "compra": 3.741,
-    "venta": 3.7448,
-    "ultimoCierre": 3.7508,
-    "fechaActualizacion": "2026-06-25T20:02:57.024Z"
+    "compra": 3.7292,
+    "venta": 3.733,
+    "ultimoCierre": 3.7413,
+    "fechaActualizacion": "2026-06-26T12:03:29.819Z"
   },
   {
     "moneda": "PEN",
     "nombre": "Sol Peruano",
-    "compra": 1006.86,
-    "venta": 1007.88,
-    "ultimoCierre": 1007.48,
-    "fechaActualizacion": "2026-06-25T20:02:47.064Z"
+    "compra": 1007,
+    "venta": 1008.03,
+    "ultimoCierre": 1007.36,
+    "fechaActualizacion": "2026-06-26T12:03:39.488Z"
   },
   {
     "moneda": "ARS",
     "nombre": "Peso Argentino",
-    "compra": 2.33,
+    "compra": 2.32,
     "venta": 2.33,
     "ultimoCierre": 2.33,
-    "fechaActualizacion": "2026-06-25T20:03:10.815Z"
+    "fechaActualizacion": "2026-06-26T12:03:44.582Z"
   }
 ]
