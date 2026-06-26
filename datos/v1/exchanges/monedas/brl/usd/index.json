@@ -5,7 +5,7 @@
     "monedaBase": "BRL",
     "criptomoneda": "USDT",
     "criptomonedaBase": null,
-    "compra": 0.1986460348162476,
+    "compra": 0.199031007751938,
     "venta": 0.18832391713747645
   },
   {
@@ -14,8 +14,8 @@
     "monedaBase": "BRL",
     "criptomoneda": null,
     "criptomonedaBase": "USDT",
-    "compra": 0.197659,
-    "venta": 0.186997
+    "compra": 0.1974,
+    "venta": 0.186753
   },
   {
     "exchange": "satoshitango",
@@ -48,14 +48,14 @@
     "monedaBase": "BRL",
     "criptomoneda": "USDT",
     "criptomonedaBase": null,
-    "compra": 0.19685039370078738,
+    "compra": 0.19646365422396858,
     "venta": null
   },
   {
     "exchange": "astropay",
     "moneda": "USD",
     "monedaBase": "BRL",
-    "compra": 0.19501848,
+    "compra": 0.19501055,
     "venta": null
   }
 ]
