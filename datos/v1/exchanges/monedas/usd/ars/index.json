@@ -14,8 +14,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDC",
-    "compra": 1562.06897407,
-    "venta": 1537.3822623
+    "compra": 1562.19380103,
+    "venta": 1537.50511774
   },
   {
     "exchange": "belo",
@@ -32,8 +32,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDC",
-    "compra": 1553.7,
-    "venta": 1550.3481
+    "compra": 1556,
+    "venta": 1553.9445
   },
   {
     "exchange": "satoshitango",
@@ -41,7 +41,7 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDT",
-    "compra": 1555.7,
+    "compra": 1556.22,
     "venta": null
   },
   {
@@ -50,7 +50,7 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USD",
-    "compra": 1458.02,
+    "compra": 1458.49,
     "venta": null
   }
 ]
