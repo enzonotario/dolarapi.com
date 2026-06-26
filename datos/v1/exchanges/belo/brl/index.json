@@ -5,14 +5,14 @@
     "monedaBase": "BRL",
     "criptomoneda": "USDT",
     "criptomonedaBase": null,
-    "compra": 0.19826254826254827,
+    "compra": 0.1986460348162476,
     "venta": 0.18832391713747645
   },
   {
     "exchange": "belo",
     "moneda": "ARS",
     "monedaBase": "BRL",
-    "compra": 308.2982625482625,
-    "venta": 289.07721280602635
+    "compra": 308.1,
+    "venta": 288.3239171374765
   }
 ]
