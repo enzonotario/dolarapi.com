@@ -5,8 +5,8 @@
     "monedaBase": "MEXt",
     "criptomoneda": "USDT",
     "criptomonedaBase": null,
-    "compra": 0.05647481481481481,
-    "venta": 0.05802449004526215
+    "compra": 0.056547575308641976,
+    "venta": 0.058095351688387635
   },
   {
     "exchange": "belo",
@@ -14,7 +14,7 @@
     "monedaBase": "MEXt",
     "criptomoneda": "USDC",
     "criptomonedaBase": null,
-    "compra": 0.05633051912034134,
-    "venta": 0.05805070429205284
+    "compra": 0.05640027668004638,
+    "venta": 0.0581186950622594
   }
 ]
