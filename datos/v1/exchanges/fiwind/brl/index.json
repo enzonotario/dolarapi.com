@@ -5,14 +5,14 @@
     "monedaBase": "BRL",
     "criptomoneda": null,
     "criptomonedaBase": "USDT",
-    "compra": 0.195384,
-    "venta": 0.184844
+    "compra": 0.195034,
+    "venta": 0.184513
   },
   {
     "exchange": "fiwind",
     "moneda": "ARS",
     "monedaBase": "BRL",
-    "compra": 305.775961,
-    "venta": 285.583979
+    "compra": 304.838141,
+    "venta": 285.441612
   }
 ]
