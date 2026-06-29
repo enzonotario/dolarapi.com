@@ -14,8 +14,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDC",
-    "compra": 1571.531897195,
-    "venta": 1546.81115771
+    "compra": 1571.280801115,
+    "venta": 1546.56400899
   },
   {
     "exchange": "belo",
@@ -32,8 +32,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDC",
-    "compra": 5.32535697135,
-    "venta": 5.2193627946
+    "compra": 5.32450609695,
+    "venta": 5.2185288474
   },
   {
     "exchange": "belo",
@@ -50,8 +50,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDC",
-    "compra": 1571.531897195,
-    "venta": 1546.81115771
+    "compra": 1571.280801115,
+    "venta": 1546.56400899
   },
   {
     "exchange": "belo",
@@ -59,8 +59,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDT",
-    "compra": 17.736975629307896,
-    "venta": 17.26048485
+    "compra": 17.731813026656738,
+    "venta": 17.256444187625
   },
   {
     "exchange": "belo",
@@ -68,8 +68,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDC",
-    "compra": 17.788272470470783,
-    "venta": 17.25837786261436
+    "compra": 17.780253591414546,
+    "venta": 17.2515808039596
   },
   {
     "exchange": "belo",
@@ -86,8 +86,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDC",
-    "compra": 939.9763356035991,
-    "venta": 910.351259354893
+    "compra": 939.8355348662834,
+    "venta": 910.2148948490079
   },
   {
     "exchange": "belo",
@@ -104,8 +104,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDC",
-    "compra": 3513.470938938099,
-    "venta": 3373.628755860906
+    "compra": 3512.909563899173,
+    "venta": 3373.0897191306562
   },
   {
     "exchange": "belo",
@@ -113,8 +113,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDT",
-    "compra": 9.993375255830406,
-    "venta": 9.697891865125
+    "compra": 9.983250816629917,
+    "venta": 9.68806625
   },
   {
     "exchange": "belo",
@@ -122,8 +122,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDC",
-    "compra": 10.022276946507164,
-    "venta": 9.696708043465025
+    "compra": 10.010523510457073,
+    "venta": 9.685335862288763
   },
   {
     "exchange": "belo",
@@ -140,8 +140,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDC",
-    "compra": 3.458248568965517,
-    "venta": 3.3295935069
+    "compra": 3.4576960172413793,
+    "venta": 3.3290615061
   },
   {
     "exchange": "belo",
@@ -149,8 +149,8 @@
     "monedaBase": "USD",
     "criptomoneda": "USDC",
     "criptomonedaBase": "USDT",
-    "compra": 1.000122084902904,
-    "venta": 0.9971162550355555
+    "compra": 1.0002819094505404,
+    "venta": 0.9972755976449517
   },
   {
     "exchange": "belo",
@@ -158,8 +158,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDT",
-    "compra": 0.013683297346261312,
-    "venta": 0.013410524311268998
+    "compra": 0.013629753206058698,
+    "venta": 0.013358054639786699
   },
   {
     "exchange": "belo",
@@ -176,8 +176,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDC",
-    "compra": 0.013700000137000002,
-    "venta": 0.013426891916205453
+    "compra": 0.01365001365001365,
+    "venta": 0.013377908524537092
   },
   {
     "exchange": "belo",
@@ -185,8 +185,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDC",
-    "compra": 5.32535697135,
-    "venta": 5.2193627946
+    "compra": 5.32450609695,
+    "venta": 5.2185288474
   },
   {
     "exchange": "belo",
@@ -203,7 +203,7 @@
     "monedaBase": "USD",
     "criptomoneda": "USD_AR",
     "criptomonedaBase": "USDT",
-    "compra": 1.051,
+    "compra": 1.052,
     "venta": 1.02
   },
   {
@@ -213,6 +213,6 @@
     "criptomoneda": null,
     "criptomonedaBase": "USD_AR",
     "compra": 1536.2745098039215,
-    "venta": 1471.931493815414
+    "venta": 1470.532319391635
   }
 ]
