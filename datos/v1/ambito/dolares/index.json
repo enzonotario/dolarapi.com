@@ -5,8 +5,8 @@
     "nombre": "Oficial",
     "compra": 1447.18,
     "venta": 1498.22,
-    "fechaActualizacion": "2026-06-29T15:46:00.000Z",
-    "variacion": -0.02
+    "fechaActualizacion": "2026-06-30T09:02:00.000Z",
+    "variacion": 0
   },
   {
     "moneda": "USD",
@@ -14,8 +14,8 @@
     "nombre": "Blue",
     "compra": 1490,
     "venta": 1510,
-    "fechaActualizacion": "2026-06-29T18:55:00.000Z",
-    "variacion": -0.33
+    "fechaActualizacion": "2026-06-30T10:00:00.000Z",
+    "variacion": 0
   },
   {
     "moneda": "USD",
@@ -23,7 +23,7 @@
     "nombre": "Bolsa",
     "compra": 1509.87,
     "venta": 1509.87,
-    "fechaActualizacion": "2026-06-29T19:55:00.000Z",
+    "fechaActualizacion": "2026-06-30T10:00:00.000Z",
     "variacion": 0.7
   },
   {
@@ -32,8 +32,8 @@
     "nombre": "Contado con liquidación",
     "compra": 1554.73,
     "venta": 1554.73,
-    "fechaActualizacion": "2026-06-29T19:55:00.000Z",
-    "variacion": 0.83
+    "fechaActualizacion": "2026-06-30T10:00:00.000Z",
+    "variacion": 0.8
   },
   {
     "moneda": "USD",
@@ -41,34 +41,34 @@
     "nombre": "Mayorista",
     "compra": 1472.5,
     "venta": 1481.5,
-    "fechaActualizacion": "2026-06-29T15:47:00.000Z",
-    "variacion": 0.3
+    "fechaActualizacion": "2026-06-30T09:03:00.000Z",
+    "variacion": 0
   },
   {
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1550.19,
-    "venta": 1550.19,
-    "fechaActualizacion": "2026-06-30T09:00:00.000Z",
-    "variacion": -0.08
+    "compra": 1556.06,
+    "venta": 1556.06,
+    "fechaActualizacion": "2026-06-30T10:00:00.000Z",
+    "variacion": 0
   },
   {
     "moneda": "USD",
     "casa": "tarjeta",
     "nombre": "Tarjeta",
-    "compra": 1445,
-    "venta": 1943.5,
-    "fechaActualizacion": "2026-06-29T18:55:00.000Z",
-    "variacion": 0
+    "compra": 1450,
+    "venta": 1950,
+    "fechaActualizacion": "2026-06-30T10:00:00.000Z",
+    "variacion": 0.33
   },
   {
     "moneda": "USD",
     "casa": "bna",
     "nombre": "BNA",
-    "compra": 1445,
-    "venta": 1495,
-    "variacion": 0,
-    "fechaActualizacion": "2026-06-29T18:55:00.000Z"
+    "compra": 1450,
+    "venta": 1500,
+    "variacion": 0.33,
+    "fechaActualizacion": "2026-06-30T10:00:00.000Z"
   }
 ]
