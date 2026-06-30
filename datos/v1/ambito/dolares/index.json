@@ -12,46 +12,46 @@
     "moneda": "USD",
     "casa": "blue",
     "nombre": "Blue",
-    "compra": 1490,
-    "venta": 1510,
-    "fechaActualizacion": "2026-06-30T14:00:00.000Z",
-    "variacion": 0
+    "compra": 1495,
+    "venta": 1515,
+    "fechaActualizacion": "2026-06-30T15:00:00.000Z",
+    "variacion": 0.33
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1510.12,
-    "venta": 1510.12,
-    "fechaActualizacion": "2026-06-30T14:00:00.000Z",
+    "compra": 1510.59,
+    "venta": 1510.59,
+    "fechaActualizacion": "2026-06-30T15:00:00.000Z",
     "variacion": 0
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1557.52,
-    "venta": 1557.52,
-    "fechaActualizacion": "2026-06-30T14:00:00.000Z",
-    "variacion": 0.2
+    "compra": 1557.05,
+    "venta": 1557.05,
+    "fechaActualizacion": "2026-06-30T15:00:00.000Z",
+    "variacion": 0.1
   },
   {
     "moneda": "USD",
     "casa": "mayorista",
     "nombre": "Mayorista",
-    "compra": 1475,
-    "venta": 1484,
-    "fechaActualizacion": "2026-06-30T13:44:00.000Z",
-    "variacion": 0.17
+    "compra": 1474,
+    "venta": 1483,
+    "fechaActualizacion": "2026-06-30T14:50:00.000Z",
+    "variacion": 0.1
   },
   {
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1553.06,
-    "venta": 1553.06,
-    "fechaActualizacion": "2026-06-30T14:00:00.000Z",
-    "variacion": 0.07
+    "compra": 1554.42,
+    "venta": 1554.42,
+    "fechaActualizacion": "2026-06-30T15:00:00.000Z",
+    "variacion": 0.06
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1450,
     "venta": 1950,
-    "fechaActualizacion": "2026-06-30T14:00:00.000Z",
+    "fechaActualizacion": "2026-06-30T15:00:00.000Z",
     "variacion": 0.33
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1450,
     "venta": 1500,
     "variacion": 0.33,
-    "fechaActualizacion": "2026-06-30T14:00:00.000Z"
+    "fechaActualizacion": "2026-06-30T15:00:00.000Z"
   }
 ]
