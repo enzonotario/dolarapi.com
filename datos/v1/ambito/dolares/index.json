@@ -3,10 +3,10 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 1448.88,
-    "venta": 1500.6,
-    "fechaActualizacion": "2026-06-30T13:46:00.000Z",
-    "variacion": 0.16
+    "compra": 1450.6,
+    "venta": 1502.09,
+    "fechaActualizacion": "2026-06-30T16:11:00.000Z",
+    "variacion": 0.26
   },
   {
     "moneda": "USD",
@@ -14,26 +14,26 @@
     "nombre": "Blue",
     "compra": 1495,
     "venta": 1515,
-    "fechaActualizacion": "2026-06-30T16:00:00.000Z",
+    "fechaActualizacion": "2026-06-30T17:00:00.000Z",
     "variacion": 0.33
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1514.32,
-    "venta": 1514.32,
-    "fechaActualizacion": "2026-06-30T16:00:00.000Z",
-    "variacion": 0.3
+    "compra": 1520.27,
+    "venta": 1520.27,
+    "fechaActualizacion": "2026-06-30T17:00:00.000Z",
+    "variacion": 0.7
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1562.46,
-    "venta": 1562.46,
-    "fechaActualizacion": "2026-06-30T16:00:00.000Z",
-    "variacion": 0.5
+    "compra": 1589.71,
+    "venta": 1589.71,
+    "fechaActualizacion": "2026-06-30T17:00:00.000Z",
+    "variacion": 2.2
   },
   {
     "moneda": "USD",
@@ -48,10 +48,10 @@
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1555.42,
-    "venta": 1555.42,
-    "fechaActualizacion": "2026-06-30T16:00:00.000Z",
-    "variacion": 0
+    "compra": 1559.52,
+    "venta": 1559.52,
+    "fechaActualizacion": "2026-06-30T17:00:00.000Z",
+    "variacion": 0.04
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1450,
     "venta": 1950,
-    "fechaActualizacion": "2026-06-30T16:00:00.000Z",
+    "fechaActualizacion": "2026-06-30T17:00:00.000Z",
     "variacion": 0.33
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1450,
     "venta": 1500,
     "variacion": 0.33,
-    "fechaActualizacion": "2026-06-30T16:00:00.000Z"
+    "fechaActualizacion": "2026-06-30T17:00:00.000Z"
   }
 ]

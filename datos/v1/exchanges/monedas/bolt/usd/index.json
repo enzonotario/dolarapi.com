@@ -5,8 +5,8 @@
     "monedaBase": "BOLt",
     "criptomoneda": "USDT",
     "criptomonedaBase": null,
-    "compra": 0.09956192592592593,
-    "venta": 0.10259545994570649
+    "compra": 0.0993616,
+    "venta": 0.10238903044883384
   },
   {
     "exchange": "belo",
@@ -14,7 +14,7 @@
     "monedaBase": "BOLt",
     "criptomoneda": "USDC",
     "criptomonedaBase": null,
-    "compra": 0.099289687503348,
-    "venta": 0.10262335759235118
+    "compra": 0.0990958477284373,
+    "venta": 0.10242300979444818
   }
 ]
