@@ -5,8 +5,8 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDT",
-    "compra": 0.0006363676744057885,
-    "venta": 0.0006492277598103995
+    "compra": 0.0006319243106337695,
+    "venta": 0.0006446945730448944
   },
   {
     "exchange": "belo",
@@ -14,7 +14,7 @@
     "monedaBase": "USD",
     "criptomoneda": null,
     "criptomonedaBase": "USDC",
-    "compra": 0.0006371744524393554,
-    "venta": 0.0006500508469772505
+    "compra": 0.0006330070646120439,
+    "venta": 0.0006457992149535583
   }
 ]
