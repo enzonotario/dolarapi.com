@@ -3,14 +3,14 @@
     "exchange": "belo",
     "moneda": "MEXt",
     "monedaBase": "COLt",
-    "compra": 0.005359572373173531,
-    "venta": 0.005063022040775802
+    "compra": 0.00539586285831731,
+    "venta": 0.005058333307035802
   },
   {
     "exchange": "belo",
     "moneda": "MEXt",
     "monedaBase": "COLt",
-    "compra": 0.005063022040775802,
-    "venta": 0.005359572373173531
+    "compra": 0.005058333307035802,
+    "venta": 0.00539586285831731
   }
 ]
