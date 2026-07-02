@@ -3,14 +3,14 @@
     "exchange": "belo",
     "moneda": "BRAt",
     "monedaBase": "COLt",
-    "compra": 0.001612091722087706,
-    "venta": 0.0015407893333333332
+    "compra": 0.0016069720800156895,
+    "venta": 0.0015348088888888888
   },
   {
     "exchange": "belo",
     "moneda": "BRAt",
     "monedaBase": "COLt",
-    "compra": 0.0015407893333333332,
-    "venta": 0.001612091722087706
+    "compra": 0.0015348088888888888,
+    "venta": 0.0016069720800156895
   }
 ]
