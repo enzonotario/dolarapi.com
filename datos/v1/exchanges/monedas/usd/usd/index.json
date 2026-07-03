@@ -5,8 +5,8 @@
     "monedaBase": "USD",
     "criptomoneda": "USDT",
     "criptomonedaBase": "USDC",
-    "compra": 0.99939865,
-    "venta": 1.002411365
+    "compra": 0.999448575,
+    "venta": 1.00246144
   },
   {
     "exchange": "belo",
@@ -14,8 +14,8 @@
     "monedaBase": "USD",
     "criptomoneda": "USDC",
     "criptomonedaBase": "USDT",
-    "compra": 1.0006017118394146,
-    "venta": 0.9975944356935738
+    "compra": 1.0005517292372947,
+    "venta": 0.9975446038103969
   },
   {
     "exchange": "belo",
@@ -42,7 +42,7 @@
     "criptomoneda": "USDT",
     "criptomonedaBase": "USD_AR",
     "compra": 0.9523809523809523,
-    "venta": 0.9803921568627451
+    "venta": 0.9813542688910698
   },
   {
     "exchange": "belo",
@@ -51,6 +51,6 @@
     "criptomoneda": "USD_AR",
     "criptomonedaBase": "USDT",
     "compra": 1.05,
-    "venta": 1.02
+    "venta": 1.019
   }
 ]
