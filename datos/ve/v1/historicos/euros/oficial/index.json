@@ -6710,5 +6710,13 @@
     "promedio": 747.3271407,
     "fecha": "2026-07-03",
     "moneda": "EUR"
+  },
+  {
+    "fuente": "oficial",
+    "compra": null,
+    "venta": null,
+    "promedio": 763.1919165,
+    "fecha": "2026-07-06",
+    "moneda": "EUR"
   }
 ]
