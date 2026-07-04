@@ -3,7 +3,7 @@
     "exchange": "belo",
     "moneda": "PERt",
     "monedaBase": "BRAt",
-    "compra": 0.6283018867924528,
+    "compra": 0.6264150943396226,
     "venta": 0.6580679126085812
   },
   {
@@ -11,6 +11,6 @@
     "moneda": "PERt",
     "monedaBase": "BRAt",
     "compra": 0.6580679126085812,
-    "venta": 0.6283018867924528
+    "venta": 0.6264150943396226
   }
 ]
