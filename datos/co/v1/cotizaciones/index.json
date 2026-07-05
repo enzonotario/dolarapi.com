@@ -5,7 +5,7 @@
     "compra": 3348.73,
     "venta": 3352.23,
     "ultimoCierre": 3365.75,
-    "fechaActualizacion": "2026-07-04T12:03:48.490Z"
+    "fechaActualizacion": "2026-07-05T12:02:48.139Z"
   },
   {
     "moneda": "EUR",
@@ -13,7 +13,7 @@
     "compra": 3719.5,
     "venta": 3978.9,
     "ultimoCierre": 3848,
-    "fechaActualizacion": "2026-07-04T12:03:55.053Z"
+    "fechaActualizacion": "2026-07-05T12:02:55.961Z"
   },
   {
     "moneda": "BRL",
@@ -21,15 +21,15 @@
     "compra": 647.71,
     "venta": 648.39,
     "ultimoCierre": 647.18,
-    "fechaActualizacion": "2026-07-04T12:03:54.859Z"
+    "fechaActualizacion": "2026-07-05T12:02:45.034Z"
   },
   {
     "moneda": "MXN",
     "nombre": "Peso Mexicano",
-    "compra": 191.7,
-    "venta": 191.9,
-    "ultimoCierre": 192.66,
-    "fechaActualizacion": "2026-07-04T12:04:07.104Z"
+    "compra": 0,
+    "venta": 0,
+    "ultimoCierre": 0,
+    "fechaActualizacion": "2026-07-05T12:03:13.280Z"
   },
   {
     "moneda": "CLP",
@@ -37,7 +37,7 @@
     "compra": 3.6356,
     "venta": 3.6394,
     "ultimoCierre": 3.6349,
-    "fechaActualizacion": "2026-07-04T12:03:33.821Z"
+    "fechaActualizacion": "2026-07-05T12:03:03.951Z"
   },
   {
     "moneda": "PEN",
@@ -45,7 +45,7 @@
     "compra": 983.21,
     "venta": 984.24,
     "ultimoCierre": 989.34,
-    "fechaActualizacion": "2026-07-04T12:03:41.320Z"
+    "fechaActualizacion": "2026-07-05T12:02:55.111Z"
   },
   {
     "moneda": "ARS",
@@ -53,6 +53,6 @@
     "compra": 2.25,
     "venta": 2.25,
     "ultimoCierre": 2.26,
-    "fechaActualizacion": "2026-07-04T12:04:00.978Z"
+    "fechaActualizacion": "2026-07-05T12:02:50.816Z"
   }
 ]

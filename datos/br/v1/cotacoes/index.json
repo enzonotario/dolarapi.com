@@ -5,7 +5,7 @@
     "compra": 0.0035,
     "venda": 0.0035,
     "fechoAnterior": 0.0035,
-    "dataAtualizacao": "2026-07-04T12:02:38.307Z"
+    "dataAtualizacao": "2026-07-05T12:01:50.513Z"
   },
   {
     "moeda": "USD",
@@ -13,7 +13,7 @@
     "compra": 5.1699,
     "venda": 5.1702,
     "fechoAnterior": 5.1682,
-    "dataAtualizacao": "2023-07-03T00:00:00.000Z"
+    "dataAtualizacao": "2026-07-03T14:01:00.000Z"
   },
   {
     "moeda": "EUR",
@@ -21,7 +21,7 @@
     "compra": 5.9242,
     "venda": 5.9382,
     "fechoAnterior": 5.9702,
-    "dataAtualizacao": "2026-07-04T12:03:02.784Z"
+    "dataAtualizacao": "2026-07-05T12:02:19.139Z"
   },
   {
     "moeda": "CLP",
@@ -29,7 +29,7 @@
     "compra": 0.005613,
     "venda": 0.005613,
     "fechoAnterior": 0.005616,
-    "dataAtualizacao": "2026-07-04T12:03:12.446Z"
+    "dataAtualizacao": "2026-07-05T12:02:29.164Z"
   },
   {
     "moeda": "UYU",
@@ -37,6 +37,6 @@
     "compra": 0.1284,
     "venda": 0.1284,
     "fechoAnterior": 0.1296,
-    "dataAtualizacao": "2026-07-04T12:03:24.906Z"
+    "dataAtualizacao": "2026-07-05T12:02:37.503Z"
   }
 ]
