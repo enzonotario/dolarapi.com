@@ -3,10 +3,10 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 1460.96,
-    "venta": 1512.63,
-    "fechaActualizacion": "2026-07-06T13:45:00.000Z",
-    "variacion": 0
+    "compra": 1460.9,
+    "venta": 1512.5,
+    "fechaActualizacion": "2026-07-06T15:58:00.000Z",
+    "variacion": 0.36
   },
   {
     "moneda": "USD",
@@ -14,26 +14,26 @@
     "nombre": "Blue",
     "compra": 1495,
     "venta": 1515,
-    "fechaActualizacion": "2026-07-06T15:00:00.000Z",
+    "fechaActualizacion": "2026-07-06T16:00:00.000Z",
     "variacion": 0
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1522.24,
-    "venta": 1522.24,
-    "fechaActualizacion": "2026-07-06T15:00:00.000Z",
-    "variacion": -0.2
+    "compra": 1524.9,
+    "venta": 1524.9,
+    "fechaActualizacion": "2026-07-06T16:00:00.000Z",
+    "variacion": 0
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1565.97,
-    "venta": 1565.97,
-    "fechaActualizacion": "2026-07-06T15:00:00.000Z",
-    "variacion": -1.9
+    "compra": 1569.45,
+    "venta": 1569.45,
+    "fechaActualizacion": "2026-07-06T16:00:00.000Z",
+    "variacion": -1.7
   },
   {
     "moneda": "USD",
@@ -48,10 +48,10 @@
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1559.49,
-    "venta": 1559.49,
-    "fechaActualizacion": "2026-07-06T15:00:00.000Z",
-    "variacion": 0.04
+    "compra": 1555.33,
+    "venta": 1555.33,
+    "fechaActualizacion": "2026-07-06T16:00:00.000Z",
+    "variacion": 0.08
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1460,
     "venta": 1963,
-    "fechaActualizacion": "2026-07-06T15:00:00.000Z",
+    "fechaActualizacion": "2026-07-06T16:00:00.000Z",
     "variacion": 0
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1460,
     "venta": 1510,
     "variacion": 0,
-    "fechaActualizacion": "2026-07-06T15:00:00.000Z"
+    "fechaActualizacion": "2026-07-06T16:00:00.000Z"
   }
 ]
