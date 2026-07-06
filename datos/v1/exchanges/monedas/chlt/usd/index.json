@@ -5,8 +5,8 @@
     "monedaBase": "CHLt",
     "criptomoneda": "USDT",
     "criptomonedaBase": null,
-    "compra": 0.0010653234567901235,
-    "venta": 0.0010966843870191109
+    "compra": 0.001064632098765432,
+    "venta": 0.0010962114183026743
   },
   {
     "exchange": "belo",
@@ -14,7 +14,7 @@
     "monedaBase": "CHLt",
     "criptomoneda": "USDC",
     "criptomonedaBase": null,
-    "compra": 0.0010630475145833012,
-    "venta": 0.0010976403714123906
+    "compra": 0.001062442574609973,
+    "venta": 0.0010972547155175564
   }
 ]
