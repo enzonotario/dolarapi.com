@@ -1,43 +1,43 @@
-exportar const casas = [
+export const casas = [
   {
     identificador: 'oficial',
     nombre: 'Oficial',
-    permiteCompra: verdadero,
+    permiteCompra: true,
   },
   {
     identificador: 'blue',
     nombre: 'Blue',
-    permiteCompra: verdadero,
+    permiteCompra: true,
   },
   {
     identificador: 'bolsa',
     nombre: 'Bolsa',
-    permiteCompra: verdadero,
+    permiteCompra: true,
   },
   {
     identificador: 'contadoconliqui',
     nombre: 'Contado con liquidación',
-    permiteCompra: verdadero,
+    permiteCompra: true,
   },
   {
     identificador: 'mayorista',
     nombre: 'Mayorista',
-    permiteCompra: verdadero,
+    permiteCompra: true,
   },
   {
     identificador: 'cripto',
     nombre: 'Cripto',
-    permiteCompra: verdadero,
+    permiteCompra: true,
   },
   {
     identificador: 'tarjeta',
     nombre: 'Tarjeta',
-    permiteCompra: verdadero,
-    calculado: verdadero,
+    permiteCompra: true,
+    calculado: true,
   },
 ]
 
-exportar const monedas = [
+export const monedas = [
   {
     codigo: 'ARS',
     nombre: 'Peso Argentino',
@@ -70,11 +70,11 @@ exportar const monedas = [
   },
 ]
 
-exportar const monedaPorDefecto = 'ARS'
+export const monedaPorDefecto = 'ARS'
 
-exportar const monedasSoportadas = ['USD', 'EUR', 'BRL', 'CLP', 'UYU']
+export const monedasSoportadas = ['USD', 'EUR', 'BRL', 'CLP', 'UYU']
 
-exportar const dolarHoy = {
+export const dolarHoy = {
   baseUrl: 'https://dolarhoy.com/',
   dolares: {
     oficial: {
@@ -101,7 +101,7 @@ exportar const dolarHoy = {
     cripto: {
       href: '/seccion/bitcoins',
       extractor: 'cabecera',
-      titulo: 'Dólar cripto (USDT)',
+      titulo: 'Dólar Digital (USDC)',
     },
   },
   cotizaciones: {
@@ -128,7 +128,7 @@ exportar const dolarHoy = {
   },
 }
 
-exportar const ambito = {
+export const ambito = {
   baseUrl: 'https://www.ambito.com/contenidos/dolar.html',
   dolares: {
     oficial: {
@@ -158,13 +158,13 @@ exportar const ambito = {
   },
 }
 
-exportar const casaBnaAmbito = {
+export const casaBnaAmbito = {
   identificador: 'bna',
   nombre: 'BNA',
-  permiteCompra: verdadero,
+  permiteCompra: true,
 }
 
-exportar const casasAmbito = [
-  ...casas.filtrar((casa) => ambito.dolares[casa.identificador]),
+export const casasAmbito = [
+  ...casas.filter((casa) => ambito.dolares[casa.identificador]),
   casaBnaAmbito,
 ]
