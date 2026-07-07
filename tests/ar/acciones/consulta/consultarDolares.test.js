@@ -1,6 +1,6 @@
 import { expect, it } from 'vitest'
-import { consultarDolares } from '@/ar/acciones/consulta/consultarDolares.esjs'
-import { casas } from '@/ar/constantes.ar.esjs'
+import { consultarDolares } from '@/ar/acciones/consulta/consultarDolares.js'
+import { casas } from '@/ar/constantes.ar.js'
 
 it('consulta dólares', async () => {
   const respuesta = await consultarDolares()

@@ -9,7 +9,7 @@ const archivoBD = path.join(directorioTemporal, 'br.sqlite')
 
 describe('guardarCotizacionesBr con SQLite real', () => {
   it('crea la base de datos y guarda filas en la primera ejecución', async () => {
-    const { guardarCotizacionesBr } = await import('@/br/db.br.esjs')
+    const { guardarCotizacionesBr } = await import('@/br/db.br.js')
 
     const compra = faker.number.float()
     const venda = compra + faker.number.float()
@@ -40,7 +40,7 @@ describe('guardarCotizacionesBr con SQLite real', () => {
   })
 
   it('realiza upsert en ejecuciones sucesivas sin duplicar filas', async () => {
-    const { guardarCotizacionesBr } = await import('@/br/db.br.esjs')
+    const { guardarCotizacionesBr } = await import('@/br/db.br.js')
 
     const compra1 = faker.number.float()
     const venda1 = compra1 + faker.number.float()

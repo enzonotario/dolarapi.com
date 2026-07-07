@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import extraer from '@/mx/banxico.extractor.esjs'
+import extraer from '@/mx/banxico.extractor.js'
 
 describe('mx.dolarapi.com', () => {
   it('extraer dolares', async () => {

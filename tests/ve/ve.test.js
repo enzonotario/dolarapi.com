@@ -2,10 +2,10 @@ import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import Database from 'better-sqlite3'
 import { describe, expect, it } from 'vitest'
-import extraerBcv from '@/ve/bcv.extractor.esjs'
-import { extraerEurBcv } from '@/ve/bcv.extractor.esjs'
-import cron from '@/ve/cron.ve.esjs'
-import extraerYadio, { extraerEurYadio } from '@/ve/yadio.extractor.esjs'
+import extraerBcv from '@/ve/bcv.extractor.js'
+import { extraerEurBcv } from '@/ve/bcv.extractor.js'
+import cron from '@/ve/cron.ve.js'
+import extraerYadio, { extraerEurYadio } from '@/ve/yadio.extractor.js'
 
 describe('ve.dolarapi.com', () => {
   it('extraer dolar paralelo de Yadio', async () => {

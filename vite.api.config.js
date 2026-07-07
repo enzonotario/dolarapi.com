@@ -1,15 +1,11 @@
 import { URL, fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
-import EsJS from '@es-js/vite-plugin-esjs'
 import devServer from '@hono/vite-dev-server'
 
 export default defineConfig({
   plugins: [
-    // https://github.com/es-js/esjs
-    EsJS(),
-
     devServer({
-      entry: './api/api.esjs',
+      entry: './api/api.js',
     }),
   ],
 
@@ -17,14 +13,14 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./api', import.meta.url)),
     },
-    extensions: ['.js', '.json', '.jsx', '.mjs', '.ts', '.tsx', '.esjs'],
+    extensions: ['.js', '.json', '.jsx', '.mjs', '.ts', '.tsx'],
   },
 
   build: {
     outDir: './dist',
     emptyOutDir: false,
     rollupOptions: {
-      input: './api/api.esjs',
+      input: './api/api.js',
       output: {
         format: 'esm',
         entryFileNames: 'servidor/[name].js',

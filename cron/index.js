@@ -1,3 +1,3 @@
-import { iniciar } from './app.esjs'
+import { iniciar } from './app.js'
 
 iniciar()

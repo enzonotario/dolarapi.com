@@ -1,7 +1,7 @@
 import { describe, expect, it, vi } from 'vitest'
-import extraer from '@/cl/investing.extractor.cl.esjs'
+import extraer from '@/cl/investing.extractor.cl.js'
 
-vi.mock('@/utils/firecrawl.esjs', () => ({
+vi.mock('@/utils/firecrawl.js', () => ({
   debeEjecutarFirecrawlAhora: vi.fn().mockReturnValue(true),
   scrapearConFirecrawl: vi.fn().mockResolvedValue({
     compra: 5.5,

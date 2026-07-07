@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { extraerExchanges } from '@/ar/acciones/extraccion/extraerExchanges.esjs'
+import { extraerExchanges } from '@/ar/acciones/extraccion/extraerExchanges.js'
 
 describe('extraerExchanges', () => {
   it('extrae cotizaciones de exchanges', async () => {

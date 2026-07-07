@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import extraerDolarOficial from '@/bo/bcb.extractor.esjs'
-import extraerBinance from '@/bo/binance-bo.extractor.esjs'
+import extraerDolarOficial from '@/bo/bcb.extractor.js'
+import extraerBinance from '@/bo/binance-bo.extractor.js'
 
 describe('bo.dolarapi.com', () => {
   it('dolar oficial', async () => {

@@ -1,13 +1,7 @@
 import { URL, fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
-import EsJS from '@es-js/vite-plugin-esjs'
 
 export default defineConfig({
-  plugins: [
-    // https://github.com/es-js/esjs
-    EsJS(),
-  ],
-
   test: {},
 
   resolve: {
@@ -21,7 +15,6 @@ export default defineConfig({
       '.mjs',
       '.ts',
       '.tsx',
-      '.esjs',
     ],
   },
 

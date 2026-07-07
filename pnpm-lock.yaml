@@ -21,9 +21,6 @@ importers:
       '@egoist/tailwindcss-icons':
         specifier: ^1.9.0
         version: 1.9.0(tailwindcss@3.4.4(ts-node@10.9.1(@types/node@20.19.25)(typescript@5.9.3)))
-      '@es-js/vite-plugin-esjs':
-        specifier: 0.1.0-alpha.13
-        version: 0.1.0-alpha.13(@types/node@20.19.25)
       '@faker-js/faker':
         specifier: ^10.1.0
         version: 10.1.0
@@ -69,9 +66,6 @@ importers:
       date-fns:
         specifier: ^4.1.0
         version: 4.1.0
-      esjs-loader:
-        specifier: ^0.0.1
-        version: 0.0.1(@types/node@20.19.25)
       eslint:
         specifier: ^9.39.1
         version: 9.39.1(jiti@1.21.6)
@@ -108,9 +102,6 @@ importers:
       prettier:
         specifier: 3.0.3
         version: 3.0.3
-      prettier-plugin-esjs:
-        specifier: 0.1.0-alpha.13
-        version: 0.1.0-alpha.13(prettier@3.0.3)
       sitemap:
         specifier: ^9.0.0
         version: 9.0.0
@@ -445,9 +436,6 @@ packages:
   '@es-joy/resolve.exports@1.2.0':
     resolution: {integrity: sha512-Q9hjxWI5xBM+qW2enxfe8wDKdFWMfd0Z29k5ZJnuBqD/CasY5Zryj09aCA6owbGATWz+39p5uIdaHXpopOcG8g==}
     engines: {node: '>=10'}
-
-  '@es-js/vite-plugin-esjs@0.1.0-alpha.13':
-    resolution: {integrity: sha512-W666xzSIpysrl+jAeZ7GSjLL8YIOzXFtG+tCz8kzRD7fH132p0jnKCZq0BOkwtAqoQM5Onr8l0y+jcH3mWUKrQ==}
 
   '@esbuild-kit/cjs-loader@2.4.4':
     resolution: {integrity: sha512-NfsJX4PdzhwSkfJukczyUiZGc7zNNWZcEAyqeISpDnn0PTfzMJR1aR8xAIPskBejIxBJbIgCCMzbaYa9SXepIg==}
@@ -3243,9 +3231,6 @@ packages:
     engines: {node: '>=6.0'}
     hasBin: true
 
-  esjs-loader@0.0.1:
-    resolution: {integrity: sha512-1BGn6XchiOC5llo9J4pO3QW44FCyaeQLgw5lqyyEO6ydD0Ollwiw4vyiUDlHRNvxgxkBYYETjHpTcFaBEwTaBQ==}
-
   eslint-compat-utils@0.5.1:
     resolution: {integrity: sha512-3z3vFexKIEnjHE3zCMRo6fn/e44U7T1khUjg+Hp0ZQMCigh28rALD0nPFBcGZuiLC5rLZa2ubQHDRln09JfU2Q==}
     engines: {node: '>=12'}
@@ -4955,11 +4940,6 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier-plugin-esjs@0.1.0-alpha.13:
-    resolution: {integrity: sha512-5kX4QAr6Hm37DAAFVEwfKiTTnE3ms7+zqaxzd6tXRLNoLftSRkI3ulk581pQlVnNPb2IzrxsTGJ3jEnOc8/jaQ==}
-    peerDependencies:
-      prettier: ^3.0.0
-
   prettier@3.0.3:
     resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
     engines: {node: '>=14'}
@@ -5138,11 +5118,6 @@ packages:
 
   rolldown@1.0.0-beta.35:
     resolution: {integrity: sha512-gJATyqcsJe0Cs8RMFO8XgFjfTc0lK1jcSvirDQDSIfsJE+vt53QH/Ob+OBSJsXb98YtZXHfP/bHpELpPwCprow==}
-    hasBin: true
-
-  rollup@3.29.4:
-    resolution: {integrity: sha512-oWzmBZwvYrU0iJHtDmhsm662rC15FRXmcjCk1xD771dFDx5jJ02ufAQQTn0etB2emNk4J9EZg/yWKpsn9BWGRw==}
-    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
 
   rollup@4.28.1:
@@ -5789,34 +5764,6 @@ packages:
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
 
-  vite@4.5.3:
-    resolution: {integrity: sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    hasBin: true
-    peerDependencies:
-      '@types/node': '>= 14'
-      less: '*'
-      lightningcss: ^1.21.0
-      sass: '*'
-      stylus: '*'
-      sugarss: '*'
-      terser: ^5.4.0
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-      less:
-        optional: true
-      lightningcss:
-        optional: true
-      sass:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      terser:
-        optional: true
-
   vite@5.4.14:
     resolution: {integrity: sha512-EK5cY7Q1D8JNhSaPKVK4pwBFvaTmZxEnoKXLG/U9gmdDcihQGNzFlgIvaxezFR4glP1LsuiedwMBqCXH3wZccA==}
     engines: {node: ^18.0.0 || >=20.0.0}
@@ -6431,18 +6378,6 @@ snapshots:
       jsdoc-type-pratt-parser: 6.10.0
 
   '@es-joy/resolve.exports@1.2.0': {}
-
-  '@es-js/vite-plugin-esjs@0.1.0-alpha.13(@types/node@20.19.25)':
-    dependencies:
-      vite: 4.5.3(@types/node@20.19.25)
-    transitivePeerDependencies:
-      - '@types/node'
-      - less
-      - lightningcss
-      - sass
-      - stylus
-      - sugarss
-      - terser
 
   '@esbuild-kit/cjs-loader@2.4.4':
     dependencies:
@@ -9278,18 +9213,6 @@ snapshots:
     optionalDependencies:
       source-map: 0.6.1
 
-  esjs-loader@0.0.1(@types/node@20.19.25):
-    dependencies:
-      vite: 4.5.3(@types/node@20.19.25)
-    transitivePeerDependencies:
-      - '@types/node'
-      - less
-      - lightningcss
-      - sass
-      - stylus
-      - sugarss
-      - terser
-
   eslint-compat-utils@0.5.1(eslint@9.39.1(jiti@1.21.6)):
     dependencies:
       eslint: 9.39.1(jiti@1.21.6)
@@ -11305,10 +11228,6 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-esjs@0.1.0-alpha.13(prettier@3.0.3):
-    dependencies:
-      prettier: 3.0.3
-
   prettier@3.0.3: {}
 
   pretty-ms@7.0.1:
@@ -11518,10 +11437,6 @@ snapshots:
       '@rolldown/binding-win32-arm64-msvc': 1.0.0-beta.35
       '@rolldown/binding-win32-ia32-msvc': 1.0.0-beta.35
       '@rolldown/binding-win32-x64-msvc': 1.0.0-beta.35
-
-  rollup@3.29.4:
-    optionalDependencies:
-      fsevents: 2.3.3
 
   rollup@4.28.1:
     dependencies:
@@ -12396,15 +12311,6 @@ snapshots:
       - terser
       - tsx
       - yaml
-
-  vite@4.5.3(@types/node@20.19.25):
-    dependencies:
-      esbuild: 0.18.20
-      postcss: 8.5.6
-      rollup: 3.29.4
-    optionalDependencies:
-      '@types/node': 20.19.25
-      fsevents: 2.3.3
 
   vite@5.4.14(@types/node@20.19.25):
     dependencies:

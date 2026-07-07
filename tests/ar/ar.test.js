@@ -1,14 +1,14 @@
 import { describe, expect, it } from 'vitest'
-import { extraerAmbito } from '@/ar/acciones/extraccion/extraerAmbito.esjs'
-import { extraerExchanges } from '@/ar/acciones/extraccion/extraerExchanges.esjs'
-import { extraerInvertirOnline } from '@/ar/acciones/extraccion/extraerInvertirOnline.esjs'
-import { extraerCotizaciones } from '@/ar/bna.extractor.esjs'
-import { extraerDolares } from '@/ar/dolarhoy.dolares.extractor.esjs'
+import { extraerAmbito } from '@/ar/acciones/extraccion/extraerAmbito.js'
+import { extraerExchanges } from '@/ar/acciones/extraccion/extraerExchanges.js'
+import { extraerInvertirOnline } from '@/ar/acciones/extraccion/extraerInvertirOnline.js'
+import { extraerCotizaciones } from '@/ar/bna.extractor.js'
+import { extraerDolares } from '@/ar/dolarhoy.dolares.extractor.js'
 
 describe(
   'dolarapi.com (Argentina)',
   () => {
-    it('dolarhoy.dolares.extractor.esjs', async () => {
+    it('dolarhoy.dolares.extractor.js', async () => {
       const dolares = await extraerDolares()
 
       expect(dolares.length).toBeGreaterThan(0)
@@ -37,7 +37,7 @@ describe(
       })
     })
 
-    it('bna.extractor.esjs', async () => {
+    it('bna.extractor.js', async () => {
       const cotizaciones = await extraerCotizaciones()
 
       expect(cotizaciones.length).toBeGreaterThan(0)

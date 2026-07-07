@@ -1,9 +1,9 @@
 import { describe, expect, it, vi } from 'vitest'
-import { monedas } from '@/co/constantes.co.esjs'
-import extraer from '@/co/investing.extractor.co.esjs'
-import extraerTrm from '@/co/trm.extractor.co.esjs'
+import { monedas } from '@/co/constantes.co.js'
+import extraer from '@/co/investing.extractor.co.js'
+import extraerTrm from '@/co/trm.extractor.co.js'
 
-vi.mock('@/utils/firecrawl.esjs', () => ({
+vi.mock('@/utils/firecrawl.js', () => ({
   debeEjecutarFirecrawlAhora: vi.fn().mockReturnValue(true),
   scrapearConFirecrawl: vi.fn().mockResolvedValue({
     compra: 5.5,
@@ -12,7 +12,7 @@ vi.mock('@/utils/firecrawl.esjs', () => ({
   }),
 }))
 
-describe('investing.extractor.co.esjs', () => {
+describe('investing.extractor.co.js', () => {
   it('extrae cotizaciones de monedas usando Firecrawl', {
     timeout: 180000,
   }, async () => {
@@ -30,7 +30,7 @@ describe('investing.extractor.co.esjs', () => {
   })
 })
 
-describe('trm.extractor.co.esjs', () => {
+describe('trm.extractor.co.js', () => {
   it('extrae la TRM oficial de Colombia desde Superfinanciera', {
     timeout: 30000,
   }, async () => {

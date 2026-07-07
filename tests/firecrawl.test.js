@@ -1,8 +1,8 @@
 import { describe, expect, it, vi } from 'vitest'
-import { scrapearConFirecrawl, debeEjecutarFirecrawlAhora } from '@/utils/firecrawl.esjs'
-import { grupo } from '@/log.esjs'
+import { scrapearConFirecrawl, debeEjecutarFirecrawlAhora } from '@/utils/firecrawl.js'
+import { grupo } from '@/log.js'
 
-describe('firecrawl.esjs', () => {
+describe('firecrawl.js', () => {
   it('debeEjecutarFirecrawlAhora retorna true a las 12 y 20 UTC y false en otras horas', () => {
     vi.useFakeTimers()
     vi.setSystemTime(new Date('2025-01-15T12:00:00.000Z'))

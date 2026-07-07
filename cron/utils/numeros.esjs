@@ -1,6 +1,0 @@
-importar parseDecimalNumber desde 'parse-decimal-number'
-
-exportar funcion interpretarDecimalConComa(valor) {
-  valor = valor.reemplazar('$', '') // Quitar el signo de pesos.
-  retornar parseDecimalNumber(valor, '.,')
-}

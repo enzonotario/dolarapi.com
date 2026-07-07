@@ -1,6 +1,6 @@
 import { describe, expect, it, vi } from 'vitest'
 import axios from 'axios'
-import { extraerInvertirOnline } from '@/ar/acciones/extraccion/extraerInvertirOnline.esjs'
+import { extraerInvertirOnline } from '@/ar/acciones/extraccion/extraerInvertirOnline.js'
 
 vi.mock('axios')
 

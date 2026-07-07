@@ -1,3 +1,0 @@
-exportar funcion interpretarValorMonetario(valor) {
-  retornar Numero(valor.reemplazar(',', '.'));
-}

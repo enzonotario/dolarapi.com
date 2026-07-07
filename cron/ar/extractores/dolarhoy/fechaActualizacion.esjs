@@ -1,7 +1,0 @@
-importar { parse } desde 'date-fns'
-
-exportar funcion obtenerFechaActualizacion($) {
-  const texto = $('.update')
-    .text().dividir('Actualizado por última vez: ')[1].recortarEspacios()
-  retornar parse(texto + ' -03', 'dd/MM/yy hh:mm aa x', crear Fecha());
-}

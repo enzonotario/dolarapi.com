@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import extraer from '@/uy/brou.extractor.esjs'
+import extraer from '@/uy/brou.extractor.js'
 
 describe('uy.dolarapi.com', () => {
   it('extraer dolares', async () => {

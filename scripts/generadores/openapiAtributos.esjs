@@ -1,7 +1,0 @@
-exportar funcion openapiAtributos(openapi, operationId) {
-  const operation = openapi.getOperation(operationId)
-
-  retornar {
-    operation: operation,
-  }
-}

@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import {
   calcularDolarTarjeta,
   dolarOficialDesdeBna,
-} from '@/ar/acciones/consulta/consultarDolares.esjs'
+} from '@/ar/acciones/consulta/consultarDolares.js'
 
 describe('consultarDolares', () => {
   it('usa el dólar BNA de ámbito como oficial', () => {

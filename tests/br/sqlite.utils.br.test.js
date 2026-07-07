@@ -2,12 +2,12 @@ import path from 'node:path'
 import Database from 'better-sqlite3'
 import { describe, expect, it } from 'vitest'
 import { faker } from '@faker-js/faker'
-import { abrirBD, asegurarDirectorio, asegurarTabla, cerrarBD, ejecutarTransaccion, prepararUpsert } from '@/utils/sqlite.esjs'
+import { abrirBD, asegurarDirectorio, asegurarTabla, cerrarBD, ejecutarTransaccion, prepararUpsert } from '@/utils/sqlite.js'
 
 const directorioTemporal = path.join('datos', 'br')
 const archivoBD = path.join(directorioTemporal, 'br.sqlite')
 
-describe('utils/sqlite.esjs en contexto BR', () => {
+describe('utils/sqlite.js en contexto BR', () => {
   it('crea la base de datos y guarda filas', () => {
     asegurarDirectorio(directorioTemporal)
     const db = abrirBD(archivoBD)

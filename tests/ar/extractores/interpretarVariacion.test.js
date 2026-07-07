@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest'
-import { interpretarVariacion } from '@/ar/extractores/ambito/interpretarVariacion.esjs'
+import { interpretarVariacion } from '@/ar/extractores/ambito/interpretarVariacion.js'
 
 it('interpreta variacion porcentual positiva', () => {
   expect(interpretarVariacion('2,50%')).toBe(2.5)

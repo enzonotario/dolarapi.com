@@ -1,7 +1,7 @@
 import { describe, expect, it, vi } from 'vitest'
-import extractor from '@/br/yahoo.extractor.br.esjs'
+import extractor from '@/br/yahoo.extractor.br.js'
 
-vi.mock('@/utils/firecrawl.esjs', () => ({
+vi.mock('@/utils/firecrawl.js', () => ({
   debeEjecutarFirecrawlAhora: vi.fn().mockReturnValue(true),
   scrapearConFirecrawl: vi.fn().mockResolvedValue({
     compra: 5.5,
@@ -11,7 +11,7 @@ vi.mock('@/utils/firecrawl.esjs', () => ({
   }),
 }))
 
-describe('yahoo.extractor.br.esjs', () => {
+describe('yahoo.extractor.br.js', () => {
   it('extrae USD/BRL desde Investing.com usando Firecrawl', {
     timeout: 60000,
   }, async () => {

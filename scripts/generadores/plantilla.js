@@ -1,0 +1,24 @@
+export function plantilla(operationId, operation, hideBranding = false) {
+    const dataSource = operation['x-data-source'] ? `
+<DataSources :sources="description.operation['x-data-source']" />
+` : '';
+
+    const markdown = `<OAOperation :spec="spec" operationId="${operationId}" :hide-branding="${hideBranding}">
+
+<template #description="description">
+
+${operation.description || ''}
+${dataSource}
+</template>
+
+<template #footer>
+
+<!--@include: ./parts/${operationId}-footer.md -->
+
+</template>
+
+</OAOperation>`;
+
+    return markdown;
+}
+

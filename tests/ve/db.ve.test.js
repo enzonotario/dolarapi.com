@@ -19,7 +19,7 @@ describe('guardarCotizacionesVe con SQLite real', () => {
   })
 
   it('crea la base de datos y guarda filas en la primera ejecución', async () => {
-    const { guardarCotizacionesVe } = await import('@/ve/db.ve.esjs')
+    const { guardarCotizacionesVe } = await import('@/ve/db.ve.js')
 
     const compra = faker.number.float()
     const venta = compra + faker.number.float()
@@ -51,7 +51,7 @@ describe('guardarCotizacionesVe con SQLite real', () => {
   })
 
   it('acumula historial en ejecuciones sucesivas', async () => {
-    const { guardarCotizacionesVe } = await import('@/ve/db.ve.esjs')
+    const { guardarCotizacionesVe } = await import('@/ve/db.ve.js')
 
     const compra1 = faker.number.float()
     const venta1 = compra1 + faker.number.float()
@@ -94,7 +94,7 @@ describe('guardarCotizacionesVe con SQLite real', () => {
   })
 
   it('guarda múltiples cotizaciones con distinta moneda y fuente', async () => {
-    const { guardarCotizacionesVe } = await import('@/ve/db.ve.esjs')
+    const { guardarCotizacionesVe } = await import('@/ve/db.ve.js')
 
     const cotizaciones = [
       {
