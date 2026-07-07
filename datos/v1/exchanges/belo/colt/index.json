@@ -4,7 +4,7 @@
     "moneda": "ARS",
     "monedaBase": "COLt",
     "compra": 0.4838398000251473,
-    "venta": 0.4591895802469136
+    "venta": 0.4588942814814815
   },
   {
     "exchange": "belo",
@@ -18,21 +18,21 @@
     "moneda": "ARGt",
     "monedaBase": "COLt",
     "compra": 0.4838398000251473,
-    "venta": 0.4591895802469136
+    "venta": 0.4588942814814815
   },
   {
     "exchange": "belo",
     "moneda": "MEXt",
     "monedaBase": "COLt",
-    "compra": 0.005406399467153424,
-    "venta": 0.00506813025483684
+    "compra": 0.005413912816684174,
+    "venta": 0.005073863433858148
   },
   {
     "exchange": "belo",
     "moneda": "CHLt",
     "monedaBase": "COLt",
-    "compra": 0.2889936521546955,
-    "venta": 0.27036871626854814
+    "compra": 0.28943012519872846,
+    "venta": 0.2707579073435407
   },
   {
     "exchange": "belo",
