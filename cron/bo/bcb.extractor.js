@@ -1,6 +1,7 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
 import {parse} from 'date-fns';
+import {es} from 'date-fns/locale';
 import tryToCatch from 'try-to-catch';
 import {grupo, logError} from '@/log.js';
 
@@ -20,6 +21,70 @@ export default async function () {
     return extraerDolar(respuesta);
 }
 
+export function extraerDolar(html) {
+    const $ = cheerio.load(html);
+
+    const tipoCambio = extraerTipoCambioUsd($);
+
+    if (!tipoCambio) {
+        throw new Error('No se encontró la cotización oficial del dólar (USD)');
+    }
+
+    const valor = interpretarValorMonetario(tipoCambio);
+
+    return {
+        moneda: 'USD',
+        casa: 'oficial',
+        nombre: 'Oficial',
+        compra: valor,
+        venta: valor,
+        fechaActualizacion: extraerFechaActualizacion($),
+    };
+}
+
+function extraerTipoCambioUsd($) {
+    let tipoCambio = null;
+
+    $('table.tabla-cotizacion')
+        .first()
+        .find('tr')
+        .each((_, fila) => {
+            const codigo = $(fila)
+                .find('td.centro')
+                .text()
+                .trim();
+
+            if (codigo === 'USD') {
+                tipoCambio = $(fila)
+                    .find('td.numero')
+                    .text()
+                    .trim();
+            }
+        });
+
+    return tipoCambio;
+}
+
+function extraerFechaActualizacion($) {
+    const fechaTexto = $('td strong')
+        .first()
+        .text()
+        .trim();
+
+    if (!fechaTexto) {
+        return new Date();
+    }
+
+    const fecha = parse(fechaTexto, 'd \'de\' MMMM yyyy', new Date(), {
+        locale: es,
+    });
+
+    if (Number.isNaN(fecha.getTime())) {
+        return new Date();
+    }
+
+    return fecha;
+}
 
 async function obtenerRespuesta() {
     const respuesta = await axios.get(`https://www.bcb.gob.bo/librerias/indicadores/otras/ultimo.php`);
@@ -27,48 +92,6 @@ async function obtenerRespuesta() {
     return respuesta.data;
 }
 
-function extraerDolar(html) {
-    const $ = cheerio.load(html);
-
-    const rows = $('tr.listas-fila1, tr.listas-fila2');
-
-    const cotizaciones = [];
-
-    rows.each((index, element) => {
-        const columns = $(element).find('td');
-
-        const pais = $(columns[0])
-            .text()
-            .trim();
-
-        const moneda = $(columns[2])
-            .text()
-            .trim();
-
-        const tipoCambio = $(columns[3])
-            .text()
-            .trim();
-
-        cotizaciones.push({
-            pais,
-            moneda,
-            tipoCambio,
-        });
-    });
-
-    return {
-        moneda: 'USD',
-        casa: 'oficial',
-        nombre: 'Oficial',
-        compra: interpretarValorMonetario(cotizaciones
-            .find((c) => c.moneda === 'USD.COMPRA').tipoCambio),
-        venta: interpretarValorMonetario(cotizaciones
-            .find((c) => c.moneda === 'USD.VENTA').tipoCambio),
-        fechaActualizacion: new Date(),
-    };
-}
-
 function interpretarValorMonetario(valor) {
-    return parseFloat(valor);
+    return parseFloat(valor.replace(/,/g, ''));
 }
-
