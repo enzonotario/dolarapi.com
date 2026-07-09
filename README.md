@@ -1,4 +1,4 @@
-# esjs-dolar-api
+# dolarapi.com
 
 [![Desarrollado en EsJS](https://es.js.org/badge.svg)](https://es.js.org)
 
