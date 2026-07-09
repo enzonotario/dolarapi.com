@@ -1,7 +1,7 @@
-import { useOpenapi } from 'vitepress-openapi/client'
 import { useSidebar } from 'vitepress-openapi'
-import { useRegion } from '../theme/composables/useRegion.js'
+import { useOpenapi } from 'vitepress-openapi/client'
 import exchangesSpec from '../../public/exchanges/openapi.json'
+import { useRegion } from '../theme/composables/useRegion.js'
 import { addRegionPrefixToSidebarItems, setRegionForSidebar } from './sidebar.utils.js'
 
 const region = useRegion().regions.find(region => region.code === 'ar')

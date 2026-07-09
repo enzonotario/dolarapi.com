@@ -1,5 +1,7 @@
-onlyBuiltDependencies:
-  - better-sqlite3
+
+shellEmulator: true
+catalogMode: prefer
+cleanupUnusedCatalogs: truetrustPolicy: no-downgrade
 packages:
   - .
 catalog:
@@ -44,3 +46,5 @@ catalog:
   vue: ^3.5.25
   vue-i18n: ^11.2.2
   x-satori: 0.1.5
+onlyBuiltDependencies:
+  - better-sqlite3

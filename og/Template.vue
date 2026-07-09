@@ -26,9 +26,11 @@ const props = defineProps({
 
     <div v-if="dolares" class="flex flex-row items-center">
       <div class="w-1/2 flex flex-col px-4">
-        <div v-for="dolar in col1"
-             :key="dolar.casa"
-             class="flex flex-row items-center p-4 bg-white rounded border border border-gray-300 mb-4">
+        <div
+          v-for="dolar in col1"
+          :key="dolar.casa"
+          class="flex flex-row items-center p-4 bg-white rounded border border border-gray-300 mb-4"
+        >
           <span>{{ dolar.nombre.toUpperCase() }}</span>
 
           <span class="flex-1" />
@@ -46,9 +48,11 @@ const props = defineProps({
       </div>
 
       <div class="w-1/2 flex flex-col px-4">
-        <div v-for="dolar in col2"
-             :key="dolar.casa"
-             class="flex flex-row items-center p-4 bg-white rounded border border border-gray-300 mb-4">
+        <div
+          v-for="dolar in col2"
+          :key="dolar.casa"
+          class="flex flex-row items-center p-4 bg-white rounded border border border-gray-300 mb-4"
+        >
           <span>{{ dolar.nombre.toUpperCase() }}</span>
 
           <span class="flex-1" />

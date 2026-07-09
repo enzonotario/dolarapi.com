@@ -1,6 +1,6 @@
 <script setup>
-import { onMounted, ref } from 'vue'
 import { useRoute } from 'vitepress'
+import { onMounted, ref } from 'vue'
 import { useApi } from '../../composables/useApi'
 
 const route = useRoute()

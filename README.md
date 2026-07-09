@@ -6,7 +6,7 @@ API escrita en [EsJS](https://es.js.org) que proporciona las cotizaciones de los
 
 ## ¿Cómo funciona?
 
-Consulta la página [DolarHoy](https://dolarhoy.com/) y determina los valores de las diferentes cotizaciones. 
+Consulta la página [DolarHoy](https://dolarhoy.com/) y determina los valores de las diferentes cotizaciones.
 
 ## Documentación
 
@@ -43,7 +43,7 @@ La documentación de la API está disponible en [DolarApi.com](https://dolarapi.
 - [Condominio360](https://www.condominio-360.com/): Plataforma SaaS de gestión residencial integral diseñada para modernizar la convivencia en copropiedades.
 - [Webcam Tools](https://webcam-tools.netlify.app/tokens-calculator): Herramientas diseñadas para optimizar la industria del modelaje webcam, incluyendo calculadora de tokens, gestión de tiempos por rooms y soluciones que facilitan el control y la productividad.
 
-> [!NOTE]  
+> [!NOTE]
 > Para agregar tu aplicación puedes [Editar esta lista](https://github.com/enzonotario/esjs-dolar-api/edit/main/README.md) y hacer un Pull Request, o abrir un [Issue](https://github.com/enzonotario/esjs-dolar-api/issues/new?assignees=&labels=documentation&projects=&template=nueva-aplicaci%C3%B3n.md&title=Listar+Aplicaci%C3%B3n).
 
 ---
@@ -55,4 +55,3 @@ La documentación de la API está disponible en [DolarApi.com](https://dolarapi.
 </a>
 
 > [Become a sponsor](https://github.com/sponsors/enzonotario)
-

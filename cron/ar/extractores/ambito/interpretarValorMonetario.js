@@ -1,4 +1,3 @@
 export function interpretarValorMonetario(valor) {
-    return Number(valor.replace(',', '.'));
+  return Number(valor.replace(',', '.'))
 }
-

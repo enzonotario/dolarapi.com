@@ -61,8 +61,6 @@ const spec = setRegionForSidebar('co')
 
 <template #description="description">
 
-
-
 </template>
 
 <template #footer>

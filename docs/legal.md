@@ -7,7 +7,7 @@ outline: false
 
 # Aviso Legal - DolarApi.com
 
-DolarApi.com es un servicio exclusivamente informativo que proporciona datos sobre cotizaciones de divisas en varios países latinoamericanos. 
+DolarApi.com es un servicio exclusivamente informativo que proporciona datos sobre cotizaciones de divisas en varios países latinoamericanos.
 
 Los colaboradores de DolarApi.com se eximen de toda responsabilidad en cuanto a la posible falta de precisión, veracidad, exactitud, integridad o vigencia de los datos proporcionados a través de nuestro sitio web y/o API. No garantizamos la precisión, veracidad, exactitud, integridad o vigencia de la información mostrada en nuestro servicio.
 

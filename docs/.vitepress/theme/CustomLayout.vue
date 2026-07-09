@@ -1,8 +1,8 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
-import GitHubStars from './components/GitHubStars.vue'
-import DonateBanner from './components/DonateBanner.vue'
 import Ads from './components/Ads.vue'
+import DonateBanner from './components/DonateBanner.vue'
+import GitHubStars from './components/GitHubStars.vue'
 
 const { Layout } = DefaultTheme
 </script>

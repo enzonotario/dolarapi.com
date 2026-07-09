@@ -1,7 +1,7 @@
 import { createWriteStream } from 'node:fs'
 import { resolve } from 'node:path'
-import tailwindcss from '@tailwindcss/vite'
 import vueI18n from '@intlify/unplugin-vue-i18n/vite'
+import tailwindcss from '@tailwindcss/vite'
 import { SitemapStream } from 'sitemap'
 import { defineConfig, loadEnv } from 'vitepress'
 import { generateSidebar } from './sidebar/sidebar.js'
@@ -112,9 +112,9 @@ export default defineConfig({
         url: pageData.relativePath.endsWith('index.md')
           ? '/'
           : `${pageData.relativePath.replace(
-              /((^|\/)index)?\.md$/,
-              '$2',
-            )}.html`,
+            /((^|\/)index)?\.md$/,
+            '$2',
+          )}.html`,
         lastmod: pageData.lastUpdated,
       })
     }
@@ -125,9 +125,9 @@ export default defineConfig({
     })
     const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
     sitemap.pipe(writeStream)
-    links.forEach((link) => sitemap.write(link))
+    links.forEach(link => sitemap.write(link))
     sitemap.end()
-    await new Promise((resolve) => writeStream.on('finish', resolve))
+    await new Promise(resolve => writeStream.on('finish', resolve))
   },
 
   vite: {

@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       region:
-        description: 'Región a ejecutar (vacío = todas)'
+        description: Región a ejecutar (vacío = todas)
         required: false
         type: choice
         options:
@@ -28,7 +28,7 @@ permissions:
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
 
 jobs:
@@ -47,7 +47,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'pnpm'
+          cache: pnpm
 
       - name: Cache Playwright browsers
         id: playwright-cache
@@ -96,7 +96,7 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          
+
           git add -A
           timestamp=$(date -u)
           git commit -m "chore: update data $timestamp"

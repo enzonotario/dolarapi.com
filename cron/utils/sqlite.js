@@ -1,40 +1,39 @@
-import fs from 'node:fs';
-import Database from 'better-sqlite3';
+import fs from 'node:fs'
+import Database from 'better-sqlite3'
 
 export function asegurarDirectorio(ruta) {
-    try {
-        fs.mkdirSync(ruta, {
-            recursive: true,
-        });
-    } catch(e) {}
+  try {
+    fs.mkdirSync(ruta, {
+      recursive: true,
+    })
+  }
+  catch (e) {}
 
-
-    return true;
+  return true
 }
 
 export function abrirBD(rutaDb) {
-    return new Database(rutaDb);
+  return new Database(rutaDb)
 }
 
 export function asegurarTabla(db, sql) {
-    db.exec(sql);
+  db.exec(sql)
 }
 
 export function prepararUpsert(db, sql) {
-    return db.prepare(sql);
+  return db.prepare(sql)
 }
 
 export function ejecutarTransaccion(db, stmt, items) {
-    const tx = db.transaction((rows) => {
-        for (const row of rows) {
-            stmt.run(row);
-        }
-    });
+  const tx = db.transaction((rows) => {
+    for (const row of rows) {
+      stmt.run(row)
+    }
+  })
 
-    tx(items);
+  tx(items)
 }
 
 export function cerrarBD(db) {
-    db.close();
+  db.close()
 }
-

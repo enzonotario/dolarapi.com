@@ -1,64 +1,63 @@
+import tryToCatch from 'try-to-catch'
+import { monedas } from '@/co/constantes.co.js'
+import { grupo, logError } from '@/log.js'
 import {
-    scrapearConFirecrawl,
-    debeEjecutarFirecrawlAhora,
-} from '@/utils/firecrawl.js';
-import {monedas} from '@/co/constantes.co.js';
-import tryToCatch from 'try-to-catch';
-import {grupo, logError} from '@/log.js';
+  debeEjecutarFirecrawlAhora,
+  scrapearConFirecrawl,
+} from '@/utils/firecrawl.js'
 
 export default async function () {
-    if (!debeEjecutarFirecrawlAhora()) {
-        return [];
-    }
+  if (!debeEjecutarFirecrawlAhora()) {
+    return []
+  }
 
-    const log = grupo({
-        cron: 'cron.co.js',
-        extractor: 'investing.extractor.co.js',
-    });
+  const log = grupo({
+    cron: 'cron.co.js',
+    extractor: 'investing.extractor.co.js',
+  })
 
-    const resultados = await Promise.all(monedas
-        .filter((moneda) => moneda.codigo !== 'COP')
-        .map(async (moneda) => {
-        const monedaEnMinusculas = moneda.codigo.toLowerCase();
-        const url = `https://es.investing.com/currencies/${monedaEnMinusculas}-cop`;
+  const resultados = await Promise.all(monedas
+    .filter(moneda => moneda.codigo !== 'COP')
+    .map(async (moneda) => {
+      const monedaEnMinusculas = moneda.codigo.toLowerCase()
+      const url = `https://es.investing.com/currencies/${monedaEnMinusculas}-cop`
 
-        const [error, datos] = await tryToCatch(scrapearConFirecrawl, log, {
-            url,
-            prompt: 'Extrae los valores de compra (bid), venta (ask), cierre anterior (prevClose) y fecha de actualización de la cotización de la moneda.',
-            schema: {
-                compra: {
-                    type: 'number',
-                    description: 'Valor de compra (bid) de la moneda',
-                },
-                venta: {
-                    type: 'number',
-                    description: 'Valor de venta (ask) de la moneda',
-                },
-                ultimoCierre: {
-                    type: 'number',
-                    description: 'Valor de cierre anterior (prevClose) de la moneda',
-                },
-            },
-            required: ['compra', 'venta', 'ultimoCierre'],
-        });
+      const [error, datos] = await tryToCatch(scrapearConFirecrawl, log, {
+        url,
+        prompt: 'Extrae los valores de compra (bid), venta (ask), cierre anterior (prevClose) y fecha de actualización de la cotización de la moneda.',
+        schema: {
+          compra: {
+            type: 'number',
+            description: 'Valor de compra (bid) de la moneda',
+          },
+          venta: {
+            type: 'number',
+            description: 'Valor de venta (ask) de la moneda',
+          },
+          ultimoCierre: {
+            type: 'number',
+            description: 'Valor de cierre anterior (prevClose) de la moneda',
+          },
+        },
+        required: ['compra', 'venta', 'ultimoCierre'],
+      })
 
-        if (error) {
-            logError(log, error, {
-                moneda: moneda.codigo,
-            });
-            return null;
-        }
+      if (error) {
+        logError(log, error, {
+          moneda: moneda.codigo,
+        })
+        return null
+      }
 
-        return {
-            moneda: moneda.codigo.toUpperCase(),
-            nombre: moneda.nombre,
-            compra: datos.compra,
-            venta: datos.venta,
-            ultimoCierre: datos.ultimoCierre,
-            fechaActualizacion: new Date().toISOString(),
-        };
-    }));
+      return {
+        moneda: moneda.codigo.toUpperCase(),
+        nombre: moneda.nombre,
+        compra: datos.compra,
+        venta: datos.venta,
+        ultimoCierre: datos.ultimoCierre,
+        fechaActualizacion: new Date().toISOString(),
+      }
+    }))
 
-    return resultados.filter((resultado) => resultado !== null);
+  return resultados.filter(resultado => resultado !== null)
 }
-

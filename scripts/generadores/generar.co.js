@@ -1,34 +1,33 @@
-import fs from 'node:fs';
-import {useOpenapi} from 'vitepress-openapi/client';
-import {plantilla} from './plantilla.js';
-import {openapiAtributos} from './openapiAtributos.js';
+import fs from 'node:fs'
+import { useOpenapi } from 'vitepress-openapi/client'
+import { plantilla } from './plantilla.js'
 
 function loadJSON(path) {
-    return JSON.parse(fs.readFileSync(new URL(path, import.meta.url)));
+  return JSON.parse(fs.readFileSync(new URL(path, import.meta.url)))
 }
 
-const spec = loadJSON('../../docs/public/colombia/openapi.json');
+const spec = loadJSON('../../docs/public/colombia/openapi.json')
 
 const openapi = useOpenapi({
-    spec,
-});
+  spec,
+})
 
 export function init() {
-    return Object
-        .keys(spec.paths)
-        .map((path) => {
-            const {operationId} = spec.paths[path].get;
+  return Object
+    .keys(spec.paths)
+    .map((path) => {
+      const { operationId } = spec.paths[path].get
 
-            const markdown = generateMarkdown(operationId);
+      const markdown = generateMarkdown(operationId)
 
-            fs.writeFileSync(`docs/colombia/operations/${operationId}.md`, markdown);
-        });
+      fs.writeFileSync(`docs/colombia/operations/${operationId}.md`, markdown)
+    })
 }
 
 function generateMarkdown(operationId) {
-    const operation = openapi.getOperation(operationId);
+  const operation = openapi.getOperation(operationId)
 
-    const markdown = `---
+  const markdown = `---
 aside: false
 outline: false
 title: ${operation.summary}
@@ -88,14 +87,14 @@ const spec = setRegionForSidebar('co')
 </script>
 
 ${plantilla(operationId, operation)}
-`;
+`
 
-    return markdown;
+  return markdown
 }
 
 try {
-    init();
-} catch(error) {
-    console.error(error);
+  init()
 }
-
+catch (error) {
+  console.error(error)
+}

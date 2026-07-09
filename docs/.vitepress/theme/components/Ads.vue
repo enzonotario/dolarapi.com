@@ -2,8 +2,8 @@
 import { computed, onMounted, onUnmounted, ref } from 'vue'
 
 const BASE_URL = 'https://api.argentinadatos.com/static/assets/arq/'
-const LINK_URL =
-  'https://www.arqfinance.com/?utm_source=dolarapi_docs&utm_medium=banner&utm_campaign=dolarapi_docs_ad'
+const LINK_URL
+  = 'https://www.arqfinance.com/?utm_source=dolarapi_docs&utm_medium=banner&utm_campaign=dolarapi_docs_ad'
 
 const banners = [
   {
@@ -48,20 +48,22 @@ const imageError = ref(false)
 const currentPlaylistIndex = ref(0)
 
 const currentBanner = computed(() => {
-  if (imageError.value) return null
+  if (imageError.value)
+    return null
   const entry = playlist[currentPlaylistIndex.value]
-  return banners.find((b) => b.id === entry.bannerId) || null
+  return banners.find(b => b.id === entry.bannerId) || null
 })
 
 const bannerImageUrl = computed(() => {
-  if (!currentBanner.value) return ''
+  if (!currentBanner.value)
+    return ''
   return isMobile.value
     ? currentBanner.value.mobileUrl
     : currentBanner.value.desktopUrl
 })
 
 onMounted(() => {
-  const defer = window.requestIdleCallback || ((fn) => setTimeout(fn, 1))
+  const defer = window.requestIdleCallback || (fn => setTimeout(fn, 1))
 
   defer(() => {
     const checkMobile = () => {
@@ -74,8 +76,8 @@ onMounted(() => {
     const scheduleNext = () => {
       const entry = playlist[currentPlaylistIndex.value]
       timeoutId = setTimeout(() => {
-        currentPlaylistIndex.value =
-          (currentPlaylistIndex.value + 1) % playlist.length
+        currentPlaylistIndex.value
+          = (currentPlaylistIndex.value + 1) % playlist.length
         scheduleNext()
       }, entry.duration)
     }
@@ -108,7 +110,7 @@ function handleImageError() {
         loading="lazy"
         decoding="async"
         @error="handleImageError"
-      />
+      >
     </a>
   </div>
 </template>

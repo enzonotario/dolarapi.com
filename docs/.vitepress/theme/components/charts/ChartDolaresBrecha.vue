@@ -1,6 +1,6 @@
 <script setup>
-import { onMounted, ref, watch } from 'vue'
 import colors from 'tailwindcss/colors'
+import { onMounted, ref, watch } from 'vue'
 import { useApi } from '../../composables/useApi'
 import { useEcharts } from '../../composables/useEcharts'
 

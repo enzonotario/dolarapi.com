@@ -1,7 +1,7 @@
 <script setup>
-import { computed, onMounted, ref, watch } from 'vue'
-import { useRoute } from 'vitepress'
 import colors from 'tailwindcss/colors'
+import { useRoute } from 'vitepress'
+import { computed, onMounted, ref, watch } from 'vue'
 import { useApi } from '../../composables/useApi'
 import { useEcharts } from '../../composables/useEcharts'
 

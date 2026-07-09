@@ -1,51 +1,50 @@
-import extraer from '@/cl/investing.extractor.cl.js';
+import tryToCatch from 'try-to-catch'
+import extraer from '@/cl/investing.extractor.cl.js'
+import { grupo, logError } from '@/log.js'
 import {
-    escribirRutaRegion,
-    leerRutaRegion,
-} from '@/utils/rutas.js';
-import {grupo, logError} from '@/log.js';
-import tryToCatch from 'try-to-catch';
+  escribirRutaRegion,
+  leerRutaRegion,
+} from '@/utils/rutas.js'
 
 export default async function () {
-    const log = grupo({
-        cron: 'cron.cl.js',
-    });
+  const log = grupo({
+    cron: 'cron.cl.js',
+  })
 
-    log.info('Inicio');
+  log.info('Inicio')
 
-    const valoresActuales = (await leerRutaRegion('cl', '/cotizaciones')) || [];
+  const valoresActuales = (await leerRutaRegion('cl', '/cotizaciones')) || []
 
-    const [error, valoresNuevos] = await tryToCatch(extraer);
+  const [error, valoresNuevos] = await tryToCatch(extraer)
 
-    if (error) {
-        logError(log, error);
-        log.info('Fin');
-        return;
+  if (error) {
+    logError(log, error)
+    log.info('Fin')
+    return
+  }
+
+  const cotizaciones = valoresActuales.map((cotizacion) => {
+    const cotizacionNueva = valoresNuevos.find(item => item && item.moneda === cotizacion.moneda)
+
+    if (cotizacionNueva) {
+      return cotizacionNueva
     }
 
-    const cotizaciones = valoresActuales.map((cotizacion) => {
-        const cotizacionNueva = valoresNuevos.find((item) => item && item.moneda === cotizacion.moneda);
+    return cotizacion
+  })
 
-        if (cotizacionNueva) {
-            return cotizacionNueva;
-        }
+  valoresNuevos.forEach((cotizacionNueva) => {
+    if (cotizacionNueva && !cotizaciones.find(c => c.moneda === cotizacionNueva.moneda)) {
+      cotizaciones.push(cotizacionNueva)
+    }
+  })
 
-        return cotizacion;
-    });
+  cotizaciones.map((cotizacion) => {
+    const moneda = cotizacion.moneda.toLowerCase()
+    escribirRutaRegion('cl', `/cotizaciones/${moneda}`, cotizacion)
+  })
 
-    valoresNuevos.forEach((cotizacionNueva) => {
-        if (cotizacionNueva && !cotizaciones.find((c) => c.moneda === cotizacionNueva.moneda)) {
-            cotizaciones.push(cotizacionNueva);
-        }
-    });
+  escribirRutaRegion('cl', '/cotizaciones', cotizaciones)
 
-    cotizaciones.map((cotizacion) => {
-        const moneda = cotizacion.moneda.toLowerCase();
-        escribirRutaRegion('cl', `/cotizaciones/${moneda}`, cotizacion);
-    });
-
-    escribirRutaRegion('cl', '/cotizaciones', cotizaciones);
-
-    log.info('Fin');
+  log.info('Fin')
 }
-

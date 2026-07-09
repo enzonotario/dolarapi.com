@@ -1,4 +1,3 @@
-import {monedas as monedasAr} from '@/ar/constantes.ar.js';
+import { monedas as monedasAr } from '@/ar/constantes.ar.js'
 
-export const monedas = [...monedasAr];
-
+export const monedas = [...monedasAr]

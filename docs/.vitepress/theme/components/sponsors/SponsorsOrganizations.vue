@@ -13,7 +13,7 @@
           src="https://argentinadatos.com/assets/sponsors/revolt.png"
           alt="Revolt Logo"
           class="w-16 h-16 rounded bg-gray-100 dark:bg-gray-800 object-cover"
-        />
+        >
         <div class="flex flex-col flex-grow">
           <div class="font-medium">Revolt</div>
           <span class="flex-1" />
@@ -35,7 +35,7 @@
           src="https://argentinadatos.com/assets/sponsors/theonclub.jpg"
           alt="O(n) Club Logo"
           class="w-16 h-16 rounded bg-gray-100 dark:bg-gray-800 object-cover"
-        />
+        >
         <div class="flex flex-col flex-grow">
           <div class="font-medium">O(n) Club</div>
           <span class="flex-1" />
@@ -57,7 +57,7 @@
           src="https://argentinadatos.com/assets/sponsors/diploi.png"
           alt="Diploi Logo"
           class="w-16 h-16 rounded bg-gray-100 dark:bg-gray-800 object-cover"
-        />
+        >
         <div class="flex flex-col flex-grow">
           <div class="font-medium">Diploi</div>
           <span class="flex-1" />
@@ -79,7 +79,7 @@
           src="https://argentinadatos.com/assets/sponsors/firecrawl.svg"
           alt="Firecrawl Logo"
           class="h-16 w-16 shrink-0 overflow-hidden rounded bg-gray-100 object-contain p-1.5 dark:bg-gray-800"
-        />
+        >
         <div class="flex flex-col flex-grow">
           <div class="font-medium">Firecrawl</div>
           <span class="flex-1" />
@@ -94,13 +94,9 @@
 
     <div class="mt-4 text-xs">
       ¿Querés ver tu logo aquí? Escribime por
-      <a href="https://twitter.com/enzonotario_" target="_blank" rel="noopener"
-        >X/Twitter</a
-      >
+      <a href="https://twitter.com/enzonotario_" target="_blank" rel="noopener">X/Twitter</a>
       o enviame un correo a
-      <a href="mailto:hi@enzonotario.me" target="_blank" rel="noopener"
-        >hi@enzonotario.me</a
-      >.
+      <a href="mailto:hi@enzonotario.me" target="_blank" rel="noopener">hi@enzonotario.me</a>.
     </div>
   </div>
 </template>

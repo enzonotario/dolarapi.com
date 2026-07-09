@@ -61,8 +61,6 @@ const spec = setRegionForSidebar('cl')
 
 <template #description="description">
 
-
-
 </template>
 
 <template #footer>

@@ -1,7 +1,7 @@
 import path from 'node:path'
+import { faker } from '@faker-js/faker'
 import Database from 'better-sqlite3'
 import { describe, expect, it } from 'vitest'
-import { faker } from '@faker-js/faker'
 import { abrirBD, asegurarDirectorio, asegurarTabla, cerrarBD, ejecutarTransaccion, prepararUpsert } from '@/utils/sqlite.js'
 
 const directorioTemporal = path.join('datos', 'br')

@@ -1,8 +1,8 @@
 import fs from 'node:fs'
 import path from 'node:path'
+import { faker } from '@faker-js/faker'
 import Database from 'better-sqlite3'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
-import { faker } from '@faker-js/faker'
 
 const directorioTemporal = path.join('datos', 've')
 const archivoBD = path.join(directorioTemporal, 've.test.sqlite')

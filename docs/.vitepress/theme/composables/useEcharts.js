@@ -1,5 +1,5 @@
-import { computed } from 'vue'
 import { useDark, useECharts } from '@pureadmin/utils'
+import { computed } from 'vue'
 
 export function useEcharts(chartRef) {
   const { isDark } = useDark()

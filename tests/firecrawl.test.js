@@ -1,6 +1,6 @@
 import { describe, expect, it, vi } from 'vitest'
-import { scrapearConFirecrawl, debeEjecutarFirecrawlAhora } from '@/utils/firecrawl.js'
 import { grupo } from '@/log.js'
+import { debeEjecutarFirecrawlAhora, scrapearConFirecrawl } from '@/utils/firecrawl.js'
 
 describe('firecrawl.js', () => {
   it('debeEjecutarFirecrawlAhora retorna true a las 12 y 20 UTC y false en otras horas', () => {

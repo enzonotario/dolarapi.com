@@ -32,7 +32,7 @@ describe(
       ]
 
       casas.forEach((casa) => {
-        const dolar = dolares.find((dolar) => dolar.casa === casa)
+        const dolar = dolares.find(dolar => dolar.casa === casa)
         expect(dolar).not.toBeUndefined()
       })
     })
@@ -55,7 +55,7 @@ describe(
 
       monedasEsperadas.forEach((moneda) => {
         const cotizacion = cotizaciones.find(
-          (cotizacion) => cotizacion.moneda === moneda,
+          cotizacion => cotizacion.moneda === moneda,
         )
         expect(cotizacion).not.toBeUndefined()
       })
@@ -119,7 +119,7 @@ describe(
       ]
 
       exchangesEsperados.forEach((exchange) => {
-        const cotizacion = cotizaciones.find((c) => c.exchange === exchange)
+        const cotizacion = cotizaciones.find(c => c.exchange === exchange)
         expect(cotizacion).not.toBeUndefined()
       })
     })
