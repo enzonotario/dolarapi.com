@@ -5,5 +5,7 @@ export default antfu({
   vue: true,
   ignores: [
     '**/datos/**',
+    'pnpm-lock.yaml',
+    'pnpm-workspace.yaml',
   ],
 })

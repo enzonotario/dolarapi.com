@@ -1,7 +1,8 @@
 
 shellEmulator: true
 catalogMode: prefer
-cleanupUnusedCatalogs: truetrustPolicy: no-downgrade
+cleanupUnusedCatalogs: true
+trustPolicy: no-downgrade
 packages:
   - .
 catalog:
