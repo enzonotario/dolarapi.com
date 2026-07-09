@@ -30,6 +30,8 @@ const options = region.regions
 </template>
 
 <style scoped>
+@reference "../style.css";
+
 .region {
   @apply hidden sm:block text-sm font-medium text-gray-900 dark:text-white;
 }

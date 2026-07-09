@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onMounted, ref } from 'vue'
+import { computed, onMounted, onUnmounted, ref } from 'vue'
 
 const BASE_URL = 'https://api.argentinadatos.com/static/assets/arq/'
 const LINK_URL =

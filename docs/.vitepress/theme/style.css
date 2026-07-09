@@ -1,6 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@layer theme, base, components;
+
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/preflight.css' layer(base);
+@import 'tailwindcss/utilities.css';
+@config '../../tailwind.config.mjs';
+@source '../../../node_modules/vitepress-openapi/src';
 
 :root {
   --vp-font-family-base: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -13,7 +17,7 @@
   bg-gray-100 border-gray-300
   rounded border;
 
-  @apply text-gray-900 !important;
+  @apply text-gray-900!;
 }
 .button:hover {
   @apply bg-gray-200;
@@ -21,7 +25,7 @@
 .dark .button {
   @apply bg-gray-800 border-gray-700;
 
-  @apply text-gray-100 !important;
+  @apply text-gray-100!;
 }
 .dark .button:hover {
   @apply bg-gray-700;
@@ -49,6 +53,17 @@
 }
 .VPNavBar:not(.home.top) .divider-line {
   background-color: transparent !important;
+}
+@media (min-width: 960px) {
+  .VPNavBarTitle.has-sidebar .title {
+    border-bottom-color: transparent !important;
+  }
+}
+.VPFlyout.VPNavBarMenuGroup button.button, .VPFlyout.VPNavBarExtra.extra button.button {
+  @apply bg-transparent border-0;
+}
+.VPNavBarMenu.menu button {
+  @apply bg-transparent border-0;
 }
 
 .VPLocalNav {

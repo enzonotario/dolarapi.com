@@ -1,7 +1,7 @@
 import { createWriteStream } from 'node:fs'
 import { resolve } from 'node:path'
+import tailwindcss from '@tailwindcss/vite'
 import vueI18n from '@intlify/unplugin-vue-i18n/vite'
-import { genjiAttrs } from 'genji-theme-vitepress/config'
 import { SitemapStream } from 'sitemap'
 import { defineConfig, loadEnv } from 'vitepress'
 import { generateSidebar } from './sidebar/sidebar.js'
@@ -132,22 +132,11 @@ export default defineConfig({
 
   vite: {
     plugins: [
+      tailwindcss(),
       vueI18n({
         ssr: true,
       }),
     ],
-    optimizeDeps: {
-      include: [
-        'genji-theme-vitepress > genji-runtime > esprima',
-        'genji-theme-vitepress > genji-runtime > estraverse',
-      ],
-    },
-  },
-
-  markdown: {
-    config: (md) => {
-      md.use(genjiAttrs)
-    },
   },
 
   transformPageData(pageData) {

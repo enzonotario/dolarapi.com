@@ -1,11 +1,9 @@
 import DefaultTheme from 'vitepress/theme'
-import { h } from 'vue'
-import { theme, useShiki, useTheme } from 'vitepress-openapi/client'
-import Layout from 'genji-theme-vitepress'
-import * as ObservablePlot from '@observablehq/plot'
-
-import IndexDemo from './components/IndexDemo.vue'
+import { theme, useTheme } from 'vitepress-openapi/client'
+import { useECharts } from '../plugins/echarts'
+import chartComponents from './components/charts'
 import CustomLayout from './CustomLayout.vue'
+import IndexDemo from './components/IndexDemo.vue'
 import SponsorsAvatars from './components/sponsors/SponsorsAvatars.vue'
 import DataSources from './components/DataSources.vue'
 import MarkdownLink from './components/MarkdownLink.vue'
@@ -13,20 +11,9 @@ import MarkdownLink from './components/MarkdownLink.vue'
 import 'vitepress-openapi/dist/style.css'
 import './style.css'
 
-const props = {
-  Theme: {
-    Layout: CustomLayout,
-  },
-  library: {
-    Plot: ObservablePlot,
-  },
-}
-
 export default {
   extends: DefaultTheme,
-  Layout() {
-    return h(Layout, props)
-  },
+  Layout: CustomLayout,
   async enhanceApp({ app }) {
     useTheme({
       i18n: {
@@ -38,6 +25,11 @@ export default {
     })
 
     theme.enhanceApp({ app })
+
+    app.use(useECharts)
+
+    for (const [name, component] of Object.entries(chartComponents))
+      app.component(name, component)
 
     app.component('IndexDemo', IndexDemo)
     app.component('SponsorsAvatars', SponsorsAvatars)

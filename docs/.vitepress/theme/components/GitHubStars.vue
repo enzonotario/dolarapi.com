@@ -30,6 +30,8 @@ onMounted(async () => {
 </template>
 
 <style scoped>
+@reference "../style.css";
+
 .stars {
   @apply hidden sm:block;
 }

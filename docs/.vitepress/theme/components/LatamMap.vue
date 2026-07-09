@@ -243,6 +243,8 @@ function getSvg(region) {
 </template>
 
 <style scoped>
+@reference "../style.css";
+
 .map-container {
   @apply relative flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12;
 }

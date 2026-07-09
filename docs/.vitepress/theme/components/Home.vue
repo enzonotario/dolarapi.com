@@ -82,6 +82,8 @@ function handleRegionSelect(selectedRegion) {
 </template>
 
 <style scoped>
+@reference "../style.css";
+
 .home-container {
   @apply relative min-h-[calc(100dvh-4rem)] flex flex-col overflow-hidden;
 }
@@ -172,7 +174,7 @@ function handleRegionSelect(selectedRegion) {
     dark:bg-white dark:text-gray-900
     hover:bg-gray-700 dark:hover:bg-gray-200
     transition-all duration-200
-    no-underline !important;
+    no-underline!;
 }
 
 .github-icon {
