@@ -12,10 +12,10 @@
     "moneda": "USD",
     "casa": "blue",
     "nombre": "Blue",
-    "compra": 1500,
-    "venta": 1520,
-    "fechaActualizacion": "2026-07-08T18:55:00.000Z",
-    "variacion": 0.33
+    "compra": 1490,
+    "venta": 1510,
+    "fechaActualizacion": "2026-07-08T19:09:00.000Z",
+    "variacion": -0.33
   },
   {
     "moneda": "USD",
@@ -48,10 +48,10 @@
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1565.56,
-    "venta": 1565.56,
-    "fechaActualizacion": "2026-07-11T18:00:00.000Z",
-    "variacion": -0.09
+    "compra": 1568.46,
+    "venta": 1568.46,
+    "fechaActualizacion": "2026-07-12T09:00:00.000Z",
+    "variacion": 0.06
   },
   {
     "moneda": "USD",
