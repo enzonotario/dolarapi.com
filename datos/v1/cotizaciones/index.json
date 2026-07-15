@@ -19,24 +19,24 @@
     "moneda": "BRL",
     "casa": "oficial",
     "nombre": "Real Brasileño",
-    "compra": 289.4561,
-    "venta": 289.6245,
-    "fechaActualizacion": "2026-07-15T13:52:00.000Z"
+    "compra": 289.8408,
+    "venta": 290.0096,
+    "fechaActualizacion": "2026-07-15T14:53:00.000Z"
   },
   {
     "moneda": "CLP",
     "casa": "oficial",
     "nombre": "Peso Chileno",
-    "compra": 1.5961,
-    "venta": 1.5961,
-    "fechaActualizacion": "2026-07-15T13:52:00.000Z"
+    "compra": 1.5969,
+    "venta": 1.5969,
+    "fechaActualizacion": "2026-07-15T14:53:00.000Z"
   },
   {
     "moneda": "UYU",
     "casa": "oficial",
     "nombre": "Peso Uruguayo",
-    "compra": 36.6828,
-    "venta": 36.6831,
-    "fechaActualizacion": "2026-07-15T13:52:00.000Z"
+    "compra": 36.6826,
+    "venta": 36.6828,
+    "fechaActualizacion": "2026-07-15T14:53:00.000Z"
   }
 ]
