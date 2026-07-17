@@ -3,10 +3,10 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 1451.7,
-    "venta": 1501.8,
-    "fechaActualizacion": "2026-07-17T13:41:00.000Z",
-    "variacion": 0.39
+    "compra": 1450.97,
+    "venta": 1501.67,
+    "fechaActualizacion": "2026-07-17T15:56:00.000Z",
+    "variacion": 0.38
   },
   {
     "moneda": "USD",
@@ -14,44 +14,44 @@
     "nombre": "Blue",
     "compra": 1510,
     "venta": 1530,
-    "fechaActualizacion": "2026-07-17T15:00:00.000Z",
+    "fechaActualizacion": "2026-07-17T16:00:00.000Z",
     "variacion": 0.33
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1519.24,
-    "venta": 1519.24,
-    "fechaActualizacion": "2026-07-17T15:00:00.000Z",
-    "variacion": 0.4
+    "compra": 1519.48,
+    "venta": 1519.48,
+    "fechaActualizacion": "2026-07-17T16:00:00.000Z",
+    "variacion": 0.5
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1576.19,
-    "venta": 1576.19,
-    "fechaActualizacion": "2026-07-17T15:00:00.000Z",
-    "variacion": 0.6
+    "compra": 1575.12,
+    "venta": 1575.12,
+    "fechaActualizacion": "2026-07-17T16:00:00.000Z",
+    "variacion": 0.5
   },
   {
     "moneda": "USD",
     "casa": "mayorista",
     "nombre": "Mayorista",
-    "compra": 1469.5,
-    "venta": 1478.5,
-    "fechaActualizacion": "2026-07-17T14:56:00.000Z",
-    "variacion": 0.17
+    "compra": 1469,
+    "venta": 1478,
+    "fechaActualizacion": "2026-07-17T15:22:00.000Z",
+    "variacion": 0.14
   },
   {
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1570.05,
-    "venta": 1570.05,
-    "fechaActualizacion": "2026-07-17T15:00:00.000Z",
-    "variacion": -0.03
+    "compra": 1567.86,
+    "venta": 1567.86,
+    "fechaActualizacion": "2026-07-17T16:00:00.000Z",
+    "variacion": 0.01
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1450,
     "venta": 1950,
-    "fechaActualizacion": "2026-07-17T15:00:00.000Z",
+    "fechaActualizacion": "2026-07-17T16:00:00.000Z",
     "variacion": 0.33
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1450,
     "venta": 1500,
     "variacion": 0.33,
-    "fechaActualizacion": "2026-07-17T15:00:00.000Z"
+    "fechaActualizacion": "2026-07-17T16:00:00.000Z"
   }
 ]
