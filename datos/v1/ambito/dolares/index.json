@@ -12,46 +12,46 @@
     "moneda": "USD",
     "casa": "blue",
     "nombre": "Blue",
-    "compra": 1505,
-    "venta": 1525,
-    "fechaActualizacion": "2026-07-17T14:00:00.000Z",
-    "variacion": 0
+    "compra": 1510,
+    "venta": 1530,
+    "fechaActualizacion": "2026-07-17T15:00:00.000Z",
+    "variacion": 0.33
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1518.52,
-    "venta": 1518.52,
-    "fechaActualizacion": "2026-07-17T14:00:00.000Z",
+    "compra": 1519.24,
+    "venta": 1519.24,
+    "fechaActualizacion": "2026-07-17T15:00:00.000Z",
     "variacion": 0.4
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1577.5,
-    "venta": 1577.5,
-    "fechaActualizacion": "2026-07-17T14:00:00.000Z",
-    "variacion": 0.7
+    "compra": 1576.19,
+    "venta": 1576.19,
+    "fechaActualizacion": "2026-07-17T15:00:00.000Z",
+    "variacion": 0.6
   },
   {
     "moneda": "USD",
     "casa": "mayorista",
     "nombre": "Mayorista",
-    "compra": 1471,
-    "venta": 1480,
-    "fechaActualizacion": "2026-07-17T14:00:00.000Z",
-    "variacion": 0.27
+    "compra": 1469.5,
+    "venta": 1478.5,
+    "fechaActualizacion": "2026-07-17T14:56:00.000Z",
+    "variacion": 0.17
   },
   {
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1568.57,
-    "venta": 1568.57,
-    "fechaActualizacion": "2026-07-17T14:00:00.000Z",
-    "variacion": -0.02
+    "compra": 1570.05,
+    "venta": 1570.05,
+    "fechaActualizacion": "2026-07-17T15:00:00.000Z",
+    "variacion": -0.03
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1450,
     "venta": 1950,
-    "fechaActualizacion": "2026-07-17T14:00:00.000Z",
+    "fechaActualizacion": "2026-07-17T15:00:00.000Z",
     "variacion": 0.33
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1450,
     "venta": 1500,
     "variacion": 0.33,
-    "fechaActualizacion": "2026-07-17T14:00:00.000Z"
+    "fechaActualizacion": "2026-07-17T15:00:00.000Z"
   }
 ]
