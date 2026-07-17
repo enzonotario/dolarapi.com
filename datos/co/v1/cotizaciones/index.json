@@ -2,57 +2,57 @@
   {
     "moneda": "USD",
     "nombre": "Dólar",
-    "compra": 3242.96,
-    "venta": 3246.46,
-    "ultimoCierre": 3231.2,
-    "fechaActualizacion": "2026-07-16T20:02:23.954Z"
+    "compra": 3241.23,
+    "venta": 3244.73,
+    "ultimoCierre": 3241.66,
+    "fechaActualizacion": "2026-07-17T12:04:03.936Z"
   },
   {
     "moneda": "EUR",
     "nombre": "Euro",
-    "compra": 3558.2,
-    "venta": 3817.6,
-    "ultimoCierre": 3711.6,
-    "fechaActualizacion": "2026-07-16T20:02:38.481Z"
+    "compra": 3558.5,
+    "venta": 3817.9,
+    "ultimoCierre": 3687.9,
+    "fechaActualizacion": "2026-07-17T12:03:53.319Z"
   },
   {
     "moneda": "BRL",
     "nombre": "Real Brasileño",
-    "compra": 636.16,
-    "venta": 636.85,
-    "ultimoCierre": 636.46,
-    "fechaActualizacion": "2026-07-16T20:02:27.642Z"
+    "compra": 635.37,
+    "venta": 636.06,
+    "ultimoCierre": 635.83,
+    "fechaActualizacion": "2026-07-17T12:03:52.925Z"
   },
   {
     "moneda": "MXN",
     "nombre": "Peso Mexicano",
-    "compra": 186.14,
-    "venta": 186.35,
-    "ultimoCierre": 185.87,
-    "fechaActualizacion": "2026-07-16T20:02:37.856Z"
+    "compra": 185.36,
+    "venta": 185.56,
+    "ultimoCierre": 186.09,
+    "fechaActualizacion": "2026-07-17T12:04:09.601Z"
   },
   {
     "moneda": "CLP",
     "nombre": "Peso Chileno",
-    "compra": 3.5049,
-    "venta": 3.5087,
-    "ultimoCierre": 3.4886,
-    "fechaActualizacion": "2026-07-16T20:02:22.681Z"
+    "compra": 3.504,
+    "venta": 3.5078,
+    "ultimoCierre": 3.5045,
+    "fechaActualizacion": "2026-07-17T12:04:01.848Z"
   },
   {
     "moneda": "PEN",
     "nombre": "Sol Peruano",
-    "compra": 958.75,
-    "venta": 959.78,
-    "ultimoCierre": 955.42,
-    "fechaActualizacion": "2026-07-16T20:02:32.844Z"
+    "compra": 955.78,
+    "venta": 956.81,
+    "ultimoCierre": 958.36,
+    "fechaActualizacion": "2026-07-17T12:04:13.278Z"
   },
   {
     "moneda": "ARS",
     "nombre": "Peso Argentino",
     "compra": 2.2,
     "venta": 2.2,
-    "ultimoCierre": 2.19,
-    "fechaActualizacion": "2026-07-16T20:02:33.219Z"
+    "ultimoCierre": 2.2,
+    "fechaActualizacion": "2026-07-17T12:03:57.656Z"
   }
 ]
