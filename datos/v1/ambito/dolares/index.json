@@ -3,10 +3,10 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 1446.71,
-    "venta": 1501.97,
-    "fechaActualizacion": "2026-07-20T11:43:00.000Z",
-    "variacion": 0.02
+    "compra": 1450.59,
+    "venta": 1501.71,
+    "fechaActualizacion": "2026-07-20T13:49:00.000Z",
+    "variacion": 0
   },
   {
     "moneda": "USD",
@@ -14,26 +14,26 @@
     "nombre": "Blue",
     "compra": 1515,
     "venta": 1535,
-    "fechaActualizacion": "2026-07-20T13:00:00.000Z",
+    "fechaActualizacion": "2026-07-20T14:00:00.000Z",
     "variacion": 0.33
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1517.69,
-    "venta": 1517.69,
-    "fechaActualizacion": "2026-07-20T13:00:00.000Z",
-    "variacion": -0.1
+    "compra": 1516.26,
+    "venta": 1516.26,
+    "fechaActualizacion": "2026-07-20T14:00:00.000Z",
+    "variacion": -0.2
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1574.15,
-    "venta": 1574.15,
-    "fechaActualizacion": "2026-07-20T13:00:00.000Z",
-    "variacion": -0.1
+    "compra": 1577.99,
+    "venta": 1577.99,
+    "fechaActualizacion": "2026-07-20T14:00:00.000Z",
+    "variacion": 0.1
   },
   {
     "moneda": "USD",
@@ -48,10 +48,10 @@
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1575,
-    "venta": 1575,
-    "fechaActualizacion": "2026-07-20T13:00:00.000Z",
-    "variacion": 0.06
+    "compra": 1574.48,
+    "venta": 1574.48,
+    "fechaActualizacion": "2026-07-20T14:00:00.000Z",
+    "variacion": 0.27
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1450,
     "venta": 1950,
-    "fechaActualizacion": "2026-07-20T13:00:00.000Z",
+    "fechaActualizacion": "2026-07-20T14:00:00.000Z",
     "variacion": 0
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1450,
     "venta": 1500,
     "variacion": 0,
-    "fechaActualizacion": "2026-07-20T13:00:00.000Z"
+    "fechaActualizacion": "2026-07-20T14:00:00.000Z"
   }
 ]
