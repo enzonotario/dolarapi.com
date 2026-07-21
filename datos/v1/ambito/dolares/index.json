@@ -3,10 +3,10 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 1449.13,
-    "venta": 1500.26,
-    "fechaActualizacion": "2026-07-21T11:50:00.000Z",
-    "variacion": -0.1
+    "compra": 1447.37,
+    "venta": 1498.43,
+    "fechaActualizacion": "2026-07-21T13:47:00.000Z",
+    "variacion": -0.22
   },
   {
     "moneda": "USD",
@@ -14,26 +14,26 @@
     "nombre": "Blue",
     "compra": 1525,
     "venta": 1545,
-    "fechaActualizacion": "2026-07-21T13:00:00.000Z",
+    "fechaActualizacion": "2026-07-21T14:00:00.000Z",
     "variacion": 0.32
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1508.29,
-    "venta": 1508.29,
-    "fechaActualizacion": "2026-07-21T13:00:00.000Z",
+    "compra": 1507.75,
+    "venta": 1507.75,
+    "fechaActualizacion": "2026-07-21T14:00:00.000Z",
     "variacion": -0.3
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1565.5,
-    "venta": 1565.5,
-    "fechaActualizacion": "2026-07-21T13:00:00.000Z",
-    "variacion": -0.5
+    "compra": 1565.96,
+    "venta": 1565.96,
+    "fechaActualizacion": "2026-07-21T14:00:00.000Z",
+    "variacion": -0.4
   },
   {
     "moneda": "USD",
@@ -48,10 +48,10 @@
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1566.41,
-    "venta": 1566.41,
-    "fechaActualizacion": "2026-07-21T13:00:00.000Z",
-    "variacion": -0.28
+    "compra": 1570.32,
+    "venta": 1570.32,
+    "fechaActualizacion": "2026-07-21T14:00:00.000Z",
+    "variacion": -0.01
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1450,
     "venta": 1950,
-    "fechaActualizacion": "2026-07-21T13:00:00.000Z",
+    "fechaActualizacion": "2026-07-21T14:00:00.000Z",
     "variacion": 0
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1450,
     "venta": 1500,
     "variacion": 0,
-    "fechaActualizacion": "2026-07-21T13:00:00.000Z"
+    "fechaActualizacion": "2026-07-21T14:00:00.000Z"
   }
 ]
