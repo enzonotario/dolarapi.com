@@ -34,7 +34,8 @@
   },
   "dependencies": {
     "better-sqlite3": "catalog:",
-    "dotenv": "catalog:"
+    "dotenv": "catalog:",
+    "tar-fs": "2.1.4"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
