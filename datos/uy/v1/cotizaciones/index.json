@@ -4,62 +4,62 @@
     "nombre": "Dólar",
     "compra": 38.9,
     "venta": 41.3,
-    "fechaActualizacion": "2026-07-23T12:01:59.859Z"
+    "fechaActualizacion": "2026-07-23T13:01:08.323Z"
   },
   {
     "moneda": "EUR",
     "nombre": "Euro",
     "compra": 43.49,
     "venta": 48.29,
-    "fechaActualizacion": "2026-07-23T12:01:59.860Z"
+    "fechaActualizacion": "2026-07-23T13:01:08.323Z"
   },
   {
     "moneda": "ARS",
     "nombre": "Peso Argentino",
     "compra": 0.02,
     "venta": 0.2,
-    "fechaActualizacion": "2026-07-23T12:01:59.860Z"
+    "fechaActualizacion": "2026-07-23T13:01:08.323Z"
   },
   {
     "moneda": "BRL",
     "nombre": "Real",
     "compra": 6.95,
     "venta": 8.65,
-    "fechaActualizacion": "2026-07-23T12:01:59.860Z"
+    "fechaActualizacion": "2026-07-23T13:01:08.323Z"
   },
   {
     "moneda": "GBP",
     "nombre": "Libra Esterlina",
     "compra": 50.8,
     "venta": 57.36,
-    "fechaActualizacion": "2026-07-23T12:01:59.860Z"
+    "fechaActualizacion": "2026-07-23T13:01:08.323Z"
   },
   {
     "moneda": "CHF",
     "nombre": "Franco Suizo",
     "compra": 46.9,
     "venta": 51.62,
-    "fechaActualizacion": "2026-07-23T12:01:59.860Z"
+    "fechaActualizacion": "2026-07-23T13:01:08.323Z"
   },
   {
     "moneda": "PYG",
     "nombre": "Guaraní",
     "compra": 0.0063,
     "venta": 0.00696,
-    "fechaActualizacion": "2026-07-23T12:01:59.860Z"
+    "fechaActualizacion": "2026-07-23T13:01:08.324Z"
   },
   {
     "moneda": "UI",
     "nombre": "Unidad Indexada",
     "compra": null,
     "venta": 6.6229,
-    "fechaActualizacion": "2026-07-23T12:01:59.861Z"
+    "fechaActualizacion": "2026-07-23T13:01:08.324Z"
   },
   {
     "moneda": "XAU",
     "nombre": "Onza Troy De Oro",
     "compra": 158571.182,
     "venta": 172050.431,
-    "fechaActualizacion": "2026-07-23T12:01:59.861Z"
+    "fechaActualizacion": "2026-07-23T13:01:08.324Z"
   }
 ]
