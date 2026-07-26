@@ -8000,6 +8000,14 @@
     "moneda": "EUR"
   },
   {
+    "fuente": "paralelo",
+    "compra": null,
+    "venta": null,
+    "promedio": 952.605948,
+    "fecha": "2026-07-26",
+    "moneda": "EUR"
+  },
+  {
     "fuente": "oficial",
     "compra": null,
     "venta": null,
