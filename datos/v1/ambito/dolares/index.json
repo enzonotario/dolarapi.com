@@ -3,10 +3,10 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 1467.74,
-    "venta": 1518.79,
-    "fechaActualizacion": "2026-07-29T11:43:00.000Z",
-    "variacion": -0.13
+    "compra": 1467.67,
+    "venta": 1518.72,
+    "fechaActualizacion": "2026-07-29T13:45:00.000Z",
+    "variacion": -0.14
   },
   {
     "moneda": "USD",
@@ -14,26 +14,26 @@
     "nombre": "Blue",
     "compra": 1550,
     "venta": 1570,
-    "fechaActualizacion": "2026-07-29T13:00:00.000Z",
+    "fechaActualizacion": "2026-07-29T14:00:00.000Z",
     "variacion": 0
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1528.43,
-    "venta": 1528.43,
-    "fechaActualizacion": "2026-07-29T13:00:00.000Z",
+    "compra": 1529.25,
+    "venta": 1529.25,
+    "fechaActualizacion": "2026-07-29T14:00:00.000Z",
     "variacion": -0.3
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1593.49,
-    "venta": 1593.49,
-    "fechaActualizacion": "2026-07-29T13:00:00.000Z",
-    "variacion": -0.4
+    "compra": 1594.97,
+    "venta": 1594.97,
+    "fechaActualizacion": "2026-07-29T14:00:00.000Z",
+    "variacion": -0.3
   },
   {
     "moneda": "USD",
@@ -48,10 +48,10 @@
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1594.06,
-    "venta": 1594.06,
-    "fechaActualizacion": "2026-07-29T13:00:00.000Z",
-    "variacion": -0.06
+    "compra": 1592.15,
+    "venta": 1592.15,
+    "fechaActualizacion": "2026-07-29T14:00:00.000Z",
+    "variacion": 0.04
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1470,
     "venta": 1976,
-    "fechaActualizacion": "2026-07-29T13:00:00.000Z",
+    "fechaActualizacion": "2026-07-29T14:00:00.000Z",
     "variacion": 0
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1470,
     "venta": 1520,
     "variacion": 0,
-    "fechaActualizacion": "2026-07-29T13:00:00.000Z"
+    "fechaActualizacion": "2026-07-29T14:00:00.000Z"
   }
 ]
