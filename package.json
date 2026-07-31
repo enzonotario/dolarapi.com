@@ -2,7 +2,7 @@
   "name": "esjs-dolar-api",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.24.0",
+  "packageManager": "pnpm@10.34.5",
   "author": "Enzo Notario <hi@enzonotario.me>",
   "license": "MIT",
   "repository": {
