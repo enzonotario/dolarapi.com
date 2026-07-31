@@ -7061,5 +7061,19 @@
     "venta": null,
     "promedio": 837.495512,
     "fecha": "2026-07-30"
+  },
+  {
+    "fuente": "oficial",
+    "compra": null,
+    "venta": null,
+    "promedio": 746.6297,
+    "fecha": "2026-07-31"
+  },
+  {
+    "fuente": "paralelo",
+    "compra": null,
+    "venta": null,
+    "promedio": 838.58875,
+    "fecha": "2026-07-31"
   }
 ]
