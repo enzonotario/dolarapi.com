@@ -1076,5 +1076,12 @@
     "venta": null,
     "promedio": 839.046105,
     "fecha": "2026-08-01"
+  },
+  {
+    "fuente": "paralelo",
+    "compra": null,
+    "venta": null,
+    "promedio": 839.874592,
+    "fecha": "2026-08-02"
   }
 ]
