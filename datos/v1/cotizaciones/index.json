@@ -5,7 +5,7 @@
     "nombre": "Dólar",
     "compra": 1470,
     "venta": 1520,
-    "fechaActualizacion": "2026-08-07T11:55:00.000Z"
+    "fechaActualizacion": "2026-08-07T12:56:00.000Z"
   },
   {
     "moneda": "EUR",
@@ -13,30 +13,30 @@
     "nombre": "Euro",
     "compra": 1716.0127,
     "venta": 1730.1231,
-    "fechaActualizacion": "2026-08-07T11:55:00.000Z"
+    "fechaActualizacion": "2026-08-07T12:56:00.000Z"
   },
   {
     "moneda": "BRL",
     "casa": "oficial",
     "nombre": "Real Brasileño",
-    "compra": 294.214,
-    "venta": 294.2155,
-    "fechaActualizacion": "2026-08-07T11:55:00.000Z"
+    "compra": 293.7413,
+    "venta": 293.7428,
+    "fechaActualizacion": "2026-08-07T12:55:00.000Z"
   },
   {
     "moneda": "CLP",
     "casa": "oficial",
     "nombre": "Peso Chileno",
-    "compra": 1.6436,
-    "venta": 1.6436,
-    "fechaActualizacion": "2026-08-07T11:55:00.000Z"
+    "compra": 1.6388,
+    "venta": 1.6388,
+    "fechaActualizacion": "2026-08-07T12:56:00.000Z"
   },
   {
     "moneda": "UYU",
     "casa": "oficial",
     "nombre": "Peso Uruguayo",
-    "compra": 37.242,
-    "venta": 37.2423,
-    "fechaActualizacion": "2026-08-07T11:55:00.000Z"
+    "compra": 37.2423,
+    "venta": 37.2425,
+    "fechaActualizacion": "2026-08-07T12:55:00.000Z"
   }
 ]
