@@ -4,6 +4,8 @@ import vueI18n from '@intlify/unplugin-vue-i18n/vite'
 import tailwindcss from '@tailwindcss/vite'
 import { SitemapStream } from 'sitemap'
 import { defineConfig, loadEnv } from 'vitepress'
+import llmstxt, { copyOrDownloadAsMarkdownButtons } from 'vitepress-plugin-llms'
+import { LLM_AGENTS_DETAILS } from './llmGuide.js'
 import { generateSidebar } from './sidebar/sidebar.js'
 
 const links = []
@@ -20,6 +22,12 @@ export default defineConfig({
   outDir: '../dist/static/docs',
   base: '/docs/',
   srcExclude: ['**/operations/parts/*.md'],
+
+  markdown: {
+    config(md) {
+      md.use(copyOrDownloadAsMarkdownButtons)
+    },
+  },
 
   themeConfig: {
     logo: '/assets/logo.webp',
@@ -135,6 +143,33 @@ export default defineConfig({
       tailwindcss(),
       vueI18n({
         ssr: true,
+      }),
+      llmstxt({
+        domain: 'https://dolarapi.com',
+        title: 'DolarApi.com — Docs para agentes',
+        description: 'API de cotizaciones de dólar y monedas en LatAm. Preferí siempre el OpenAPI de la región.',
+        ignoreFiles: [
+          'sponsors.md',
+          'legal.md',
+          '**/operations/parts/*',
+        ],
+        excludeIndexPage: false,
+        customLLMsTxtTemplate: `# {title}
+
+{description}
+
+{details}
+
+## Table of Contents
+
+{toc}
+`,
+        customTemplateVariables: {
+          details: LLM_AGENTS_DETAILS,
+        },
+        experimental: {
+          depth: 2,
+        },
       }),
     ],
   },

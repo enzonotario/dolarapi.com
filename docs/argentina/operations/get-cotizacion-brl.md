@@ -27,3 +27,26 @@ Cotización del Real Brasileño en el mercado.
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotizaciones/brl
+
+Real Brasileño
+
+Cotización del Real Brasileño en el mercado.
+
+### Servers
+
+- https://dolarapi.com — Producción
+
+### Responses
+
+- `200` — Devuelve la cotización del Real Brasileño
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://dolarapi.com/openapi.json
+
+</llm-only>
+

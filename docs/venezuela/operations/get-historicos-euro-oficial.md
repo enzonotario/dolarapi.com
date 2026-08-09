@@ -74,3 +74,27 @@ Devuelve el último valor de cada día del Euro Oficial
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/historicos/euros/oficial
+
+Histórico Euro Oficial
+
+Devuelve el último valor de cada día del Euro Oficial
+
+### Servers
+
+- https://ve.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Array de cotizaciones históricas
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://ve.dolarapi.com/openapi.json
+
+</llm-only>
+

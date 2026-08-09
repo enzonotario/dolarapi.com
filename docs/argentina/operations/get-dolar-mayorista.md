@@ -27,3 +27,26 @@ Cotización del dólar estadounidense en el mercado mayorista. Es decir, el prec
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/dolares/mayorista
+
+Dólar Mayorista
+
+Cotización del dólar estadounidense en el mercado mayorista. Es decir, el precio de compra y venta de dólares en el mercado interbancario.
+
+### Servers
+
+- https://dolarapi.com — Producción
+
+### Responses
+
+- `200` — Devuelve la cotización del Dólar Mayorista
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://dolarapi.com/openapi.json
+
+</llm-only>
+

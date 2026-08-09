@@ -74,3 +74,27 @@ Cotización del dólar estadounidense en pesos chilenos
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotizaciones/usd
+
+Dólar
+
+Cotización del dólar estadounidense en pesos chilenos
+
+### Servers
+
+- https://cl.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Devuelve la cotización del Dólar
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://cl.dolarapi.com/openapi.json
+
+</llm-only>
+

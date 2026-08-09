@@ -74,3 +74,27 @@ Devuelve el último valor de cada día para Euro oficial y paralelo, ordenados p
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/historicos/euros
+
+Histórico Euros
+
+Devuelve el último valor de cada día para Euro oficial y paralelo, ordenados por fecha
+
+### Servers
+
+- https://ve.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Array de cotizaciones históricas (oficial y paralelo por día)
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://ve.dolarapi.com/openapi.json
+
+</llm-only>
+

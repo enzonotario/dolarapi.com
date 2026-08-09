@@ -27,3 +27,26 @@ Devuelve la cotización de todas las monedas.
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotizaciones
+
+Cotizaciones
+
+Devuelve la cotización de todas las monedas.
+
+### Servers
+
+- https://dolarapi.com — Producción
+
+### Responses
+
+- `200` — Devuelve todas las cotizaciones
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://dolarapi.com/openapi.json
+
+</llm-only>
+

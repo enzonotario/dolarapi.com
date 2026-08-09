@@ -74,3 +74,27 @@ Cotação do dólar americano em reais brasileiros
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotacoes/usd
+
+Dólar
+
+Cotação do dólar americano em reais brasileiros
+
+### Servers
+
+- https://br.dolarapi.com — Produção
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Retorna a cotação do Dólar
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://br.dolarapi.com/openapi.json
+
+</llm-only>
+

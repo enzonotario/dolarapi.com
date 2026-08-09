@@ -84,6 +84,20 @@ Ver en GitHub
 https://dolarapi.com
 ```
 
+<llm-only>
+
+## Guía para agentes — Argentina
+
+- Base URL: `https://dolarapi.com`
+- Endpoints: `https://dolarapi.com/v1/*`
+- OpenAPI (preferir): https://dolarapi.com/openapi.json
+- Spec en docs: https://dolarapi.com/docs/openapi.json
+
+La fuente de verdad de paths y schemas es el OpenAPI. Las páginas Markdown son ayuda humana + resumen LLM.
+
+</llm-only>
+
+
 <span v-if="false" class="i-mdi-chart-line" /> <!-- Force import -->
 
 ## Aviso Legal

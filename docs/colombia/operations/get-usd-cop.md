@@ -74,3 +74,27 @@ Cotización del dólar americano en pesos colombianos
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotizaciones/usd
+
+Dólar
+
+Cotización del dólar americano en pesos colombianos
+
+### Servers
+
+- https://co.dolarapi.com — Producción (Colombia)
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Retorna la cotización del Dólar
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://co.dolarapi.com/openapi.json
+
+</llm-only>
+

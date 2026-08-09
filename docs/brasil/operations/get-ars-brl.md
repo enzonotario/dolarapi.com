@@ -74,3 +74,27 @@ Cotação do peso argentino em reais brasileiros
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotacoes/ars
+
+Peso Argentino
+
+Cotação do peso argentino em reais brasileiros
+
+### Servers
+
+- https://br.dolarapi.com — Produção
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Retorna a cotação do Peso Argentino
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://br.dolarapi.com/openapi.json
+
+</llm-only>
+

@@ -1,5 +1,6 @@
 import { theme, useTheme } from 'vitepress-openapi/client'
 import DefaultTheme from 'vitepress/theme'
+import CopyOrDownloadAsMarkdownButtons from 'vitepress-plugin-llms/vitepress-components/CopyOrDownloadAsMarkdownButtons.vue'
 import { useECharts } from '../plugins/echarts'
 import chartComponents from './components/charts'
 import DataSources from './components/DataSources.vue'
@@ -35,5 +36,6 @@ export default {
     app.component('SponsorsAvatars', SponsorsAvatars)
     app.component('DataSources', DataSources)
     app.component('MarkdownLink', MarkdownLink)
+    app.component('CopyOrDownloadAsMarkdownButtons', CopyOrDownloadAsMarkdownButtons)
   },
 }

@@ -27,3 +27,26 @@ Cotización del Euro en el mercado.
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotizaciones/eur
+
+Euro
+
+Cotización del Euro en el mercado.
+
+### Servers
+
+- https://dolarapi.com — Producción
+
+### Responses
+
+- `200` — Devuelve la cotización del Euro
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://dolarapi.com/openapi.json
+
+</llm-only>
+

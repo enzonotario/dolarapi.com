@@ -167,6 +167,46 @@
       "destination": "/docs/"
     },
     {
+      "source": "/llms.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "dolarapi.com"
+        }
+      ],
+      "destination": "/docs/llms.txt"
+    },
+    {
+      "source": "/llms-full.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "dolarapi.com"
+        }
+      ],
+      "destination": "/docs/llms-full.txt"
+    },
+    {
+      "source": "/:region/llms.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "dolarapi.com"
+        }
+      ],
+      "destination": "/docs/:region/llms.txt"
+    },
+    {
+      "source": "/:path*.md",
+      "has": [
+        {
+          "type": "host",
+          "value": "dolarapi.com"
+        }
+      ],
+      "destination": "/docs/:path*.md"
+    },
+    {
       "source": "/openapi.json",
       "has": [
         {

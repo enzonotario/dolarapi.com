@@ -74,3 +74,27 @@ Cotización del Dólar Oficial en Venezuela
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/dolares/oficial
+
+Dólar Oficial
+
+Cotización del Dólar Oficial en Venezuela
+
+### Servers
+
+- https://ve.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Devuelve la cotización del Dólar Oficial
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://ve.dolarapi.com/openapi.json
+
+</llm-only>
+

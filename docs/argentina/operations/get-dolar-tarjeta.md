@@ -27,3 +27,26 @@ Es el valor de la cotización del dólar estadounidense en el mercado oficial, m
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/dolares/tarjeta
+
+Dólar Tarjeta
+
+Es el valor de la cotización del dólar estadounidense en el mercado oficial, más el impuesto a las ganancias (30%).
+
+### Servers
+
+- https://dolarapi.com — Producción
+
+### Responses
+
+- `200` — Devuelve el valor del Dólar Tarjeta
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://dolarapi.com/openapi.json
+
+</llm-only>
+

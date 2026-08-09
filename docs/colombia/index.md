@@ -79,6 +79,20 @@ Ver en GitHub
 https://co.dolarapi.com
 ```
 
+<llm-only>
+
+## Guía para agentes — Colombia
+
+- Base URL: `https://co.dolarapi.com`
+- Endpoints: `https://co.dolarapi.com/v1/*`
+- OpenAPI (preferir): https://co.dolarapi.com/openapi.json
+- Spec en docs: https://dolarapi.com/docs/colombia/openapi.json
+
+La fuente de verdad de paths y schemas es el OpenAPI. Las páginas Markdown son ayuda humana + resumen LLM.
+
+</llm-only>
+
+
 ## Aviso Legal
 
 DolarApi.com es un proyecto de código abierto que proporciona datos de fuentes públicas. Para más información, consulte la sección de [Aviso Legal](/legal).

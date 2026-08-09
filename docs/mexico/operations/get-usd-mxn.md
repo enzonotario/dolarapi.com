@@ -74,3 +74,27 @@ Cotización del dólar estadounidense en pesos mexicanos
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotizaciones/usd
+
+Dólar
+
+Cotización del dólar estadounidense en pesos mexicanos
+
+### Servers
+
+- https://mx.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Devuelve la cotización del Dólar Estadounidense
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://mx.dolarapi.com/openapi.json
+
+</llm-only>
+

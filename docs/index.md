@@ -59,3 +59,19 @@ import Home from '@theme/components/Home.vue';
 </script>
 
 <Home />
+
+<llm-only>
+
+## Guía para agentes
+
+DolarApi expone cotizaciones por región. Preferí siempre el OpenAPI de la región.
+
+- Argentina: `https://dolarapi.com/v1/*` — OpenAPI: `https://dolarapi.com/openapi.json`
+- Resto: `https://{region}.dolarapi.com/v1/*` (`ve`, `bo`, `cl`, `uy`, `mx`, `br`, `co`) — OpenAPI: `https://{region}.dolarapi.com/openapi.json`
+- Índice LLM: `https://dolarapi.com/llms.txt` (también en `/docs/llms.txt`)
+- Specs en docs: `/docs/openapi.json`, `/docs/venezuela/openapi.json`, etc.
+
+La fuente de verdad de paths y schemas es OpenAPI; las páginas Markdown son ayuda humana + resumen LLM.
+
+</llm-only>
+

@@ -74,3 +74,27 @@ Cotizaciones de las monedas más utilizadas en Uruguay
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotizaciones
+
+Cotizaciones
+
+Cotizaciones de las monedas más utilizadas en Uruguay
+
+### Servers
+
+- https://uy.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Devuelve las cotizaciones de las monedas más utilizadas en Uruguay
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://uy.dolarapi.com/openapi.json
+
+</llm-only>
+

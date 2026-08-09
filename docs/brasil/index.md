@@ -79,6 +79,20 @@ Ver no GitHub
 https://br.dolarapi.com
 ```
 
+<llm-only>
+
+## Guía para agentes — Brasil
+
+- Base URL: `https://br.dolarapi.com`
+- Endpoints: `https://br.dolarapi.com/v1/*`
+- OpenAPI (preferir): https://br.dolarapi.com/openapi.json
+- Spec en docs: https://dolarapi.com/docs/brasil/openapi.json
+
+La fuente de verdad de paths y schemas es el OpenAPI. Las páginas Markdown son ayuda humana + resumen LLM.
+
+</llm-only>
+
+
 ## Aviso Legal
 
 DolarApi.com é um projeto de código aberto que fornece dados de fontes públicas. Para mais informações, consulte a seção de [Aviso Legal](/legal).

@@ -74,3 +74,27 @@ Devuelve las cotizaciones del Euro oficial (BCV) y paralelo (Yadio) en Venezuela
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/euros
+
+Euros
+
+Devuelve las cotizaciones del Euro oficial (BCV) y paralelo (Yadio) en Venezuela
+
+### Servers
+
+- https://ve.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Devuelve todas las cotizaciones
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://ve.dolarapi.com/openapi.json
+
+</llm-only>
+

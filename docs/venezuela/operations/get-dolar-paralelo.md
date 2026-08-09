@@ -74,3 +74,27 @@ Cotización del Dólar Paralelo en Venezuela
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/dolares/paralelo
+
+Dólar Paralelo
+
+Cotización del Dólar Paralelo en Venezuela
+
+### Servers
+
+- https://ve.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Devuelve la cotización del Dólar Paralelo
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://ve.dolarapi.com/openapi.json
+
+</llm-only>
+

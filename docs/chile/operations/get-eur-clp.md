@@ -74,3 +74,27 @@ Cotización del euro en pesos chilenos
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotizaciones/eur
+
+Euro
+
+Cotización del euro en pesos chilenos
+
+### Servers
+
+- https://cl.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Devuelve la cotización del Euro
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://cl.dolarapi.com/openapi.json
+
+</llm-only>
+

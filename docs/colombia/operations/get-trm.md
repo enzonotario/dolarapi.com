@@ -74,3 +74,27 @@ Tasa de Cambio Representativa del Mercado (TRM) oficial de Colombia publicada po
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/trm
+
+TRM
+
+Tasa de Cambio Representativa del Mercado (TRM) oficial de Colombia publicada por la Superintendencia Financiera
+
+### Servers
+
+- https://co.dolarapi.com — Producción (Colombia)
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Retorna la TRM oficial
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://co.dolarapi.com/openapi.json
+
+</llm-only>
+

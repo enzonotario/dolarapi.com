@@ -79,6 +79,20 @@ Ver en GitHub
 https://uy.dolarapi.com
 ```
 
+<llm-only>
+
+## Guía para agentes — Uruguay
+
+- Base URL: `https://uy.dolarapi.com`
+- Endpoints: `https://uy.dolarapi.com/v1/*`
+- OpenAPI (preferir): https://uy.dolarapi.com/openapi.json
+- Spec en docs: https://dolarapi.com/docs/uruguay/openapi.json
+
+La fuente de verdad de paths y schemas es el OpenAPI. Las páginas Markdown son ayuda humana + resumen LLM.
+
+</llm-only>
+
+
 ## Aviso Legal
 
 DolarApi.com es un proyecto de código abierto que brinda datos de fuentes públicas. Para más información, consulta la seción de [Aviso Legal](/legal).

@@ -52,7 +52,7 @@ function generateMarkdown(operationId) {
   const operation = openapi.getOperation(operationId)
 
   const markdown = `
-${plantilla(operationId, operation, true)}
+${plantilla(operationId, operation, true, openapi, { openapiUrl: 'https://dolarapi.com/openapi.json' })}
 `
 
   return markdown

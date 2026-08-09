@@ -40,7 +40,7 @@ import { setRegionForSidebar } from '../../.vitepress/sidebar/sidebar.utils.js'
 const spec = setRegionForSidebar('ar')
 </script>
 
-${plantilla(operationId, operation)}
+${plantilla(operationId, operation, false, openapi, { openapiUrl: 'https://dolarapi.com/openapi.json' })}
 `
 
   return markdown

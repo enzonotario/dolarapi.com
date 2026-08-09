@@ -74,3 +74,27 @@ Cotizaciones de las monedas más utilizadas en Mexico
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotizaciones
+
+Cotizaciones
+
+Cotizaciones de las monedas más utilizadas en Mexico
+
+### Servers
+
+- https://mx.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Devuelve las cotizaciones de las monedas más utilizadas en Mexico
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://mx.dolarapi.com/openapi.json
+
+</llm-only>
+

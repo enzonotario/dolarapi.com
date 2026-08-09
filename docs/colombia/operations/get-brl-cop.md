@@ -74,3 +74,27 @@ Cotización del real brasileño en pesos colombianos
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotizaciones/brl
+
+Real Brasileño
+
+Cotización del real brasileño en pesos colombianos
+
+### Servers
+
+- https://co.dolarapi.com — Producción (Colombia)
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Retorna la cotización del Real Brasileño
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://co.dolarapi.com/openapi.json
+
+</llm-only>
+

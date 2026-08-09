@@ -74,3 +74,27 @@ Cotización del peso uruguayo en pesos chilenos
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotizaciones/uyu
+
+Peso Uruguayo
+
+Cotización del peso uruguayo en pesos chilenos
+
+### Servers
+
+- https://cl.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Devuelve la cotización del Peso Uruguayo
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://cl.dolarapi.com/openapi.json
+
+</llm-only>
+

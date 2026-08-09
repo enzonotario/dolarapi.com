@@ -79,6 +79,20 @@ Ver en GitHub
 https://ve.dolarapi.com
 ```
 
+<llm-only>
+
+## Guía para agentes — Venezuela
+
+- Base URL: `https://ve.dolarapi.com`
+- Endpoints: `https://ve.dolarapi.com/v1/*`
+- OpenAPI (preferir): https://ve.dolarapi.com/openapi.json
+- Spec en docs: https://dolarapi.com/docs/venezuela/openapi.json
+
+La fuente de verdad de paths y schemas es el OpenAPI. Las páginas Markdown son ayuda humana + resumen LLM.
+
+</llm-only>
+
+
 ## Aviso Legal
 
 DolarApi.com es un proyecto de código abierto que brinda datos de fuentes públicas. Para más información, consulta la seción de [Aviso Legal](/legal).

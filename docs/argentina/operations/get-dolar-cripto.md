@@ -27,3 +27,26 @@ Cotización del dólar estadounidense en el mercado de criptomonedas. Es decir, 
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/dolares/cripto
+
+Dólar Cripto
+
+Cotización del dólar estadounidense en el mercado de criptomonedas. Es decir, el precio de compra y venta de dólares en el mercado de criptoactivos.
+
+### Servers
+
+- https://dolarapi.com — Producción
+
+### Responses
+
+- `200` — Devuelve la cotización del Dólar Cripto
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://dolarapi.com/openapi.json
+
+</llm-only>
+

@@ -27,3 +27,26 @@ Cotización del dólar estadounidense en el mercado paralelo o informal. Es deci
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/dolares/blue
+
+Dólar Blue
+
+Cotización del dólar estadounidense en el mercado paralelo o informal. Es decir, el precio de compra y venta de dólares en cuevas o casas de cambio no autorizadas por el Banco Central de la República Argentina (BCRA).
+
+### Servers
+
+- https://dolarapi.com — Producción
+
+### Responses
+
+- `200` — Devuelve la cotización del Dólar Blue
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://dolarapi.com/openapi.json
+
+</llm-only>
+

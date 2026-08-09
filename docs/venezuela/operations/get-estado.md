@@ -61,6 +61,8 @@ const spec = setRegionForSidebar('ve')
 
 <template #description="description">
 
+
+
 </template>
 
 <template #footer>
@@ -70,3 +72,25 @@ const spec = setRegionForSidebar('ve')
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/estado
+
+Estado de la API
+
+### Servers
+
+- https://ve.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Devuelve el estado de la API
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://ve.dolarapi.com/openapi.json
+
+</llm-only>
+

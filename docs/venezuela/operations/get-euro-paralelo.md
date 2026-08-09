@@ -74,3 +74,27 @@ Cotización del Euro paralelo (Yadio) en Venezuela
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/euros/paralelo
+
+Euro Paralelo
+
+Cotización del Euro paralelo (Yadio) en Venezuela
+
+### Servers
+
+- https://ve.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Devuelve la cotización del Euro paralelo
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://ve.dolarapi.com/openapi.json
+
+</llm-only>
+

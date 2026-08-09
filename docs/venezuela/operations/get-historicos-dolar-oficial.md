@@ -74,3 +74,27 @@ Devuelve el último valor de cada día del Dólar Oficial
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/historicos/dolares/oficial
+
+Histórico Dólar Oficial
+
+Devuelve el último valor de cada día del Dólar Oficial
+
+### Servers
+
+- https://ve.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Array de cotizaciones históricas
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://ve.dolarapi.com/openapi.json
+
+</llm-only>
+

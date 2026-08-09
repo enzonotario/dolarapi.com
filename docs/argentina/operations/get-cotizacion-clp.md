@@ -27,3 +27,26 @@ Cotización del Peso Chileno en el mercado.
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotizaciones/clp
+
+Peso Chileno
+
+Cotización del Peso Chileno en el mercado.
+
+### Servers
+
+- https://dolarapi.com — Producción
+
+### Responses
+
+- `200` — Devuelve la cotización del Peso Chileno
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://dolarapi.com/openapi.json
+
+</llm-only>
+

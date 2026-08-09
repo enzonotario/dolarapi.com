@@ -74,3 +74,31 @@ Devuelve las cotizaciones del Dólar oficial y paralelo para una fecha específi
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/historicos/dolares/{fecha}
+
+Histórico Dólares por Fecha
+
+Devuelve las cotizaciones del Dólar oficial y paralelo para una fecha específica (en formato `YYYY/MM/DD`)
+
+### Servers
+
+- https://ve.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Parameters
+
+- `fecha` (path, string, required) — Fecha de consulta
+
+### Responses
+
+- `200` — Array de cotizaciones históricas para la fecha indicada
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://ve.dolarapi.com/openapi.json
+
+</llm-only>
+

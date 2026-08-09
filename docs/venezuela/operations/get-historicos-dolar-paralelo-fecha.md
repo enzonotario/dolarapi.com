@@ -74,3 +74,31 @@ Devuelve la cotización del Dólar Paralelo para una fecha específica (en forma
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/historicos/dolares/paralelo/{fecha}
+
+Histórico Dólar Paralelo por Fecha
+
+Devuelve la cotización del Dólar Paralelo para una fecha específica (en formato `YYYY/MM/DD`)
+
+### Servers
+
+- https://ve.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Parameters
+
+- `fecha` (path, string, required) — Fecha de consulta
+
+### Responses
+
+- `200` — Cotización histórica para la fecha indicada
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://ve.dolarapi.com/openapi.json
+
+</llm-only>
+

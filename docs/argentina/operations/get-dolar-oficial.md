@@ -27,3 +27,26 @@ Cotización del dólar estadounidense en el mercado oficial. Es decir, el precio
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/dolares/oficial
+
+Dólar Oficial
+
+Cotización del dólar estadounidense en el mercado oficial. Es decir, el precio de compra y venta de dólares en bancos y casas de cambio autorizadas por el Banco Central de la República Argentina (BCRA).
+
+### Servers
+
+- https://dolarapi.com — Producción
+
+### Responses
+
+- `200` — Devuelve la cotización del Dólar Oficial
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://dolarapi.com/openapi.json
+
+</llm-only>
+

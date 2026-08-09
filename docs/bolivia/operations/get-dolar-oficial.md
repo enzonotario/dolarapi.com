@@ -74,3 +74,27 @@ Cotización del dólar estadounidense en pesos bolivianos
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/dolares/oficial
+
+Dólar Oficial
+
+Cotización del dólar estadounidense en pesos bolivianos
+
+### Servers
+
+- https://bo.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Devuelve la cotización del Dólar Estadounidense
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://bo.dolarapi.com/openapi.json
+
+</llm-only>
+

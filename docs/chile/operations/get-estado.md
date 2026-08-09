@@ -61,6 +61,8 @@ const spec = setRegionForSidebar('cl')
 
 <template #description="description">
 
+
+
 </template>
 
 <template #footer>
@@ -70,3 +72,25 @@ const spec = setRegionForSidebar('cl')
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/estado
+
+Estado de la API
+
+### Servers
+
+- https://cl.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Devuelve el estado de la API
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://cl.dolarapi.com/openapi.json
+
+</llm-only>
+

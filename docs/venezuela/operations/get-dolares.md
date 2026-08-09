@@ -74,3 +74,27 @@ Devuelve las distintas cotizaciones del Dólar en Venezuela
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/dolares
+
+Dólares
+
+Devuelve las distintas cotizaciones del Dólar en Venezuela
+
+### Servers
+
+- https://ve.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Devuelve todas las cotizaciones
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://ve.dolarapi.com/openapi.json
+
+</llm-only>
+

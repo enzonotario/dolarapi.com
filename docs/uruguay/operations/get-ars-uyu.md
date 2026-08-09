@@ -74,3 +74,27 @@ Cotización del peso argentino en pesos uruguayos
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotizaciones/ars
+
+Peso Argentino
+
+Cotización del peso argentino en pesos uruguayos
+
+### Servers
+
+- https://uy.dolarapi.com — Producción
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Devuelve la cotización del Peso Argentino
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://uy.dolarapi.com/openapi.json
+
+</llm-only>
+

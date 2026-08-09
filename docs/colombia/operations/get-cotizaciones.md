@@ -74,3 +74,27 @@ Cotizaciones de las principales monedas en pesos colombianos
 </template>
 
 </OAOperation>
+
+<llm-only>
+
+## GET /v1/cotizaciones
+
+Cotizaciones
+
+Cotizaciones de las principales monedas en pesos colombianos
+
+### Servers
+
+- https://co.dolarapi.com — Producción (Colombia)
+- http://localhost:5173 — Local
+
+### Responses
+
+- `200` — Retorna las cotizaciones
+
+### OpenAPI
+
+Source of truth for paths and schemas: https://co.dolarapi.com/openapi.json
+
+</llm-only>
+
