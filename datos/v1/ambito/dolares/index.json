@@ -3,10 +3,10 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 1469.92,
-    "venta": 1521.28,
-    "fechaActualizacion": "2026-08-10T10:03:00.000Z",
-    "variacion": 0
+    "compra": 1469.9,
+    "venta": 1520.79,
+    "fechaActualizacion": "2026-08-10T11:45:00.000Z",
+    "variacion": -0.03
   },
   {
     "moneda": "USD",
@@ -14,26 +14,26 @@
     "nombre": "Blue",
     "compra": 1505,
     "venta": 1525,
-    "fechaActualizacion": "2026-08-10T11:00:00.000Z",
+    "fechaActualizacion": "2026-08-10T12:00:00.000Z",
     "variacion": 0
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1522.68,
-    "venta": 1522.68,
-    "fechaActualizacion": "2026-08-10T11:00:00.000Z",
-    "variacion": -0.1
+    "compra": 1525.27,
+    "venta": 1525.27,
+    "fechaActualizacion": "2026-08-10T12:00:00.000Z",
+    "variacion": 0
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1584.52,
-    "venta": 1584.52,
-    "fechaActualizacion": "2026-08-10T11:00:00.000Z",
-    "variacion": 0.13
+    "compra": 1585.06,
+    "venta": 1585.06,
+    "fechaActualizacion": "2026-08-10T12:00:00.000Z",
+    "variacion": 0.2
   },
   {
     "moneda": "USD",
@@ -48,10 +48,10 @@
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1574.01,
-    "venta": 1574.01,
-    "fechaActualizacion": "2026-08-10T11:00:00.000Z",
-    "variacion": 0.05
+    "compra": 1577.03,
+    "venta": 1577.03,
+    "fechaActualizacion": "2026-08-10T12:00:00.000Z",
+    "variacion": 0
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1470,
     "venta": 1976,
-    "fechaActualizacion": "2026-08-10T11:00:00.000Z",
+    "fechaActualizacion": "2026-08-10T12:00:00.000Z",
     "variacion": 0
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1470,
     "venta": 1520,
     "variacion": 0,
-    "fechaActualizacion": "2026-08-10T11:00:00.000Z"
+    "fechaActualizacion": "2026-08-10T12:00:00.000Z"
   }
 ]
