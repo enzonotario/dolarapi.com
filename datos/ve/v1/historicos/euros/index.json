@@ -8243,8 +8243,16 @@
     "fuente": "paralelo",
     "compra": null,
     "venta": null,
-    "promedio": 994.455961,
+    "promedio": 996.820408,
     "fecha": "2026-08-12",
+    "moneda": "EUR"
+  },
+  {
+    "fuente": "oficial",
+    "compra": null,
+    "venta": null,
+    "promedio": 885.07948384,
+    "fecha": "2026-08-13",
     "moneda": "EUR"
   }
 ]
