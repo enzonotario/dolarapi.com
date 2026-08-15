@@ -8280,6 +8280,14 @@
     "moneda": "EUR"
   },
   {
+    "fuente": "paralelo",
+    "compra": null,
+    "venta": null,
+    "promedio": 1000.259027,
+    "fecha": "2026-08-15",
+    "moneda": "EUR"
+  },
+  {
     "fuente": "oficial",
     "compra": null,
     "venta": null,
