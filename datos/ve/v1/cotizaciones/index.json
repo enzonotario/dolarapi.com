@@ -5,8 +5,8 @@
     "nombre": "Dólar",
     "compra": null,
     "venta": null,
-    "promedio": 775.3356,
-    "fechaActualizacion": "2026-08-19T00:00:00-04:00"
+    "promedio": 777.4161,
+    "fechaActualizacion": "2026-08-20T00:00:00-04:00"
   },
   {
     "moneda": "EUR",
@@ -14,7 +14,7 @@
     "nombre": "Euro",
     "compra": null,
     "venta": null,
-    "promedio": 897.82311808,
-    "fechaActualizacion": "2026-08-19T00:00:00-04:00"
+    "promedio": 906.83255816,
+    "fechaActualizacion": "2026-08-20T00:00:00-04:00"
   }
 ]
