@@ -1,20 +1,16 @@
 [
   {
-    "moneda": "USD",
     "fuente": "oficial",
-    "nombre": "Dólar",
     "compra": null,
     "venta": null,
     "promedio": 791.3248,
-    "fechaActualizacion": "2026-08-27T00:00:00-04:00"
+    "fecha": "2026-08-27"
   },
   {
-    "moneda": "USD",
     "fuente": "paralelo",
-    "nombre": "Paralelo",
     "compra": null,
     "venta": null,
     "promedio": 933.706096,
-    "fechaActualizacion": "2026-08-27T04:02:13.291Z"
+    "fecha": "2026-08-27"
   }
 ]
