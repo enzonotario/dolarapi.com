@@ -8499,8 +8499,16 @@
     "fuente": "paralelo",
     "compra": null,
     "venta": null,
-    "promedio": 1066.595524,
+    "promedio": 1069.162795,
     "fecha": "2026-08-31",
+    "moneda": "EUR"
+  },
+  {
+    "fuente": "oficial",
+    "compra": null,
+    "venta": null,
+    "promedio": 926.55312212,
+    "fecha": "2026-09-01",
     "moneda": "EUR"
   }
 ]
