@@ -3,16 +3,16 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 12.26,
-    "venta": 12.26,
-    "fechaActualizacion": "2026-09-02T00:00:00.000Z"
+    "compra": 12.32,
+    "venta": 12.32,
+    "fechaActualizacion": "2026-09-03T00:00:00.000Z"
   },
   {
     "moneda": "USD",
     "casa": "binance",
     "nombre": "Binance",
-    "compra": 12.48,
-    "venta": 12.52,
-    "fechaActualizacion": "2026-09-02T21:01:15.618Z"
+    "compra": 12.33,
+    "venta": 12.37,
+    "fechaActualizacion": "2026-09-03T12:01:53.696Z"
   }
 ]
