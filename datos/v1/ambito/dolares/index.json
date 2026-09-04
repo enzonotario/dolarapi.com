@@ -3,10 +3,10 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 1477.36,
-    "venta": 1528.94,
-    "fechaActualizacion": "2026-09-04T12:00:00.000Z",
-    "variacion": -0.3
+    "compra": 1477.21,
+    "venta": 1528.6,
+    "fechaActualizacion": "2026-09-04T16:36:00.000Z",
+    "variacion": -0.32
   },
   {
     "moneda": "USD",
@@ -14,26 +14,26 @@
     "nombre": "Blue",
     "compra": 1520,
     "venta": 1540,
-    "fechaActualizacion": "2026-09-04T16:00:00.000Z",
+    "fechaActualizacion": "2026-09-04T17:00:00.000Z",
     "variacion": -0.32
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1522.42,
-    "venta": 1522.42,
-    "fechaActualizacion": "2026-09-04T16:00:00.000Z",
-    "variacion": -0.4
+    "compra": 1523.78,
+    "venta": 1523.78,
+    "fechaActualizacion": "2026-09-04T17:00:00.000Z",
+    "variacion": -0.3
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1586.63,
-    "venta": 1586.63,
-    "fechaActualizacion": "2026-09-04T16:00:00.000Z",
-    "variacion": -0.1
+    "compra": 1598.77,
+    "venta": 1598.77,
+    "fechaActualizacion": "2026-09-04T17:00:00.000Z",
+    "variacion": 0.6
   },
   {
     "moneda": "USD",
@@ -41,17 +41,17 @@
     "nombre": "Mayorista",
     "compra": 1499,
     "venta": 1508,
-    "fechaActualizacion": "2026-09-04T14:52:00.000Z",
+    "fechaActualizacion": "2026-09-04T16:48:00.000Z",
     "variacion": 0
   },
   {
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1576.9,
-    "venta": 1576.9,
-    "fechaActualizacion": "2026-09-04T16:00:00.000Z",
-    "variacion": -0.08
+    "compra": 1574.45,
+    "venta": 1574.45,
+    "fechaActualizacion": "2026-09-04T17:00:00.000Z",
+    "variacion": -0.02
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1480,
     "venta": 1989,
-    "fechaActualizacion": "2026-09-04T16:00:00.000Z",
+    "fechaActualizacion": "2026-09-04T17:00:00.000Z",
     "variacion": 0
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1480,
     "venta": 1530,
     "variacion": 0,
-    "fechaActualizacion": "2026-09-04T16:00:00.000Z"
+    "fechaActualizacion": "2026-09-04T17:00:00.000Z"
   }
 ]
