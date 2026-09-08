@@ -3,10 +3,10 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 1477.63,
-    "venta": 1529.19,
-    "fechaActualizacion": "2026-09-08T10:09:00.000Z",
-    "variacion": 0
+    "compra": 1477.21,
+    "venta": 1528.58,
+    "fechaActualizacion": "2026-09-08T11:45:00.000Z",
+    "variacion": -0.04
   },
   {
     "moneda": "USD",
@@ -14,26 +14,26 @@
     "nombre": "Blue",
     "compra": 1525,
     "venta": 1545,
-    "fechaActualizacion": "2026-09-08T11:00:00.000Z",
+    "fechaActualizacion": "2026-09-08T12:00:00.000Z",
     "variacion": 0
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1524.55,
-    "venta": 1524.55,
-    "fechaActualizacion": "2026-09-08T11:00:00.000Z",
+    "compra": 1525.77,
+    "venta": 1525.77,
+    "fechaActualizacion": "2026-09-08T12:00:00.000Z",
     "variacion": -0.2
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1579.67,
-    "venta": 1579.67,
-    "fechaActualizacion": "2026-09-08T11:00:00.000Z",
-    "variacion": 0.69
+    "compra": 1584.17,
+    "venta": 1584.17,
+    "fechaActualizacion": "2026-09-08T12:00:00.000Z",
+    "variacion": 0.97
   },
   {
     "moneda": "USD",
@@ -48,10 +48,10 @@
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1581.67,
-    "venta": 1581.67,
-    "fechaActualizacion": "2026-09-08T11:00:00.000Z",
-    "variacion": -0.09
+    "compra": 1581.86,
+    "venta": 1581.86,
+    "fechaActualizacion": "2026-09-08T12:00:00.000Z",
+    "variacion": -0.22
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1480,
     "venta": 1989,
-    "fechaActualizacion": "2026-09-08T11:00:00.000Z",
+    "fechaActualizacion": "2026-09-08T12:00:00.000Z",
     "variacion": 0
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1480,
     "venta": 1530,
     "variacion": 0,
-    "fechaActualizacion": "2026-09-08T11:00:00.000Z"
+    "fechaActualizacion": "2026-09-08T12:00:00.000Z"
   }
 ]
