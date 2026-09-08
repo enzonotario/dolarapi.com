@@ -55,9 +55,15 @@ app.post('/cron/', async (c) => {
   })
 })
 
+const VALID_REGIONS = ['bo', 'br', 'cl', 'co', 'mx', 'uy', 'v1', 've']
+
 app.post('/cron/:region', async (c) => {
   const token = import.meta.env.VITE_GITHUB_TOKEN
   const region = c.req.param('region')
+
+  if (!VALID_REGIONS.includes(region)) {
+    return c.json({ estado: 'Error', mensaje: 'Región inválida' }, 400)
+  }
 
   await dispararCron(token, region)
 
