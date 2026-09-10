@@ -1,20 +1,18 @@
 [
   {
-    "moneda": "EUR",
     "fuente": "oficial",
-    "nombre": "Euro",
     "compra": null,
     "venta": null,
     "promedio": 963.21283115,
-    "fechaActualizacion": "2026-09-10T00:00:00-04:00"
+    "fecha": "2026-09-10",
+    "moneda": "EUR"
   },
   {
-    "moneda": "EUR",
     "fuente": "paralelo",
-    "nombre": "Paralelo",
     "compra": null,
     "venta": null,
     "promedio": 1097.580906,
-    "fechaActualizacion": "2026-09-10T04:02:04.451Z"
+    "fecha": "2026-09-10",
+    "moneda": "EUR"
   }
 ]
