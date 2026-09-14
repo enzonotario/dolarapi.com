@@ -2,8 +2,8 @@
   "moneda": "USD",
   "casa": "bolsa",
   "nombre": "Bolsa",
-  "compra": 1537.84,
-  "venta": 1537.84,
-  "fechaActualizacion": "2026-09-14T12:00:00.000Z",
-  "variacion": 0
+  "compra": 1537,
+  "venta": 1537,
+  "fechaActualizacion": "2026-09-14T13:00:00.000Z",
+  "variacion": -0.1
 }
