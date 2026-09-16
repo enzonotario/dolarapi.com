@@ -8702,5 +8702,21 @@
     "promedio": 1088.344342,
     "fecha": "2026-09-15",
     "moneda": "EUR"
+  },
+  {
+    "fuente": "oficial",
+    "compra": null,
+    "venta": null,
+    "promedio": 977.18086211,
+    "fecha": "2026-09-16",
+    "moneda": "EUR"
+  },
+  {
+    "fuente": "paralelo",
+    "compra": null,
+    "venta": null,
+    "promedio": 1105.205032,
+    "fecha": "2026-09-16",
+    "moneda": "EUR"
   }
 ]
