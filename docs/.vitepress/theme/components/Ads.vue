@@ -3,56 +3,20 @@ import { computed, onMounted, onUnmounted, ref } from 'vue'
 
 const BASE_URL = 'https://api.argentinadatos.com/static/assets/arq/'
 const LINK_URL
-  = 'https://www.arqfinance.com/?utm_source=dolarapi_docs&utm_medium=banner&utm_campaign=dolarapi_docs_ad'
+  = 'https://www.arqfinance.com/referrals/arr?referralCode=enzonotario_sJx&pid=referral&c=arr&is_retargeting=true'
 
-const banners = [
-  {
-    id: 10,
-    desktopUrl: `${BASE_URL}Desktop_banner_10.png`,
-    mobileUrl: `${BASE_URL}Mobile_banner_10.png`,
-    altText: 'Banner 10',
-    linkUrl: LINK_URL,
-  },
-  {
-    id: 20,
-    desktopUrl: `${BASE_URL}Desktop_banner_20.png`,
-    mobileUrl: `${BASE_URL}Mobile_banner_20.png`,
-    altText: 'Banner 20',
-    linkUrl: LINK_URL,
-  },
-  {
-    id: 30,
-    desktopUrl: `${BASE_URL}Desktop_banner_30.png`,
-    mobileUrl: `${BASE_URL}Mobile_banner_30.png`,
-    altText: 'Banner 30',
-    linkUrl: LINK_URL,
-  },
-  {
-    id: 40,
-    desktopUrl: `${BASE_URL}Desktop_banner_40.png`,
-    mobileUrl: `${BASE_URL}Mobile_banner_40.png`,
-    altText: 'Banner 40',
-    linkUrl: LINK_URL,
-  },
-]
-
-const playlist = [
-  { bannerId: 10, duration: 5000 },
-  { bannerId: 20, duration: 5000 },
-  { bannerId: 30, duration: 5000 },
-  { bannerId: 40, duration: 3000 },
-]
+const banner = {
+  id: 1,
+  desktopUrl: `${BASE_URL}desktop.gif`,
+  mobileUrl: `${BASE_URL}mobile.gif`,
+  altText: 'ARQ — Pagá tus compras online en dólares',
+  linkUrl: LINK_URL,
+}
 
 const isMobile = ref(false)
 const imageError = ref(false)
-const currentPlaylistIndex = ref(0)
 
-const currentBanner = computed(() => {
-  if (imageError.value)
-    return null
-  const entry = playlist[currentPlaylistIndex.value]
-  return banners.find(b => b.id === entry.bannerId) || null
-})
+const currentBanner = computed(() => (imageError.value ? null : banner))
 
 const bannerImageUrl = computed(() => {
   if (!currentBanner.value)
@@ -72,20 +36,8 @@ onMounted(() => {
     checkMobile()
     window.addEventListener('resize', checkMobile, { passive: true })
 
-    let timeoutId
-    const scheduleNext = () => {
-      const entry = playlist[currentPlaylistIndex.value]
-      timeoutId = setTimeout(() => {
-        currentPlaylistIndex.value
-          = (currentPlaylistIndex.value + 1) % playlist.length
-        scheduleNext()
-      }, entry.duration)
-    }
-    scheduleNext()
-
     onUnmounted(() => {
       window.removeEventListener('resize', checkMobile)
-      clearTimeout(timeoutId)
     })
   })
 })
