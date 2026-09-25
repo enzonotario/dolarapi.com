@@ -3,10 +3,10 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 1490.3,
-    "venta": 1542.76,
-    "fechaActualizacion": "2026-09-25T11:53:00.000Z",
-    "variacion": 0.43
+    "compra": 1491.1,
+    "venta": 1543.02,
+    "fechaActualizacion": "2026-09-25T13:49:00.000Z",
+    "variacion": 0.45
   },
   {
     "moneda": "USD",
@@ -14,26 +14,26 @@
     "nombre": "Blue",
     "compra": 1540,
     "venta": 1560,
-    "fechaActualizacion": "2026-09-25T13:00:00.000Z",
+    "fechaActualizacion": "2026-09-25T14:00:00.000Z",
     "variacion": 0
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1552.36,
-    "venta": 1552.36,
-    "fechaActualizacion": "2026-09-25T13:00:00.000Z",
+    "compra": 1552.02,
+    "venta": 1552.02,
+    "fechaActualizacion": "2026-09-25T14:00:00.000Z",
     "variacion": 0.5
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1623.82,
-    "venta": 1623.82,
-    "fechaActualizacion": "2026-09-25T13:00:00.000Z",
-    "variacion": 0.6
+    "compra": 1625.65,
+    "venta": 1625.65,
+    "fechaActualizacion": "2026-09-25T14:00:00.000Z",
+    "variacion": 0.7
   },
   {
     "moneda": "USD",
@@ -48,10 +48,10 @@
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1618.98,
-    "venta": 1618.98,
-    "fechaActualizacion": "2026-09-25T13:00:00.000Z",
-    "variacion": -0.1
+    "compra": 1618.85,
+    "venta": 1618.85,
+    "fechaActualizacion": "2026-09-25T14:00:00.000Z",
+    "variacion": 0.1
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1495,
     "venta": 2008.5,
-    "fechaActualizacion": "2026-09-25T13:00:00.000Z",
+    "fechaActualizacion": "2026-09-25T14:00:00.000Z",
     "variacion": 0.32
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1495,
     "venta": 1545,
     "variacion": 0.32,
-    "fechaActualizacion": "2026-09-25T13:00:00.000Z"
+    "fechaActualizacion": "2026-09-25T14:00:00.000Z"
   }
 ]
