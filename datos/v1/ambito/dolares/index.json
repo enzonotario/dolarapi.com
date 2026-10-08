@@ -3,55 +3,55 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 1489.54,
-    "venta": 1543.08,
-    "fechaActualizacion": "2026-10-08T10:09:00.000Z",
-    "variacion": 0
+    "compra": 1486.64,
+    "venta": 1540.07,
+    "fechaActualizacion": "2026-10-08T11:46:00.000Z",
+    "variacion": -0.2
   },
   {
     "moneda": "USD",
     "casa": "blue",
     "nombre": "Blue",
-    "compra": 1535,
-    "venta": 1555,
-    "fechaActualizacion": "2026-10-08T11:00:00.000Z",
-    "variacion": 0
+    "compra": 1530,
+    "venta": 1550,
+    "fechaActualizacion": "2026-10-08T12:00:00.000Z",
+    "variacion": -0.32
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1540.29,
-    "venta": 1540.29,
-    "fechaActualizacion": "2026-10-08T11:00:00.000Z",
-    "variacion": 0.08
+    "compra": 1538.92,
+    "venta": 1538.92,
+    "fechaActualizacion": "2026-10-08T12:00:00.000Z",
+    "variacion": -0.01
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1613.11,
-    "venta": 1613.11,
-    "fechaActualizacion": "2026-10-08T11:00:00.000Z",
-    "variacion": 0.24
+    "compra": 1606.02,
+    "venta": 1606.02,
+    "fechaActualizacion": "2026-10-08T12:00:00.000Z",
+    "variacion": -0.2
   },
   {
     "moneda": "USD",
     "casa": "mayorista",
     "nombre": "Mayorista",
-    "compra": 1511,
-    "venta": 1520,
-    "fechaActualizacion": "2026-10-08T10:37:00.000Z",
-    "variacion": 0.2
+    "compra": 1510,
+    "venta": 1519,
+    "fechaActualizacion": "2026-10-08T11:18:00.000Z",
+    "variacion": 0.13
   },
   {
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1608.97,
-    "venta": 1608.97,
-    "fechaActualizacion": "2026-10-08T11:00:00.000Z",
-    "variacion": 0.03
+    "compra": 1608.58,
+    "venta": 1608.58,
+    "fechaActualizacion": "2026-10-08T12:00:00.000Z",
+    "variacion": 0.11
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1490,
     "venta": 2002,
-    "fechaActualizacion": "2026-10-08T11:00:00.000Z",
+    "fechaActualizacion": "2026-10-08T12:00:00.000Z",
     "variacion": 0
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1490,
     "venta": 1540,
     "variacion": 0,
-    "fechaActualizacion": "2026-10-08T11:00:00.000Z"
+    "fechaActualizacion": "2026-10-08T12:00:00.000Z"
   }
 ]
