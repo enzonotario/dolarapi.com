@@ -3,37 +3,37 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 1496.32,
-    "venta": 1549.77,
-    "fechaActualizacion": "2026-10-26T10:09:00.000Z",
-    "variacion": 0
+    "compra": 1507.08,
+    "venta": 1560.12,
+    "fechaActualizacion": "2026-10-26T11:43:00.000Z",
+    "variacion": 0.67
   },
   {
     "moneda": "USD",
     "casa": "blue",
     "nombre": "Blue",
-    "compra": 1545,
-    "venta": 1565,
-    "fechaActualizacion": "2026-10-26T11:00:00.000Z",
-    "variacion": 0
+    "compra": 1555,
+    "venta": 1575,
+    "fechaActualizacion": "2026-10-26T12:10:00.000Z",
+    "variacion": 0.64
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1561.81,
-    "venta": 1561.81,
-    "fechaActualizacion": "2026-10-26T11:00:00.000Z",
-    "variacion": -0.03
+    "compra": 1563.23,
+    "venta": 1563.23,
+    "fechaActualizacion": "2026-10-26T12:10:00.000Z",
+    "variacion": 0.1
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1675.59,
-    "venta": 1675.59,
-    "fechaActualizacion": "2026-10-26T11:00:00.000Z",
-    "variacion": 1.6
+    "compra": 1671.76,
+    "venta": 1671.76,
+    "fechaActualizacion": "2026-10-26T12:10:00.000Z",
+    "variacion": 1.4
   },
   {
     "moneda": "USD",
@@ -48,10 +48,10 @@
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1668.95,
-    "venta": 1668.95,
-    "fechaActualizacion": "2026-10-26T11:00:00.000Z",
-    "variacion": 0.14
+    "compra": 1671,
+    "venta": 1671,
+    "fechaActualizacion": "2026-10-26T12:10:00.000Z",
+    "variacion": 0.05
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1510,
     "venta": 2028,
-    "fechaActualizacion": "2026-10-26T11:00:00.000Z",
+    "fechaActualizacion": "2026-10-26T12:10:00.000Z",
     "variacion": 0.65
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1510,
     "venta": 1560,
     "variacion": 0.65,
-    "fechaActualizacion": "2026-10-26T11:00:00.000Z"
+    "fechaActualizacion": "2026-10-26T12:10:00.000Z"
   }
 ]
