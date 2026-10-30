@@ -9302,5 +9302,13 @@
     "promedio": 992.80018713,
     "fecha": "2026-10-30",
     "moneda": "EUR"
+  },
+  {
+    "fuente": "paralelo",
+    "compra": null,
+    "venta": null,
+    "promedio": 1118.719511,
+    "fecha": "2026-10-30",
+    "moneda": "EUR"
   }
 ]
