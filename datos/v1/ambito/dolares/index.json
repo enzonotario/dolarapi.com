@@ -5,8 +5,8 @@
     "nombre": "Oficial",
     "compra": 1507.68,
     "venta": 1560.7,
-    "fechaActualizacion": "2026-10-29T15:51:00.000Z",
-    "variacion": 0.04
+    "fechaActualizacion": "2026-10-30T10:01:00.000Z",
+    "variacion": 0
   },
   {
     "moneda": "USD",
@@ -14,44 +14,44 @@
     "nombre": "Blue",
     "compra": 1545,
     "venta": 1565,
-    "fechaActualizacion": "2026-10-29T10:00:00.000Z",
+    "fechaActualizacion": "2026-10-30T11:00:00.000Z",
     "variacion": 0
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1560.77,
-    "venta": 1560.77,
-    "fechaActualizacion": "2026-10-30T10:00:00.000Z",
-    "variacion": -0.7
+    "compra": 1566.89,
+    "venta": 1566.89,
+    "fechaActualizacion": "2026-10-30T11:00:00.000Z",
+    "variacion": 0.4
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1644.12,
-    "venta": 1644.12,
-    "fechaActualizacion": "2026-10-30T10:00:00.000Z",
-    "variacion": -0.8
+    "compra": 1658.29,
+    "venta": 1658.29,
+    "fechaActualizacion": "2026-10-30T11:00:00.000Z",
+    "variacion": 0.9
   },
   {
     "moneda": "USD",
     "casa": "mayorista",
     "nombre": "Mayorista",
-    "compra": 1530,
-    "venta": 1539,
-    "fechaActualizacion": "2026-10-29T15:06:00.000Z",
+    "compra": 1527,
+    "venta": 1536,
+    "fechaActualizacion": "2026-10-30T10:55:00.000Z",
     "variacion": -0.19
   },
   {
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1643.32,
-    "venta": 1643.32,
-    "fechaActualizacion": "2026-10-30T10:00:00.000Z",
-    "variacion": -0.06
+    "compra": 1657.84,
+    "venta": 1657.84,
+    "fechaActualizacion": "2026-10-30T11:00:00.000Z",
+    "variacion": -0.03
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1510,
     "venta": 2028,
-    "fechaActualizacion": "2026-10-30T10:00:00.000Z",
+    "fechaActualizacion": "2026-10-30T11:00:00.000Z",
     "variacion": 0
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1510,
     "venta": 1560,
     "variacion": 0,
-    "fechaActualizacion": "2026-10-30T10:00:00.000Z"
+    "fechaActualizacion": "2026-10-30T11:00:00.000Z"
   }
 ]
