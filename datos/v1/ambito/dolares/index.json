@@ -3,10 +3,10 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 1518.74,
-    "venta": 1571.52,
-    "fechaActualizacion": "2026-11-05T12:46:00.000Z",
-    "variacion": 0.01
+    "compra": 1518.35,
+    "venta": 1571.85,
+    "fechaActualizacion": "2026-11-05T14:02:00.000Z",
+    "variacion": 0.03
   },
   {
     "moneda": "USD",
@@ -14,26 +14,26 @@
     "nombre": "Blue",
     "compra": 1530,
     "venta": 1550,
-    "fechaActualizacion": "2026-11-05T14:00:00.000Z",
+    "fechaActualizacion": "2026-11-05T15:00:00.000Z",
     "variacion": -0.96
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1584.39,
-    "venta": 1584.39,
-    "fechaActualizacion": "2026-11-05T14:00:00.000Z",
-    "variacion": 0
+    "compra": 1584.31,
+    "venta": 1584.31,
+    "fechaActualizacion": "2026-11-05T15:00:00.000Z",
+    "variacion": -0.03
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1672.32,
-    "venta": 1672.32,
-    "fechaActualizacion": "2026-11-05T14:00:00.000Z",
-    "variacion": -0.2
+    "compra": 1683.18,
+    "venta": 1683.18,
+    "fechaActualizacion": "2026-11-05T15:00:00.000Z",
+    "variacion": 0.4
   },
   {
     "moneda": "USD",
@@ -48,10 +48,10 @@
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1672,
-    "venta": 1672,
-    "fechaActualizacion": "2026-11-05T14:00:00.000Z",
-    "variacion": 0.14
+    "compra": 1669.09,
+    "venta": 1669.09,
+    "fechaActualizacion": "2026-11-05T15:00:00.000Z",
+    "variacion": -0.16
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1520,
     "venta": 2041,
-    "fechaActualizacion": "2026-11-05T14:00:00.000Z",
+    "fechaActualizacion": "2026-11-05T15:00:00.000Z",
     "variacion": 0
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1520,
     "venta": 1570,
     "variacion": 0,
-    "fechaActualizacion": "2026-11-05T14:00:00.000Z"
+    "fechaActualizacion": "2026-11-05T15:00:00.000Z"
   }
 ]
