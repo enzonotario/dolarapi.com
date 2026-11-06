@@ -2,57 +2,57 @@
   {
     "moneda": "USD",
     "nombre": "Dólar",
-    "compra": 3227.38,
-    "venta": 3230.88,
-    "ultimoCierre": 3228.75,
-    "fechaActualizacion": "2026-11-05T12:03:54.918Z"
+    "compra": 3240.03,
+    "venta": 3243.53,
+    "ultimoCierre": 3241.78,
+    "fechaActualizacion": "2026-11-06T12:02:38.284Z"
   },
   {
     "moneda": "EUR",
     "nombre": "Euro",
-    "compra": 3522,
-    "venta": 3781.4,
-    "ultimoCierre": 3651.7,
-    "fechaActualizacion": "2026-11-05T12:03:46.500Z"
+    "compra": 3481.5,
+    "venta": 3740.9,
+    "ultimoCierre": 3611.2,
+    "fechaActualizacion": "2026-11-06T12:02:54.573Z"
   },
   {
     "moneda": "BRL",
     "nombre": "Real Brasileño",
-    "compra": 590.5,
-    "venta": 591.14,
-    "ultimoCierre": 590.75,
-    "fechaActualizacion": "2026-11-05T12:04:22.527Z"
+    "compra": 588.68,
+    "venta": 589.31,
+    "ultimoCierre": 589,
+    "fechaActualizacion": "2026-11-06T12:02:42.691Z"
   },
   {
     "moneda": "MXN",
     "nombre": "Peso Mexicano",
-    "compra": 173.79,
-    "venta": 173.98,
-    "ultimoCierre": 173.45,
-    "fechaActualizacion": "2026-11-05T12:04:02.688Z"
+    "compra": 173.14,
+    "venta": 173.33,
+    "ultimoCierre": 172.84,
+    "fechaActualizacion": "2026-11-06T12:02:36.437Z"
   },
   {
     "moneda": "CLP",
     "nombre": "Peso Chileno",
-    "compra": 3.3444,
-    "venta": 3.348,
-    "ultimoCierre": 3.3407,
-    "fechaActualizacion": "2026-11-05T12:04:12.067Z"
+    "compra": 3.3057,
+    "venta": 3.3093,
+    "ultimoCierre": 3.3127,
+    "fechaActualizacion": "2026-11-06T12:02:39.379Z"
   },
   {
     "moneda": "PEN",
     "nombre": "Sol Peruano",
-    "compra": 935.17,
-    "venta": 936.19,
-    "ultimoCierre": 935.76,
-    "fechaActualizacion": "2026-11-05T12:04:15.256Z"
+    "compra": 939.63,
+    "venta": 940.64,
+    "ultimoCierre": 941.28,
+    "fechaActualizacion": "2026-11-06T12:02:31.884Z"
   },
   {
     "moneda": "ARS",
     "nombre": "Peso Argentino",
-    "compra": 2.09,
-    "venta": 2.09,
-    "ultimoCierre": 2.09,
-    "fechaActualizacion": "2026-11-05T12:04:08.674Z"
+    "compra": 2.1,
+    "venta": 2.1,
+    "ultimoCierre": 2.1,
+    "fechaActualizacion": "2026-11-06T12:02:50.053Z"
   }
 ]
