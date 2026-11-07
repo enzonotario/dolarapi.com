@@ -5,21 +5,22 @@ title: vitepress-openapi
 ---
 
 <script setup lang="ts">
-import { useRoute, useData } from 'vitepress'
+import { useData } from 'vitepress'
 import { useOpenapi } from 'vitepress-openapi/client'
+import { onMounted } from 'vue'
 import spec from '../../../public/exchanges/openapi.json'
-
-const route = useRoute()
 
 const { isDark, params } = useData()
 
-const operationId = route.data.params.operationId
+const operationId = params.value.operationId
 
 const openapi = useOpenapi({ spec })
 
 const pair = operationId.match(/get-exchange-moneda-(.*)-(.*)/).slice(1).join('/')
 
-document.title = params.value.pageTitle
+onMounted(() => {
+  document.title = params.value.pageTitle
+})
 </script>
 
 <OAOperation :spec="spec" :operationId="operationId" :isDark="isDark">
