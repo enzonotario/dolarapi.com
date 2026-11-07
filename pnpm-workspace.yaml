@@ -37,7 +37,7 @@ catalog:
   vercel: ^48.12.1
   vite: ^7.3.6
   vitepress: ^1.6.4
-  vitepress-openapi: ^0.2.2
+  vitepress-openapi: ^0.2.8
   vitepress-plugin-llms: ^1.13.4
   vitest: ^3.2.7
   vue: ^3.5.40

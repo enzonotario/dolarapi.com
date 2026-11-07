@@ -71,7 +71,7 @@
     "vercel": "catalog:",
     "vite": "catalog:",
     "vitepress": "catalog:",
-    "vitepress-openapi": "https://pkg.pr.new/vitepress-openapi@9b9e2aa",
+    "vitepress-openapi": "catalog:",
     "vitepress-plugin-llms": "catalog:",
     "vitest": "catalog:",
     "vue": "catalog:",

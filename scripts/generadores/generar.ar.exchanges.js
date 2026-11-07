@@ -130,8 +130,6 @@ export function init() {
     }
   }
 
-  console.log(openapi)
-
   fs.mkdirSync('docs/public/exchanges', {
     recursive: true,
   })
