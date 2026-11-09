@@ -7406,5 +7406,13 @@
     "promedio": 1001.18602288,
     "fecha": "2026-11-09",
     "moneda": "EUR"
+  },
+  {
+    "fuente": "oficial",
+    "compra": null,
+    "venta": null,
+    "promedio": 1006.60742688,
+    "fecha": "2026-11-10",
+    "moneda": "EUR"
   }
 ]
