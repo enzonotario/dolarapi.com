@@ -2,50 +2,50 @@
   {
     "moneda": "USD",
     "nombre": "Dólar",
-    "compra": 3240.03,
-    "venta": 3243.53,
-    "ultimoCierre": 3241.78,
-    "fechaActualizacion": "2026-11-06T12:02:38.284Z"
+    "compra": 3246.78,
+    "venta": 3250.28,
+    "ultimoCierre": 3251.53,
+    "fechaActualizacion": "2026-11-09T12:02:36.557Z"
   },
   {
     "moneda": "EUR",
     "nombre": "Euro",
-    "compra": 3481.5,
-    "venta": 3740.9,
-    "ultimoCierre": 3611.2,
-    "fechaActualizacion": "2026-11-06T12:02:54.573Z"
+    "compra": 3479,
+    "venta": 3738.4,
+    "ultimoCierre": 3608.7,
+    "fechaActualizacion": "2026-11-09T12:02:47.725Z"
   },
   {
     "moneda": "BRL",
     "nombre": "Real Brasileño",
-    "compra": 588.68,
-    "venta": 589.31,
-    "ultimoCierre": 589,
-    "fechaActualizacion": "2026-11-06T12:02:42.691Z"
+    "compra": 587.92,
+    "venta": 588.56,
+    "ultimoCierre": 588.79,
+    "fechaActualizacion": "2026-11-09T12:02:35.272Z"
   },
   {
     "moneda": "MXN",
     "nombre": "Peso Mexicano",
-    "compra": 173.14,
-    "venta": 173.33,
-    "ultimoCierre": 172.84,
-    "fechaActualizacion": "2026-11-06T12:02:36.437Z"
+    "compra": 174.95,
+    "venta": 175.14,
+    "ultimoCierre": 174.57,
+    "fechaActualizacion": "2026-11-09T12:02:44.867Z"
   },
   {
     "moneda": "CLP",
     "nombre": "Peso Chileno",
-    "compra": 3.3057,
-    "venta": 3.3093,
-    "ultimoCierre": 3.3127,
-    "fechaActualizacion": "2026-11-06T12:02:39.379Z"
+    "compra": 3.3463,
+    "venta": 3.3499,
+    "ultimoCierre": 3.3293,
+    "fechaActualizacion": "2026-11-09T12:02:40.128Z"
   },
   {
     "moneda": "PEN",
     "nombre": "Sol Peruano",
-    "compra": 939.63,
-    "venta": 940.64,
-    "ultimoCierre": 941.28,
-    "fechaActualizacion": "2026-11-06T12:02:31.884Z"
+    "compra": 940.6,
+    "venta": 941.62,
+    "ultimoCierre": 944.52,
+    "fechaActualizacion": "2026-11-09T12:02:53.350Z"
   },
   {
     "moneda": "ARS",
@@ -53,6 +53,6 @@
     "compra": 2.1,
     "venta": 2.1,
     "ultimoCierre": 2.1,
-    "fechaActualizacion": "2026-11-06T12:02:50.053Z"
+    "fechaActualizacion": "2026-11-09T12:02:48.739Z"
   }
 ]
