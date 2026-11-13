@@ -12,46 +12,46 @@
     "moneda": "USD",
     "casa": "blue",
     "nombre": "Blue",
-    "compra": 1545,
-    "venta": 1565,
-    "fechaActualizacion": "2026-11-13T14:00:00.000Z",
-    "variacion": 0
+    "compra": 1550,
+    "venta": 1570,
+    "fechaActualizacion": "2026-11-13T15:00:00.000Z",
+    "variacion": 0.32
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1578.03,
-    "venta": 1578.03,
-    "fechaActualizacion": "2026-11-13T14:00:00.000Z",
-    "variacion": 0.3
+    "compra": 1576.95,
+    "venta": 1576.95,
+    "fechaActualizacion": "2026-11-13T15:00:00.000Z",
+    "variacion": 0.2
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1674.12,
-    "venta": 1674.12,
-    "fechaActualizacion": "2026-11-13T14:00:00.000Z",
-    "variacion": -0.3
+    "compra": 1672.27,
+    "venta": 1672.27,
+    "fechaActualizacion": "2026-11-13T15:00:00.000Z",
+    "variacion": -0.41
   },
   {
     "moneda": "USD",
     "casa": "mayorista",
     "nombre": "Mayorista",
-    "compra": 1538,
-    "venta": 1547,
-    "fechaActualizacion": "2026-11-13T13:06:00.000Z",
-    "variacion": 0.1
+    "compra": 1535,
+    "venta": 1544,
+    "fechaActualizacion": "2026-11-13T14:52:00.000Z",
+    "variacion": -0.1
   },
   {
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1667.21,
-    "venta": 1667.21,
-    "fechaActualizacion": "2026-11-13T14:00:00.000Z",
-    "variacion": -0.01
+    "compra": 1667,
+    "venta": 1667,
+    "fechaActualizacion": "2026-11-13T15:00:00.000Z",
+    "variacion": -0.17
   },
   {
     "moneda": "USD",
@@ -59,7 +59,7 @@
     "nombre": "Tarjeta",
     "compra": 1520,
     "venta": 2041,
-    "fechaActualizacion": "2026-11-13T14:00:00.000Z",
+    "fechaActualizacion": "2026-11-13T15:00:00.000Z",
     "variacion": 0
   },
   {
@@ -69,6 +69,6 @@
     "compra": 1520,
     "venta": 1570,
     "variacion": 0,
-    "fechaActualizacion": "2026-11-13T14:00:00.000Z"
+    "fechaActualizacion": "2026-11-13T15:00:00.000Z"
   }
 ]
