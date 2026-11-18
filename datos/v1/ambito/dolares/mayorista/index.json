@@ -2,8 +2,8 @@
   "moneda": "USD",
   "casa": "mayorista",
   "nombre": "Mayorista",
-  "compra": 1550,
-  "venta": 1559,
-  "fechaActualizacion": "2026-11-18T14:57:00.000Z",
-  "variacion": 0.45
+  "compra": 1550.5,
+  "venta": 1559.5,
+  "fechaActualizacion": "2026-11-18T15:08:00.000Z",
+  "variacion": 0.48
 }
