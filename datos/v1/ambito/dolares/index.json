@@ -3,72 +3,72 @@
     "moneda": "USD",
     "casa": "oficial",
     "nombre": "Oficial",
-    "compra": 1532.72,
-    "venta": 1589.35,
-    "fechaActualizacion": "2026-11-20T10:11:00.000Z",
-    "variacion": 0
+    "compra": 1542.52,
+    "venta": 1595.22,
+    "fechaActualizacion": "2026-11-20T12:07:00.000Z",
+    "variacion": 0.37
   },
   {
     "moneda": "USD",
     "casa": "blue",
     "nombre": "Blue",
-    "compra": 1620,
-    "venta": 1640,
-    "fechaActualizacion": "2026-11-20T12:00:00.000Z",
-    "variacion": 0
+    "compra": 1630,
+    "venta": 1650,
+    "fechaActualizacion": "2026-11-20T13:00:00.000Z",
+    "variacion": 0.61
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1654.02,
-    "venta": 1654.02,
-    "fechaActualizacion": "2026-11-20T12:00:00.000Z",
-    "variacion": 0.6
+    "compra": 1660.07,
+    "venta": 1660.07,
+    "fechaActualizacion": "2026-11-20T13:00:00.000Z",
+    "variacion": 1
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1747.05,
-    "venta": 1747.05,
-    "fechaActualizacion": "2026-11-20T12:00:00.000Z",
-    "variacion": 0.2
+    "compra": 1767.05,
+    "venta": 1767.05,
+    "fechaActualizacion": "2026-11-20T13:00:00.000Z",
+    "variacion": 1.4
   },
   {
     "moneda": "USD",
     "casa": "mayorista",
     "nombre": "Mayorista",
-    "compra": 1565,
-    "venta": 1574,
-    "fechaActualizacion": "2026-11-20T11:54:00.000Z",
-    "variacion": 0.58
+    "compra": 1566,
+    "venta": 1575,
+    "fechaActualizacion": "2026-11-20T12:35:00.000Z",
+    "variacion": 0.64
   },
   {
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1750.01,
-    "venta": 1750.01,
-    "fechaActualizacion": "2026-11-20T12:00:00.000Z",
-    "variacion": 0.12
+    "compra": 1759.77,
+    "venta": 1759.77,
+    "fechaActualizacion": "2026-11-20T13:00:00.000Z",
+    "variacion": 0.01
   },
   {
     "moneda": "USD",
     "casa": "tarjeta",
     "nombre": "Tarjeta",
-    "compra": 1540,
-    "venta": 2067,
-    "fechaActualizacion": "2026-11-20T12:00:00.000Z",
-    "variacion": 0.32
+    "compra": 1545,
+    "venta": 2073.5,
+    "fechaActualizacion": "2026-11-20T13:00:00.000Z",
+    "variacion": 0.63
   },
   {
     "moneda": "USD",
     "casa": "bna",
     "nombre": "BNA",
-    "compra": 1540,
-    "venta": 1590,
-    "variacion": 0.32,
-    "fechaActualizacion": "2026-11-20T12:00:00.000Z"
+    "compra": 1545,
+    "venta": 1595,
+    "variacion": 0.63,
+    "fechaActualizacion": "2026-11-20T13:00:00.000Z"
   }
 ]
