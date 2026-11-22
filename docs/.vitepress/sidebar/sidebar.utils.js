@@ -1,3 +1,4 @@
+import { useTheme } from 'vitepress-openapi/client'
 import { useRegion } from '../theme/composables/useRegion.js'
 
 const region = useRegion()
@@ -5,20 +6,15 @@ const region = useRegion()
 export function setRegionForSidebar(regionCode) {
   region.setCurrentRegion(regionCode)
 
-  // Client-only: the config also imports this module while building.
-  if (typeof window !== 'undefined') {
-    import('vitepress-openapi/client').then(({ useTheme }) => {
-      useTheme({
-        i18n: {
-          locale:
-            regionCode === 'br' ? 'pt-BR' : regionCode === 'co' ? 'es-CO' : 'es',
-        },
-        storage: {
-          prefix: `--${region.currentRegion.value.code}-`,
-        },
-      })
-    })
-  }
+  useTheme({
+    i18n: {
+      locale:
+        regionCode === 'br' ? 'pt-BR' : regionCode === 'co' ? 'es-CO' : 'es',
+    },
+    storage: {
+      prefix: `--${region.currentRegion.value.code}-`,
+    },
+  })
 
   return region.currentRegion.value.spec
 }

@@ -173,9 +173,6 @@ export default defineConfig({
   },
 
   vite: {
-    ssr: {
-      noExternal: ['vitepress-openapi'],
-    },
     plugins: [
       tailwindcss(),
       vueI18n({
