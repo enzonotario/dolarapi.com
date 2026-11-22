@@ -1,4 +1,4 @@
-import { useOpenapi } from 'vitepress-openapi/client'
+import { useOpenapi } from 'vitepress-openapi'
 import { ref } from 'vue'
 import boSpec from '../../../public/bolivia/openapi.json'
 import brSpec from '../../../public/brasil/openapi.json'
