@@ -9616,6 +9616,14 @@
     "moneda": "EUR"
   },
   {
+    "fuente": "paralelo",
+    "compra": null,
+    "venta": null,
+    "promedio": 1195.578316,
+    "fecha": "2026-11-23",
+    "moneda": "EUR"
+  },
+  {
     "fuente": "oficial",
     "compra": null,
     "venta": null,
