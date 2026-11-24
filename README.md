@@ -44,6 +44,7 @@ La documentación de la API está disponible en [DolarApi.com](https://dolarapi.
 - [Webcam Tools](https://webcam-tools.netlify.app/tokens-calculator): Herramientas diseñadas para optimizar la industria del modelaje webcam, incluyendo calculadora de tokens, gestión de tiempos por rooms y soluciones que facilitan el control y la productividad.
 - [Dólar Claro](https://dolarclaro.com): Cotizaciones del dólar en Argentina con calculadoras, histórico y alertas.
 - [Tasa BCV hoy](https://andresblitz.com/tasa-bcv/): Página que muestra la tasa oficial BCV (dólar y euro) en Venezuela, el precio del bitcoin en bolívares y una calculadora, usando ve.dolarapi.com.
+- [SistroFix](https://sistrofix.com): Plataforma de gestión para servicios técnicos, tanto para Windows como Android y iOS, líder en Argentina, gestiona inventarios y procesos de venta, circuito de reparaciones para servicios técnicos de todos los tamaños, multi sucursal y con soporte de venta en múltiples monedas.
 
 > [!NOTE]
 > Para agregar tu aplicación puedes [Editar esta lista](https://github.com/enzonotario/esjs-dolar-api/edit/main/README.md) y hacer un Pull Request, o abrir un [Issue](https://github.com/enzonotario/esjs-dolar-api/issues/new?assignees=&labels=documentation&projects=&template=nueva-aplicaci%C3%B3n.md&title=Listar+Aplicaci%C3%B3n).
