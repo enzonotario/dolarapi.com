@@ -1,9 +1,11 @@
 import { createWriteStream } from 'node:fs'
 import { resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import vueI18n from '@intlify/unplugin-vue-i18n/vite'
 import tailwindcss from '@tailwindcss/vite'
 import { SitemapStream } from 'sitemap'
 import { defineConfig, loadEnv } from 'vitepress'
+import { generateLlmsFiles, llmsDevServer } from 'vitepress-openapi'
 import llmstxt, { copyOrDownloadAsMarkdownButtons } from 'vitepress-plugin-llms'
 import { LLM_AGENTS_DETAILS } from './llmGuide.js'
 import { generateSidebar } from './sidebar/sidebar.js'
@@ -13,6 +15,35 @@ const links = []
 const env = loadEnv('', process.cwd())
 
 const gTag = env.VITE_GTAG
+
+const regions = [
+  'argentina',
+  'chile',
+  'venezuela',
+  'uruguay',
+  'mexico',
+  'bolivia',
+  'brasil',
+  'colombia',
+]
+
+const llms = [
+  ...regions.map(slug => ({
+    specPath: fileURLToPath(new URL(
+      slug === 'argentina' ? '../public/openapi.json' : `../public/${slug}/openapi.json`,
+      import.meta.url,
+    )),
+    operationRoute: `${slug}/operations/{operationId}`,
+    introductionRoute: `${slug}/index`,
+    openapiUrl: slug === 'argentina' ? '/docs/openapi.json' : `/docs/${slug}/openapi.json`,
+  })),
+  {
+    title: 'Exchanges',
+    specPath: fileURLToPath(new URL('../public/exchanges/openapi.json', import.meta.url)),
+    operationRoute: 'argentina/exchanges/monedas/{operationId}',
+    openapiUrl: '/docs/exchanges/openapi.json',
+  },
+]
 
 export default defineConfig({
   title: 'DolarApi.com',
@@ -127,7 +158,10 @@ export default defineConfig({
       })
     }
   },
-  buildEnd: async ({ outDir }) => {
+  buildEnd: async (siteConfig) => {
+    await generateLlmsFiles(siteConfig, llms)
+
+    const { outDir } = siteConfig
     const sitemap = new SitemapStream({
       hostname: 'https://dolarapi.com/docs/',
     })
@@ -144,6 +178,7 @@ export default defineConfig({
       vueI18n({
         ssr: true,
       }),
+      llmsDevServer(llms),
       llmstxt({
         domain: 'https://dolarapi.com',
         title: 'DolarApi.com — Docs para agentes',

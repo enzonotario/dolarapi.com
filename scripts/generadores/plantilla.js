@@ -1,4 +1,4 @@
-import { operationToMarkdown } from 'vitepress-openapi'
+import { operationToMarkdown } from './operationToMarkdown.js'
 
 /**
  * @param {string} operationId

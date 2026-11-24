@@ -206,6 +206,7 @@ function esFechaAnteriorAHoy(contenidoFecha) {
 function interpretarValorMonetario(valor) {
   const limpio = valor
     .replace(/\s/g, '')
+    .replace(/\./g, '')
     .replace(',', '.')
 
   return Number.parseFloat(limpio)

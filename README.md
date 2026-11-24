@@ -42,6 +42,7 @@ La documentación de la API está disponible en [DolarApi.com](https://dolarapi.
 - [DolarHoy](https://apps.apple.com/app/id6759761997): iOS app para tener las divisas de Venezuela a la mano, usa DolarAPI para la referencia BCV de Euros y Dólar.
 - [Condominio360](https://www.condominio-360.com/): Plataforma SaaS de gestión residencial integral diseñada para modernizar la convivencia en copropiedades.
 - [Webcam Tools](https://webcam-tools.netlify.app/tokens-calculator): Herramientas diseñadas para optimizar la industria del modelaje webcam, incluyendo calculadora de tokens, gestión de tiempos por rooms y soluciones que facilitan el control y la productividad.
+- [Dólar Claro](https://dolarclaro.com): Cotizaciones del dólar en Argentina con calculadoras, histórico y alertas.
 - [Tasa BCV hoy](https://andresblitz.com/tasa-bcv/): Página que muestra la tasa oficial BCV (dólar y euro) en Venezuela, el precio del bitcoin en bolívares y una calculadora, usando ve.dolarapi.com.
 
 > [!NOTE]

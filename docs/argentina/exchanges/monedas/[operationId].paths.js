@@ -5,6 +5,7 @@ export default {
   paths() {
     return usePaths({ spec })
       .getPathsByVerbs()
+      .filter(({ operationId }) => operationId.startsWith('get-exchange-moneda-'))
       .map(({ operationId, summary }) => {
         return {
           params: {
