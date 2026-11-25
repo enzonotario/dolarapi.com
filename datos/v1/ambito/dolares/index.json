@@ -14,61 +14,61 @@
     "nombre": "Blue",
     "compra": 1680,
     "venta": 1700,
-    "fechaActualizacion": "2026-11-25T10:00:00.000Z",
+    "fechaActualizacion": "2026-11-25T11:00:00.000Z",
     "variacion": 0
   },
   {
     "moneda": "USD",
     "casa": "bolsa",
     "nombre": "Bolsa",
-    "compra": 1690.64,
-    "venta": 1690.64,
-    "fechaActualizacion": "2026-11-25T10:00:00.000Z",
-    "variacion": -0.6
+    "compra": 1691.53,
+    "venta": 1691.53,
+    "fechaActualizacion": "2026-11-25T11:00:00.000Z",
+    "variacion": 0.1
   },
   {
     "moneda": "USD",
     "casa": "contadoconliqui",
     "nombre": "Contado con liquidación",
-    "compra": 1795.98,
-    "venta": 1795.98,
-    "fechaActualizacion": "2026-11-25T10:00:00.000Z",
-    "variacion": 4.3
+    "compra": 1767.23,
+    "venta": 1767.23,
+    "fechaActualizacion": "2026-11-25T11:00:00.000Z",
+    "variacion": -1.6
   },
   {
     "moneda": "USD",
     "casa": "mayorista",
     "nombre": "Mayorista",
-    "compra": 1584,
-    "venta": 1593,
-    "fechaActualizacion": "2026-11-25T09:45:00.000Z",
-    "variacion": 0
+    "compra": 1599,
+    "venta": 1608,
+    "fechaActualizacion": "2026-11-25T10:52:00.000Z",
+    "variacion": 0.94
   },
   {
     "moneda": "USD",
     "casa": "cripto",
     "nombre": "Cripto",
-    "compra": 1772.16,
-    "venta": 1772.16,
-    "fechaActualizacion": "2026-11-25T10:00:00.000Z",
-    "variacion": 0
+    "compra": 1787.45,
+    "venta": 1787.45,
+    "fechaActualizacion": "2026-11-25T11:00:00.000Z",
+    "variacion": -0.25
   },
   {
     "moneda": "USD",
     "casa": "tarjeta",
     "nombre": "Tarjeta",
-    "compra": 1565,
-    "venta": 2099.5,
-    "fechaActualizacion": "2026-11-25T10:00:00.000Z",
-    "variacion": 0
+    "compra": 1575,
+    "venta": 2112.5,
+    "fechaActualizacion": "2026-11-25T11:00:00.000Z",
+    "variacion": 0.62
   },
   {
     "moneda": "USD",
     "casa": "bna",
     "nombre": "BNA",
-    "compra": 1565,
-    "venta": 1615,
-    "variacion": 0,
-    "fechaActualizacion": "2026-11-25T10:00:00.000Z"
+    "compra": 1575,
+    "venta": 1625,
+    "variacion": 0.62,
+    "fechaActualizacion": "2026-11-25T11:00:00.000Z"
   }
 ]
