@@ -8473,7 +8473,14 @@
     "fuente": "paralelo",
     "compra": null,
     "venta": null,
-    "promedio": 1083.839307,
+    "promedio": 1084.512806,
     "fecha": "2026-11-27"
+  },
+  {
+    "fuente": "oficial",
+    "compra": null,
+    "venta": null,
+    "promedio": 928.5454,
+    "fecha": "2026-11-30"
   }
 ]
